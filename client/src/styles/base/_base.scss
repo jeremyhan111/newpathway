@@ -1,0 +1,27 @@
+body {
+	font-family: 'Proxima Nova', Georgia, sans-serif;
+}
+
+ul {
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.container__page {
+	width: 100vw;
+}
+
+.container {
+	margin: 0 auto;
+}
+
+.container--grey {
+	background: #eeeeef;
+}
+
+.container--blue {
+	background: #53A1E3;
+	color: white;
+}

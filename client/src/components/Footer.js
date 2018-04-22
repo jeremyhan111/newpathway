@@ -1,0 +1,60 @@
+import React from 'react';
+import { Grid, Row, Col } from 'react-bootstrap';
+import { SocialIcon } from 'react-social-icons';
+
+const Footer = () => {
+	return (
+		<div className="footer">
+			<Grid>
+				<Row>
+					<Col sm={12} md={3}>
+						<ul className="footer__list">
+							<li className="footer__list-item footer__list-title">Services</li>
+							<li className="footer__list-item">Elementary School</li>
+							<li className="footer__list-item">Middle School</li>
+							<li className="footer__list-item">High School</li>
+							<li className="footer__list-item">Academic Counseling</li>
+						</ul>
+					</Col>
+					<Col sm={12} md={3}>
+						<ul className="footer__list">
+							<li className="footer__list-item footer__list-title">Teams</li>
+							<li className="footer__list-item">Test Prep</li>
+							<li className="footer__list-item">ELA</li>
+							<li className="footer__list-item">Prestige Only</li>
+						</ul>
+					</Col>
+					<Col sm={12} md={3}>
+						<ul className="footer__list">
+							<li className="footer__list-item footer__list-title">Other Stuff</li>
+							<li className="footer__list-item">Blah</li>
+						</ul>
+					</Col>
+					<Col sm={12} md={3}>
+						<ul className="footer__list">
+							<li className="footer__list-item footer__list-title">Company</li>
+							<li className="footer__list-item">Careers</li>
+							<li className="footer__list-item">About Us</li>
+							<li className="footer__list-item">Locations</li>
+							<li className="footer__list-item">Contact Us</li>
+						</ul>
+					</Col>
+				</Row>
+
+				<Row>
+					<Col sm={12}>
+						<div className="social-media-bar footer-bar">
+							Copyright(C) New Pathway Education. All rights reserved <br/>
+				  			<SocialIcon url="https://twitter.com/newpathwayed/" style={{ height: 20, width: 20 }}/>
+				  			<SocialIcon url="https://www.facebook.com/NewPathwayEducation/" style={{ height: 20, width: 20 }}/>
+				  			<SocialIcon url="https://www.linkedin.com/company/new-pathway-education-&-technology-group/" style={{ height: 20, width: 20 }}/>
+				  			<SocialIcon url="https://www.youtube.com/user/NewPathwayEducation" style={{ height: 20, width: 20 }}/>
+						</div>
+					</Col>
+				</Row>
+			</Grid>
+		</div>
+	)
+}
+
+export default Footer;

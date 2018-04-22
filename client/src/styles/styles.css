@@ -1,0 +1,228 @@
+body {
+  font-family: 'Proxima Nova', Georgia, sans-serif; }
+
+a:hover {
+  text-decoration: none; }
+
+.container__page {
+  width: 100vw; }
+
+.container {
+  margin: 0 auto; }
+
+.container--grey {
+  background: #eeeeef; }
+
+.container--blue {
+  background: #53A1E3;
+  color: white; }
+
+.social-media-bar {
+  float: right;
+  position: relative;
+  bottom: 5px;
+  right: 10px; }
+
+.social-icon {
+  margin-left: 2px;
+  transition-duration: 0.2s; }
+
+.social-icon:hover {
+  opacity: 0.75; }
+
+.navbar {
+  border-radius: 0 !important;
+  border: none;
+  min-height: 80px;
+  background-color: white;
+  box-shadow: 0 0 1px #777777;
+  margin-bottom: 0px; }
+
+.navbar-header {
+  padding-bottom: 12px; }
+
+.navbar-inverse {
+  background-image: none; }
+
+.navbar-brand > img {
+  max-width: 200px; }
+
+.navbar-nav > li > a {
+  font-size: 20px;
+  margin-top: 17px;
+  color: black; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: black;
+  text-shadow: none; }
+
+.navbar-nav > li > a > a {
+  color: black;
+  transition-duration: 0.2s; }
+
+.navbar-nav > li > a > a:hover,
+.navbar-nav > li > a > a:focus {
+  text-decoration: none;
+  color: #FF4D4C; }
+
+.navbar-toggle {
+  margin-top: 25px;
+  background-color: black; }
+
+.icon-bar {
+  background-color: black; }
+
+.language-menu {
+  text-align: center; }
+
+.language-menu__list {
+  list-style: none;
+  margin-top: 5px;
+  padding: 0; }
+
+.language-menu__item {
+  float: left;
+  font-size: 14px;
+  padding-right: 18px;
+  color: grey;
+  transition-duration: 0.2s; }
+
+.language-menu__item:hover {
+  color: black;
+  cursor: pointer; }
+
+.language-menu__item > button {
+  border: none; }
+
+.landing {
+  font-family: Georgia, sans-serif;
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  opacity: 0;
+  transition-duration: 1s; }
+
+.fade-in {
+  opacity: 1; }
+
+.landing--big .landing__title {
+  font-size: 100px; }
+
+.landing--big .landing__subtitle {
+  font-size: 35px; }
+
+.blurb {
+  margin-top: 20px;
+  font-size: 22px; }
+
+.blurb__title {
+  font-size: 40px;
+  font-weight: bold;
+  padding-bottom: 20px; }
+
+.blurb__svg {
+  width: 75px; }
+
+.services__link:hover {
+  animation: bounce 1s; }
+
+.blurb--spacing {
+  margin-bottom: 40px; }
+
+.services__link {
+  transition-duration: 0.5s; }
+
+.link__button {
+  color: white;
+  border: none;
+  font-size: 18px;
+  background-color: #FF4D4C;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin-top: 20px;
+  transition-duration: .2s; }
+
+.link__button:hover {
+  background: transparent;
+  color: #FF4D4C;
+  box-shadow: inset 0 0 0 3px #FF4D4C; }
+
+.landing__button--spacing {
+  margin: 180px 0; }
+
+.blurb__media {
+  margin: 0; }
+
+#prepsmith-video {
+  width: 100%;
+  box-shadow: 0 0 3px #777777; }
+
+.row--spacing {
+  padding: 50px 0; }
+
+.carousel {
+  box-shadow: 0 0 3px #777777; }
+
+.carousel__team {
+  width: 450px;
+  margin: 0 auto; }
+
+.carousel-caption__textbox {
+  position: relative;
+  top: 40px; }
+
+.carousel-control.left,
+.carousel-control.right {
+  background-image: none;
+  opacity: 0; }
+
+.carousel-control.left:hover,
+.carousel-control.right:hover {
+  opacity: 1; }
+
+.show-grid {
+  text-align: center; }
+
+.textimonials {
+  width: 100%; }
+
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0); }
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px); }
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px); } }
+
+@media (min-width: 992px) {
+  .show-grid {
+    text-align: center;
+    display: flex;
+    align-items: center; }
+  .row--spacing {
+    padding: 75px 0; }
+  .row--top {
+    display: block; } }
+
+.footer {
+  padding-bottom: 5px;
+  background-color: lightgrey; }
+
+.footer__list {
+  list-style-type: none;
+  padding-top: 10px; }
+
+.footer-bar {
+  float: none;
+  text-align: center;
+  margin-top: 20px; }
+
+.footer__list-item {
+  font-size: 14px; }
+
+.footer__list-title {
+  font-weight: bold;
+  font-size: 18px; }

@@ -1,0 +1,116 @@
+{
+	"landing__subtitle": [
+		"Teaching Lifelong Success", 
+		"教學終生成功", 
+		"평생 성공 교육", 
+		"生涯の成功を教える"
+	],
+	"signup": [
+		"Sign Up For Classes",
+		"注册课程",
+		"수업 등록",
+		"クラスに登録する"
+	],
+	"ourservices": [
+		"OUR SERVICES",
+		"我们的服务",
+		"우리의 서비스",
+		"私たちのサービス"
+	],
+	"testprep": [
+		"TEST PREP & TUTORING",
+		"测试准备和导修",
+		"테스트 준비 및 조정",
+		"テストの準備とチュートリアル"
+	],
+	"camps": [
+		"CAMPS & WORKSHOPS",
+		"训练营和车间",
+		"캠프 및 워크샵",
+		"キャンプ＆ワークショップ"
+	],
+	"admissions": [
+		"ADMISSIONS CONSULTING",
+		"入场咨询",
+		"입학 컨설팅",
+		"入学に関するコンサルティング"
+	],
+	"testprep__blurb": [
+		"We offer top notch test prep service in standardized tests such as SAT, ACT, SAT subject tests, AP tests and TOEFL. Face-to-face and virtual classes are available in all subjects. Features mobile apps for homework practice and management reports.",
+		"我们在SAT，ACT，SAT科目考试，AP考试和TOEFL等标准化考试中提供顶尖的考试准备服务。 所有科目都有面对面和虚拟课程。 为家庭作业练习和管理报告提供移动应用程序。",
+		"우리는 SAT, ACT, SAT 과목 테스트, AP 테스트와 TOEFL과 같은 표준화 된 시험에서 최고 수준의 시험 준비 서비스를 제공합니다. 면 대면 및 가상 수업은 모든 과목에서 제공됩니다. 숙제 및 관리 보고서를위한 모바일 앱을 제공합니다.",
+		"SAT、ACT、SAT試験、AP試験、TOEFLなどの標準化された試験で最高レベルの試験準備サービスを提供しています。 フェイス・ツー・フェイスと仮想クラスはすべての科目で利用できます。 宿題の練習や管理レポートのためのモバイルアプリを備えています。"
+	],
+	"camps__blurb": [
+		"Summer & Winter camps in technology, business, medicine, international relations and engineering fields. Soft skill development workshops.",
+		"技术，商业，医学，国际关系和工程领域的夏令营和冬令营。 软技能开发研讨会。",
+		"기술, 비즈니스, 의학, 국제 관계 및 엔지니어링 분야의 여름 및 겨울 캠프. 부드러운 기술 개발 워크샵.",
+		"テクノロジー、ビジネス、医学、国際関係、工学分野の夏と冬のキャンプ。 ソフトスキル開発ワークショップ。"
+		
+	],
+	"admissions__blurb": [
+		"Our students have gotten into top schools (boarding/day schools, colleges and graduate schools) in the U.S.",
+		"我们的学生已经进入美国的顶尖学校（寄宿/日间学校，学院和研究生院）。",
+		"우리 학생들은 미국의 탑 학교 (탑승 / 당일 학교, 칼리지 및 대학원)에 입학했습니다.",
+		"私たちの生徒は、米国のトップクラスの学校（搭乗/昼間の学校、大学、大学院）に入っています。"
+	],
+	"meetteam": [
+		"Meet The Team",
+		"与团队见面",
+		"팀 만나기",
+		"チームに会う"
+	],
+	"meetteam__blurb": [
+		"Meet our experienced and well-educated team of international teachers",
+		"认识我们经验丰富，受过良好教育的国际教师队伍",
+		"경험이 풍부하고 잘 교육 된 국제 교사 팀을 만나십시오.",
+		"豊富な知識と経験を持つ国際教師のチームを紹介"
+	],
+	"prepsmith__blurb": [
+		"One of the few learning centers in China with software to simulate real online testing conditions",
+		"中国为数不多的几个学习中心之一，它们使用软件来模拟真实的在线测试条件",
+		"실제 온라인 테스트 조건을 시뮬레이트하는 소프트웨어가있는 중국의 소수의 학습 센터 중 하나",
+		"実際のオンラインテスト条件をシミュレートするソフトウェアを備えた中国の数少ないラーニングセンターの1つ"
+	],
+	"ourstudents": [
+		"Our students earn excellent scores and attend the top universities",
+		"我们的学生获得优秀的成绩并参加顶尖大学",
+		"우리 학생들은 우수한 성적을 올리고 최고의 대학에 진학합니다",
+		"私たちの学生は優秀な成績を収め、トップクラスの大学に通う"
+	],
+	"testimonials": [
+		"Testimonials",
+		"褒奖",
+		"회원 평가",
+		"お客様の声"
+	],
+	"ready__blurb": [
+		"Ready to improve your scores and get into your dream schools?",
+		"准备好提高你的分数并进入梦想中的学校？",
+		"점수를 높이고 꿈 학교에 들어갈 준비가 되셨습니까?",
+		"あなたのスコアを向上させ、あなたの夢の学校に入る準備ができていますか？"
+	]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
