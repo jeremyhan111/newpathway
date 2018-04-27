@@ -1,0 +1,37 @@
+.form-group {
+	margin: 0;
+}
+
+.form-control {
+	margin: 0px;
+	border: 1px solid black;
+	border-radius: 0px;
+	color: black;
+	appearance: none;
+}
+
+.form-control:focus {
+	border-color: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+#formControlsTextarea {
+	margin-top: 20px
+}
+
+#formControlsSelect:hover {
+	cursor: pointer;
+}
+
+.contact-container {
+	text-align: center;
+}
+
+.contact__intro {
+
+}
+
+#contact__button {
+	margin-bottom: 40px;
+}
