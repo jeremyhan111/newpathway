@@ -9,8 +9,9 @@ class Contact extends Component {
 		return (
 			<div className="container contact-container">
 				<div className="contact__intro">
-					<h1>Contact Us</h1>
+					<h1 className="contact__header">Contact Us</h1>
 					<h4>Locations</h4>
+					<p>
 					<h4>Phone: 1-111-111-1111</h4>
 					<h4>WeChat: newpathwayeducation</h4>
 				</div>
