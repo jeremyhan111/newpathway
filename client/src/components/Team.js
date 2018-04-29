@@ -40,7 +40,7 @@ class Team extends Component {
 			        			<div class="team__teacher">
 			        				<img className="team__teacher-img" src={alex}/>
 			        				<div className="team__teacher-description-layer">
-			        					<p className="img__teacher-description">Here</p>
+			        					<p className="team__teacher-description">Here</p>
 			        				</div>
 			        			</div>
 			        		</Col>
