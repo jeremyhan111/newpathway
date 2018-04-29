@@ -39,9 +39,6 @@ class Team extends Component {
 			        		<Col xs={12} sm={6} lg={3}>
 			        			<div class="team__teacher">
 			        				<img className="team__teacher-img" src={alex}/>
-			        				<div className="team__teacher-description-layer">
-			        					<p className="team__teacher-description">Here</p>
-			        				</div>
 			        			</div>
 			        		</Col>
 

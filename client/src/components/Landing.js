@@ -91,7 +91,7 @@ export default class Landing extends Component {
 											  indicators={false} 
 											  interval={4000}>
 										<Carousel.Item>
-											<img width={450} src={alex} alt="Alex Cion"/>
+											<img className="carousel__teacher" src={alex} alt="Alex Cion"/>
 											<Carousel.Caption>
 												<div className="carousel-caption__textbox">
 													<h2>Alex Cion</h2>
@@ -101,7 +101,7 @@ export default class Landing extends Component {
 										</Carousel.Item>
 
 										<Carousel.Item>
-											<img width={450} src={pete} alt="Peter Carver"/>
+											<img className="carousel__teacher" src={pete} alt="Peter Carver"/>
 											<Carousel.Caption>
 												<div className="carousel-caption__textbox">
 													<h2>Peter Carver</h2>
@@ -111,7 +111,7 @@ export default class Landing extends Component {
 										</Carousel.Item>
 
 										<Carousel.Item>
-											<img width={450} src={kirk} alt="Kirk Cowgill"/>
+											<img className="carousel__teacher" src={kirk} alt="Kirk Cowgill"/>
 											<Carousel.Caption>
 												<div className="carousel-caption__textbox">
 													<h2>Kirk Cowgill</h2>
@@ -121,7 +121,7 @@ export default class Landing extends Component {
 										</Carousel.Item>
 
 										<Carousel.Item>
-											<img width={450} src={sandy} alt="Sandy Qi"/>
+											<img className="carousel__teacher" src={sandy} alt="Sandy Qi"/>
 											<Carousel.Caption>
 												<div className="carousel-caption__textbox">
 													<h2>Sandy Qi</h2>
@@ -131,7 +131,7 @@ export default class Landing extends Component {
 										</Carousel.Item>
 
 										<Carousel.Item>
-											<img width={450} src={charles} alt="Charles Carrier"/>
+											<img className="carousel__teacher" src={charles} alt="Charles Carrier"/>
 											<Carousel.Caption>
 												<div className="carousel-caption__textbox">
 													<h2>Charles Carrier</h2>
