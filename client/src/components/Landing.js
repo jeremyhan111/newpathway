@@ -154,7 +154,7 @@ export default class Landing extends Component {
 						<Row className="show-grid row--spacing container">
 							<Col xs={12} md={6}>
 								<div className="blurb__media">
-									<video id={"prepsmith-video"} autoPlay muted loop>
+									<video id={"prepsmith-video"} autoPlay controls muted loop>
 										<source src={prepsmith}/>
 										Your browser does not support the video tag.
 									</video>
