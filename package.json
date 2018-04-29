@@ -21,6 +21,7 @@
     "concurrently": "^3.5.1"
   },
   "dependencies": {
-    "express": "^4.16.3"
+    "express": "^4.16.3",
+    "rc-tabs": "^9.2.5"
   }
 }

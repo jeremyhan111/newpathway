@@ -7,18 +7,20 @@ import FieldGroup from './FieldGroup';
 class Contact extends Component {
 	render() {
 		return (
-			<div className="container contact-container">
-				<div className="contact__intro">
-					<h1 className="contact__header">Contact Us</h1>
-					<h4>Locations</h4>
-					<p>
-					<h4>Phone: 1-111-111-1111</h4>
-					<h4>WeChat: newpathwayeducation</h4>
-				</div>
-
-
+			<div className="container">
+				<Row>
+					<Col xs={12} md={8} mdOffset={2}>
+						<div className="contact__intro">
+							<h1 className="contact__header">Contact Us</h1>
+							<h4 className="contact__subheader"><b>Headquarters:</b> 25th Floor, No. 899, Lingling Road, Xuhui District, Shanghai</h4>
+							<h4 className="contact__subheader"><b>WeChat:</b> newpathwayeducation</h4>
+							<h4 className="contact__subheader"><b>General Inquiries:</b> 1-111-111-1111</h4>
+						</div>
+					</Col>
+				</Row>
 
 				<form>
+					<h1>Send a message</h1>
 					<Grid>
 						<Row>
 							<Col xs={12} md={8} mdOffset={2}>

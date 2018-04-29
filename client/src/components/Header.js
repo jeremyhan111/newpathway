@@ -9,8 +9,6 @@ import { Translate } from 'react-localize-redux';
 import nplogo from './../images/nplogo.png';
 
 const Header = (props) => (
-	
-
 	<header>
   		<Navbar inverse collapseOnSelect>
 			<Navbar.Header>

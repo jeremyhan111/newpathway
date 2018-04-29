@@ -8,7 +8,8 @@ a:hover {
   width: 100vw; }
 
 .container {
-  margin: 0 auto; }
+  margin: 0 auto;
+  text-align: center; }
 
 .container--grey {
   background: #eeeeef; }
@@ -253,5 +254,68 @@ a:hover {
 .contact-container {
   text-align: center; }
 
+.contact__intro {
+  padding-bottom: 20px; }
+
+.contact__header {
+  font-size: 60px;
+  margin-bottom: 0; }
+
+.contact__subheader {
+  font-size: 16px; }
+
 #contact__button {
   margin-bottom: 40px; }
+
+.rc-tabs-nav-wrap {
+  text-align: center; }
+
+.rc-tabs-top {
+  margin-bottom: 100px;
+  border-bottom: none; }
+
+.rc-tabs-top .rc-tabs-tab {
+  font-size: 18px; }
+
+.team__intro {
+  margin-bottom: 60px; }
+
+.team__header {
+  font-size: 60px;
+  margin-bottom: 20px; }
+
+.team__teacher-img {
+  margin-bottom: 15px;
+  width: 275px; }
+
+.team__teacher-img {
+  position: relative;
+  height: 229px;
+  width: 275px; }
+
+.team__teacher-description-layer {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(36, 62, 206, 0.6);
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s; }
+
+.team__teacher-img:hover .team__teacher-description-layer {
+  visibility: visible;
+  opacity: 1; }
+
+.team__teacher-description {
+  transition: .2s;
+  transform: translateY(1em); }
+
+.team__teacher-img:hover .img__teacher-description {
+  transform: translateY(0); }
