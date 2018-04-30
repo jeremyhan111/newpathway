@@ -228,7 +228,8 @@ a:hover {
 
 .footer__list {
   list-style-type: none;
-  padding-top: 10px; }
+  padding-top: 10px;
+  padding-left: 0px; }
 
 .footer-bar {
   float: none;
@@ -332,3 +333,10 @@ a:hover {
 
 .team__teacher-img:hover .img__teacher-description {
   transform: translateY(0); }
+
+.services__intro {
+  margin-bottom: 0px; }
+
+.services__title {
+  font-size: 60px;
+  margin-bottom: 20px; }

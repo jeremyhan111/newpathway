@@ -14,7 +14,11 @@ const AppRouter = () => (
 			<Header/>
 			<Switch>
 				<Route path="/" component={Landing} exact={true}/>
-				<Route path="/services" component={Services}/>
+				<Route path="/services" component={Services} exact={true}/>
+				<Route path="/services/elementary" component={Services}/>
+				<Route path="/services/middle" component={Services}/>
+				<Route path="/services/high" component={Services}/>
+				<Route path="/services/consulting" component={Services}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
 			</Switch>
