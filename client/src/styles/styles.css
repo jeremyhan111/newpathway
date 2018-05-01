@@ -299,12 +299,8 @@ a:hover {
 
 .team__teacher-img {
   margin-bottom: 15px;
-  width: 275px; }
-
-.team__teacher-img {
-  position: relative;
-  height: 229px;
-  width: 275px; }
+  width: 260px;
+  box-shadow: 0 0 1px #777777; }
 
 .team__teacher-description-layer {
   position: absolute;
@@ -340,3 +336,9 @@ a:hover {
 .services__title {
   font-size: 60px;
   margin-bottom: 20px; }
+
+.scholartree__img {
+  margin: 50px 0; }
+
+.scholartree__body {
+  text-align: left; }

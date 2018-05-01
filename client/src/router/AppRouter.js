@@ -7,6 +7,11 @@ import Footer from './../components/Footer';
 import Services from './../components/Services';
 import Team from './../components/Team';
 import Contact from './../components/Contact';
+import Elementary from './../components/Elementary';
+import Middle from './../components/Middle';
+import High from './../components/High';
+import Consulting from './../components/Consulting';
+
 
 const AppRouter = () => (
 	<BrowserRouter>
@@ -15,10 +20,10 @@ const AppRouter = () => (
 			<Switch>
 				<Route path="/" component={Landing} exact={true}/>
 				<Route path="/services" component={Services} exact={true}/>
-				<Route path="/services/elementary" component={Services}/>
-				<Route path="/services/middle" component={Services}/>
-				<Route path="/services/high" component={Services}/>
-				<Route path="/services/consulting" component={Services}/>
+				<Route path="/services/elementary" component={Elementary}/>
+				<Route path="/services/middle" component={Middle}/>
+				<Route path="/services/high" component={High}/>
+				<Route path="/services/consulting" component={Consulting}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
 			</Switch>
