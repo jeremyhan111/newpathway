@@ -347,7 +347,8 @@ a:hover {
   margin: 40px 0; }
 
 .scholartree__body {
-  text-align: left; }
+  text-align: left;
+  margin-bottom: 50px; }
 
 .scholartree__url {
   font-size: 18px;

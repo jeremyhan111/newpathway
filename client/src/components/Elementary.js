@@ -19,7 +19,14 @@ const Elementary = () => {
 						English speaking environment conducive to learning a second language. Scholar Tree's library 
 						is one of a kind and rivals that of elementary schools in the United States. Scholar Tree's 
 						curriculum is based on the California English Language Arts Content Standards.</p>
-						<p></p>
+						<br/>
+						
+						<h4><b>Course Descriptions</b></h4>
+						<p><b>Reading</b> focuses on expanding student's vocabulary and comprehension in order to better be able to read through the English books<br/><br/>
+
+  						   <b>Writing</b> focuses on building students' grammar and composition so the student can communicate effectively through the written English language<br/><br/>
+
+ 						   <b>Speaking & Listening</b> focuses on active spoken communication with native English speakers</p>
 					</div>
 				</Col>
 				<Col xs={12} md={4}>
