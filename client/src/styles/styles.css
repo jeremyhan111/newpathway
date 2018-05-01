@@ -354,3 +354,14 @@ a:hover {
 .scholartree__url {
   font-size: 18px;
   font-weight: bold; }
+
+.consulting__body {
+  text-align: left;
+  margin-bottom: 50px; }
+
+.consulting__logo {
+  width: 175px; }
+
+.consulting__url {
+  font-size: 18px;
+  font-weight: bold; }
