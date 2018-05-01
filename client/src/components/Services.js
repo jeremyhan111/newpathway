@@ -18,7 +18,7 @@ const Services = () => {
 			<Row className="row--spacing">
 				<Col xs={12} md={6} lg={3}>
 					<div className="blurb">
-						<Link to="/services/elementary">
+						<Link to="/elementary">
 							<div className="services__link">
 								<img className="blurb__svg" src={elementary} alt="Pencils"/><br/><br/>
 								<b>ELEMENTARY SCHOOL</b><br/><br/>
@@ -31,7 +31,7 @@ const Services = () => {
 				</Col>
 				<Col xs={12} md={6} lg={3}>
 					<div className="blurb">
-						<Link to="/services/middle">
+						<Link to="/middle">
 							<div className="services__link">
 								<img className="blurb__svg" src={middle} alt="Pencils"/><br/><br/>
 								<b>MIDDLE SCHOOL</b><br/><br/>
@@ -44,7 +44,7 @@ const Services = () => {
 				</Col>
 				<Col xs={12} md={6} lg={3}>
 					<div className="blurb">
-						<Link to="/services/high">
+						<Link to="/high">
 							<div className="services__link">
 								<img className="blurb__svg" src={high} alt="Pencils"/><br/><br/>
 								<b>HIGH SCHOOL</b><br/><br/>
@@ -57,7 +57,7 @@ const Services = () => {
 				</Col>
 				<Col xs={12} md={6} lg={3}>
 					<div className="blurb">
-						<Link to="/services/consulting">
+						<Link to="/consulting">
 							<div className="services__link">
 								<img className="blurb__svg" src={grad} alt="Pencils"/><br/><br/>
 								<b>ACADEMIC CONSULTING</b><br/><br/>

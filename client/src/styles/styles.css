@@ -344,7 +344,8 @@ a:hover {
   font-size: 18px; }
 
 .scholartree__img {
-  margin: 40px 0; }
+  margin: 40px 0;
+  width: 300px; }
 
 .scholartree__body {
   text-align: left;

@@ -20,10 +20,10 @@ const AppRouter = () => (
 			<Switch>
 				<Route path="/" component={Landing} exact={true}/>
 				<Route path="/services" component={Services} exact={true}/>
-				<Route path="/services/elementary" component={Elementary}/>
-				<Route path="/services/middle" component={Middle}/>
-				<Route path="/services/high" component={High}/>
-				<Route path="/services/consulting" component={Consulting}/>
+				<Route path="/elementary" component={Elementary}/>
+				<Route path="/middle" component={Middle}/>
+				<Route path="/high" component={High}/>
+				<Route path="/consulting" component={Consulting}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
 			</Switch>

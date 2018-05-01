@@ -67,7 +67,7 @@ export default class Landing extends Component {
 						</Col>
 						<Col xs={12} md={4}>
 							<div className="blurb">
-								<Link to="/services/consulting">
+								<Link to="/consulting">
 									<div className="services__link">
 										<img className="blurb__svg" src={medal} alt="Medal"/><br/><br/>
 										<b><Translate id="admissions">ACADEMIC CONSULTING</Translate></b><br/><br/>
