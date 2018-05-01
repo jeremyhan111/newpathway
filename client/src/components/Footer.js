@@ -1,6 +1,7 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
@@ -10,10 +11,10 @@ const Footer = () => {
 					<Col sm={12} md={3}>
 						<ul className="footer__list">
 							<li className="footer__list-item footer__list-title">Services</li>
-							<li className="footer__list-item">Elementary School</li>
-							<li className="footer__list-item">Middle School</li>
-							<li className="footer__list-item">High School</li>
-							<li className="footer__list-item">Academic Counseling</li>
+							<li className="footer__list-item"><Link to="/elementary">Elementary School</Link></li>
+							<li className="footer__list-item"><Link to="/middle">Middle School</Link></li>
+							<li className="footer__list-item"><Link to="/high">High School</Link></li>
+							<li className="footer__list-item"><Link to="/consulting">Academic Counseling</Link></li>
 						</ul>
 					</Col>
 					<Col sm={12} md={3}>

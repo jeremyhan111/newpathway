@@ -1,0 +1,27 @@
+.test-container {
+	color: white;
+	transition-duration: 0.2s;
+}
+
+.test-container:hover {
+	transform: scale(1.05);
+	box-shadow: 0 0 5px #777777;
+}
+
+.test__title {
+	padding: 30px;
+	font-weight: bold;
+	font-size: 40px;
+}
+
+.test__title:hover {
+	text-decoration: underline;
+}
+
+.test__description {
+	padding: 20px;
+	background-color: #dfeef6;
+	color: black;
+	line-height: 22px;
+	font-size: 16px;
+}

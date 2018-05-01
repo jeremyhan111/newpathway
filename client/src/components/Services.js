@@ -1,6 +1,8 @@
 import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+
+import PageIntro from './PageIntro';
 import elementary from './../images/baby.svg';
 import middle from './../images/student.svg';
 import high from './../images/nerd.svg';
@@ -9,11 +11,11 @@ import grad from './../images/graduate.svg';
 const Services = () => {
 	return (
 		<div className="container">
-			<div className="services__intro">
-				<h1 className="services__header">Services</h1>
-				<p className="services__subheader">We offer classes and consulting to students
-				of all ages.</p>
-			</div>
+
+			<PageIntro 
+				title="Services" 
+				description="We offer classes and consulting to students of all ages."
+			/>
 
 			<Row className="row--spacing">
 				<Col xs={12} md={6} lg={3}>

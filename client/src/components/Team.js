@@ -6,6 +6,7 @@ import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import InkTabBar from 'rc-tabs/lib/InkTabBar';
 import { Grid, Row, Col } from 'react-bootstrap';
 
+import PageIntro from './PageIntro';
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
 import charles from './../images/charles.jpg';

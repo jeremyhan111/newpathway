@@ -333,16 +333,6 @@ a:hover {
 .team__teacher-img:hover .img__teacher-description {
   transform: translateY(0); }
 
-.services__intro {
-  margin-bottom: 0px; }
-
-.services__header {
-  font-size: 60px;
-  margin-bottom: 20px; }
-
-.services__subheader {
-  font-size: 18px; }
-
 .scholartree__img {
   margin: 40px 0;
   width: 300px; }
@@ -365,3 +355,37 @@ a:hover {
 .consulting__url {
   font-size: 18px;
   font-weight: bold; }
+
+.intro {
+  padding-bottom: 80px;
+  border-bottom: 1px solid lightgrey; }
+
+.intro__title {
+  font-size: 60px;
+  margin-bottom: 20px; }
+
+.intro__description {
+  font-size: 18px; }
+
+.test-container {
+  color: white;
+  transition-duration: 0.2s; }
+
+.test-container:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 5px #777777; }
+
+.test__title {
+  padding: 30px;
+  font-weight: bold;
+  font-size: 40px; }
+
+.test__title:hover {
+  text-decoration: underline; }
+
+.test__description {
+  padding: 20px;
+  background-color: #dfeef6;
+  color: black;
+  line-height: 22px;
+  font-size: 16px; }
