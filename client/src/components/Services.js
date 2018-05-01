@@ -10,7 +10,9 @@ const Services = () => {
 	return (
 		<div className="container">
 			<div className="services__intro">
-				<h1 className="services__title">Services</h1>
+				<h1 className="services__header">Services</h1>
+				<p className="services__subheader">We offer classes and consulting to students
+				of all ages.</p>
 			</div>
 
 			<Row className="row--spacing">

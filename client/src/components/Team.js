@@ -20,7 +20,7 @@ class Team extends Component {
 					<Col xs={12} md={8} mdOffset={2}>
 						<div className="team__intro">
 							<h1 className="team__header">Team</h1>
-							<p>Our experienced team of teachers and consultants hail from top schools such as UCLA, 
+							<p className="team__subheader">Our experienced team of teachers and consultants hail from top schools such as UCLA, 
 							   Univeristy of Chicago, George Washington, Lehigh, Washington University in St. Louis, Claremont McKenna, and Swarthmore.
 							   They have helped hundreds of students earn their goal scores and gain admission to their dream schools.
 							 </p>

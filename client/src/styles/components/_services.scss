@@ -1,9 +1,12 @@
 .services__intro {
 	margin-bottom: 0px;
-	
 }
 
-.services__title {
+.services__header {
 	font-size: $header-size;
 	margin-bottom: 20px;
+}
+
+.services__subheader {
+	font-size: $subheader-size;
 }
