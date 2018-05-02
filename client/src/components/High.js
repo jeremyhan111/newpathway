@@ -11,7 +11,7 @@ const High = () => {
 				title="High School"
 			/>
 
-			<Row className="row--spacing">
+			<Row>
 				<Col xs={12} md={4}>
 					<Test
 						title="SAT"
@@ -46,11 +46,11 @@ const High = () => {
 				</Col>
 			</Row>
 
-			<Row className="row--spacing">
+			<Row>
 				<Col xs={12} md={4}>
 					<Test
 						title="AP EXAMS"
-						color="#ef4658"
+						color="#f4ad49"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -60,7 +60,7 @@ const High = () => {
 				<Col xs={12} md={4}>
 					<Test
 						title="TOEFL"
-						color="#53a2e3"
+						color="#6757e2"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 

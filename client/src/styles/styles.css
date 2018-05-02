@@ -369,7 +369,8 @@ a:hover {
 
 .test-container {
   color: white;
-  transition-duration: 0.2s; }
+  transition-duration: 0.2s;
+  margin: 20px 0; }
 
 .test-container:hover {
   transform: scale(1.05);

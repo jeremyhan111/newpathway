@@ -11,7 +11,7 @@ const Middle = () => {
 				title="Middle School"
 			/>
 
-			<Row className="row--spacing">
+			<Row>
 				<Col xs={12} md={4}>
 					<Test
 						title="SSAT"
