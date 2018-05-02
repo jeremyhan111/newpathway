@@ -239,6 +239,13 @@ a:hover {
 .footer__list-item {
   font-size: 14px; }
 
+.footer__list-item > a {
+  color: black;
+  transition-duration: 0.2s; }
+
+.footer__list-item > a:hover {
+  color: gray; }
+
 .footer__list-title {
   font-weight: bold;
   font-size: 18px; }
@@ -329,7 +336,9 @@ a:hover {
 
 .intro__title {
   font-size: 60px;
-  margin-bottom: 20px; }
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-weight: bold; }
 
 .intro__description {
   font-size: 18px; }
@@ -366,3 +375,40 @@ a:hover {
   margin-bottom: 15px;
   width: 260px;
   box-shadow: 0 0 1px #777777; }
+
+.class {
+  text-align: left; }
+
+.class__about {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 30px; }
+
+.class__description {
+  margin-bottom: 40px;
+  font-size: 20px; }
+
+.test__logo {
+  width: 200px;
+  margin-top: 10px; }
+
+.test__links {
+  font-weight: bold;
+  font-size: 35px;
+  margin-top: 75px; }
+
+.test__link {
+  font-size: 20px;
+  margin: 20px 0; }
+
+.features {
+  margin: 50px 0;
+  background-color: #dfeef6;
+  padding: 25px; }
+
+.feature__svg {
+  width: 50px;
+  margin-bottom: 25px; }
+
+.feature__description {
+  font-size: 18px; }

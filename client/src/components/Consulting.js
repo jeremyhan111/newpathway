@@ -13,8 +13,8 @@ const Consulting = () => {
 			<Row>
 				<Col sm={12} md={8}>
 					<div className="consulting__body">
-						<h4><b>ABOUT</b></h4>
-						<p>
+						<h4 className="class__about">About Prestige Only</h4>
+						<p className="class__description">
 							“Prestige Only” is our high end consulting service which mentors students to 
 							gain acceptance into top 30 US universities and boarding schools. Understanding 
 							the holistic and nuanced nature of the US admissions landscape, “Prestige Only” 
@@ -23,7 +23,7 @@ const Consulting = () => {
 							families to the intricacies of top US universities and boarding schools.
 						</p>
 
-						<p>
+						<p className="class__description">
 							A dynamic and passionate team of foreign senior consultants who have all graduated from 
 							top 30 US universities, deliver our specialized mentorship service. Consultants build 
 							comprehensive road maps, execute unique independent projects, and create compelling application 

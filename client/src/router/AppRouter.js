@@ -11,6 +11,10 @@ import Elementary from './../components/Elementary';
 import Middle from './../components/Middle';
 import High from './../components/High';
 import Consulting from './../components/Consulting';
+import Sat from './../components/Sat';
+
+
+import ToDo from './../components/ToDo';
 
 
 const AppRouter = () => (
@@ -27,14 +31,14 @@ const AppRouter = () => (
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
 
-				<Route path="/ssat" component={Team}/>
-				<Route path="/isee" component={Team}/>
-				<Route path="/ela" component={Team}/>
-				<Route path="/sat" component={Team}/>
-				<Route path="/act" component={Team}/>
-				<Route path="/satii" component={Team}/>
-				<Route path="/ap" component={Team}/>
-				<Route path="/toefl" component={Team}/>
+				<Route path="/ssat" component={ToDo}/>
+				<Route path="/isee" component={ToDo}/>
+				<Route path="/ela" component={ToDo}/>
+				<Route path="/sat" component={Sat}/>
+				<Route path="/act" component={ToDo}/>
+				<Route path="/satii" component={ToDo}/>
+				<Route path="/ap" component={ToDo}/>
+				<Route path="/toefl" component={ToDo}/>
 			</Switch>
 			<Footer/>
 		</div>

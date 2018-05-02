@@ -44,6 +44,9 @@ class Team extends Component {
 			        			<Teacher
 			        				name="Alex Cion"
 			        				university="Lehigh University"
+			        				degree="BA Political Science"
+			        				experience="4+ years teaching experience in Korea and China"
+			        				funfact="National Merit Scholar"
 			        				src={alex}
 			        			/>
 			        		</Col>
@@ -52,9 +55,11 @@ class Team extends Component {
 			        			<Teacher
 			        				name="Peter Carver"
 			        				university="George Washington University"
+			        				degree="MA from Brandeis University in Sustainable Development"
+			        				experience="Teacher for 10+ years"
+			        				funfact="TESOL Certified and US Peace Corps"
 			        				src={pete}
 			        			/>
-			        			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -63,7 +68,6 @@ class Team extends Component {
 			        				university="UC Davis"
 			        				src={kirk}
 			        			/>
-			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -72,9 +76,7 @@ class Team extends Component {
 			        				university="University of Chicago"
 			        				src={sandy}
 			        			/>
-			        			
 			        		</Col>
-
 			        	</Row>
 
 			        	<Row>	
@@ -84,7 +86,6 @@ class Team extends Component {
 			        				university="Lehigh University"
 			        				src={alex}
 			        			/>
-			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -93,7 +94,6 @@ class Team extends Component {
 			        				university="Lehigh University"
 			        				src={alex}
 			        			/>
-			        			
 			        		</Col >
 
 
@@ -103,12 +103,8 @@ class Team extends Component {
 			        				university="Lehigh University"
 			        				src={alex}
 			        			/>
-			        			
 			        		</Col>
-
-			        	</Row>
-
-			        	
+			        	</Row>  	
 			        </TabPane>
 
 			        <TabPane tab='English Language Arts' key="2">
@@ -127,8 +123,7 @@ class Team extends Component {
 			        				name="Peter Carver"
 			        				university="George Washington University"
 			        				src={pete}
-			        			/>
-			        			
+			        			/>			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -137,7 +132,6 @@ class Team extends Component {
 			        				university="UC Davis"
 			        				src={kirk}
 			        			/>
-			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -145,10 +139,8 @@ class Team extends Component {
 			        				name="Sandy Qi"
 			        				university="University of Chicago"
 			        				src={sandy}
-			        			/>
-			        			
+			        			/>      			
 			        		</Col>
-
 			        	</Row>
 
 			        	<Row>	
@@ -157,8 +149,7 @@ class Team extends Component {
 			        				name="Alex Cion"
 			        				university="Lehigh University"
 			        				src={alex}
-			        			/>
-			        			
+			        			/>	        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
@@ -166,8 +157,7 @@ class Team extends Component {
 			        				name="Alex Cion"
 			        				university="Lehigh University"
 			        				src={alex}
-			        			/>
-			        			
+			        			/>        			
 			        		</Col >
 
 
@@ -176,13 +166,9 @@ class Team extends Component {
 			        				name="Alex Cion"
 			        				university="Lehigh University"
 			        				src={alex}
-			        			/>
-			        			
+			        			/>		
 			        		</Col>
-
-			        	</Row>
-			        
-
+			        	</Row>    
 			        </TabPane>
 			        <TabPane tab='Prestige Only' key="3">
 			        	<h1>Prestige Only</h1>
@@ -264,6 +250,7 @@ class Team extends Component {
 			        			<Teacher
 			        				name="Alex Cion"
 			        				university="Lehigh University"
+			        				degree="BA Political Science"
 			        				src={alex}
 			        			/>
 			        		</Col>

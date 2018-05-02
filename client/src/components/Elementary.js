@@ -11,8 +11,8 @@ const Elementary = () => {
 			<Row>
 				<Col xs={12} md={8}>
 					<div className="scholartree__body">
-						<h4><b>ABOUT</b></h4>
-						<p>Scholar Tree is a top-notch English language school for Young Learners (YL) ages 6-12.
+						<h4 className="class__about">About Scholar Tree</h4>
+						<p className="class__description">Scholar Tree is a top-notch English language school for Young Learners (YL) ages 6-12.
 						We offer quality language education using highly effective teaching methods tested in United 
 						States, Korea, and Europe. Scholar Tree's proprietary English learning system allows students, 
 						parents, and teachers to better assess progress while at the same time providing a native 
@@ -21,8 +21,8 @@ const Elementary = () => {
 						curriculum is based on the California English Language Arts Content Standards.</p>
 						<br/>
 
-						<h4><b>COURSE DESCRIPTIONS</b></h4>
-						<p><b>Reading</b> focuses on expanding student's vocabulary and comprehension in order to better be able to read through the English books<br/><br/>
+						<h4 className="class__about">Course description</h4>
+						<p className="class__description"><b>Reading</b> focuses on expanding student's vocabulary and comprehension in order to better be able to read through the English books<br/><br/>
 
   						   <b>Writing</b> focuses on building students' grammar and composition so the student can communicate effectively through the written English language<br/><br/>
 

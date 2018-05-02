@@ -10,7 +10,7 @@ const Footer = () => {
 				<Row>
 					<Col sm={12} md={3}>
 						<ul className="footer__list">
-							<li className="footer__list-item footer__list-title">Services</li>
+							<li className="footer__list-item footer__list-title"><Link to="/services">Services</Link></li>
 							<li className="footer__list-item"><Link to="/elementary">Elementary School</Link></li>
 							<li className="footer__list-item"><Link to="/middle">Middle School</Link></li>
 							<li className="footer__list-item"><Link to="/high">High School</Link></li>
@@ -19,10 +19,10 @@ const Footer = () => {
 					</Col>
 					<Col sm={12} md={3}>
 						<ul className="footer__list">
-							<li className="footer__list-item footer__list-title">Teams</li>
-							<li className="footer__list-item">Test Prep</li>
-							<li className="footer__list-item">ELA</li>
-							<li className="footer__list-item">Prestige Only</li>
+							<li className="footer__list-item footer__list-title"><Link to="/team">Teams</Link></li>
+							<li className="footer__list-item"><Link to="/team">Test Prep</Link></li>
+							<li className="footer__list-item"><Link to="/team">ELA</Link></li>
+							<li className="footer__list-item"><Link to="/team">Prestige Only</Link></li>
 						</ul>
 					</Col>
 					<Col sm={12} md={3}>
