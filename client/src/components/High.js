@@ -16,6 +16,7 @@ const High = () => {
 					<Test
 						title="SAT"
 						color="#ef4658"
+						link="/sat"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -26,6 +27,7 @@ const High = () => {
 					<Test
 						title="ACT"
 						color="#53a2e3"
+						link="/act"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -38,6 +40,7 @@ const High = () => {
 					<Test
 						title="SATII"
 						color="#69de92"
+						link="/satii"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -51,6 +54,7 @@ const High = () => {
 					<Test
 						title="AP EXAMS"
 						color="#f4ad49"
+						link="/ap"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
@@ -61,6 +65,7 @@ const High = () => {
 					<Test
 						title="TOEFL"
 						color="#6757e2"
+						link="/toefl"
 						description="Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
 							sed do eiusmod tempor incididunt ut labore et dolore magna 
 							aliqua. Ut enim ad minim veniam, quis nostrud exercitation 

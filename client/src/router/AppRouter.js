@@ -26,6 +26,15 @@ const AppRouter = () => (
 				<Route path="/consulting" component={Consulting}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
+
+				<Route path="/ssat" component={Team}/>
+				<Route path="/isee" component={Team}/>
+				<Route path="/ela" component={Team}/>
+				<Route path="/sat" component={Team}/>
+				<Route path="/act" component={Team}/>
+				<Route path="/satii" component={Team}/>
+				<Route path="/ap" component={Team}/>
+				<Route path="/toefl" component={Team}/>
 			</Switch>
 			<Footer/>
 		</div>

@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 
 const Test = (props) => {
@@ -8,12 +9,14 @@ const Test = (props) => {
 
 	return (
 		<div className="test-container">
-			<div style={style} className="test__title">
-				{props.title}
-			</div>
-			<div className="test__description">
-				{props.description}
-			</div>
+			<Link to={props.link}>
+				<div style={style} className="test__title">
+					{props.title}
+				</div>
+				<div className="test__description">
+					{props.description}
+				</div>
+			</Link>
 		</div>
 	)
 }

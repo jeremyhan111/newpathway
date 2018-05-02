@@ -1,12 +1,15 @@
 import React from 'react';
 
+import PageIntro from './PageIntro';
 import { Row, Col } from 'react-bootstrap';
 import po from './../images/po-logo.png';
 
 const Consulting = () => {
 	return (
 		<div className="container">
-			<h1>Prestige Only</h1>
+			<PageIntro
+				title="Prestige Only"
+			/>
 			<Row>
 				<Col sm={12} md={8}>
 					<div className="consulting__body">

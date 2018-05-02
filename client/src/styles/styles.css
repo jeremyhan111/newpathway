@@ -300,39 +300,6 @@ a:hover {
 .team__subheader {
   font-size: 18px; }
 
-.team__teacher-img {
-  margin-bottom: 15px;
-  width: 260px;
-  box-shadow: 0 0 1px #777777; }
-
-.team__teacher-description-layer {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 80px;
-  right: 0;
-  background: rgba(36, 62, 206, 0.6);
-  color: #fff;
-  height: 229px;
-  width: 275px;
-  opacity: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  /* transition effect. not necessary */
-  transition: opacity .2s, visibility .2s; }
-
-.team__teacher-img:hover .team__teacher-description-layer {
-  visibility: visible;
-  opacity: 1; }
-
-.team__teacher-description {
-  transition: .2s;
-  transform: translateY(1em); }
-
-.team__teacher-img:hover .img__teacher-description {
-  transform: translateY(0); }
-
 .scholartree__img {
   margin: 40px 0;
   width: 300px; }
@@ -379,7 +346,8 @@ a:hover {
 .test__title {
   padding: 30px;
   font-weight: bold;
-  font-size: 40px; }
+  font-size: 40px;
+  color: white; }
 
 .test__title:hover {
   text-decoration: underline; }
@@ -390,3 +358,11 @@ a:hover {
   color: black;
   line-height: 22px;
   font-size: 16px; }
+
+.teacher {
+  text-align: center; }
+
+.teacher__img {
+  margin-bottom: 15px;
+  width: 260px;
+  box-shadow: 0 0 1px #777777; }

@@ -4,9 +4,10 @@ import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import InkTabBar from 'rc-tabs/lib/InkTabBar';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Row, Col, OverlayTrigger, Button, Popover } from 'react-bootstrap';
 
 import PageIntro from './PageIntro';
+import Teacher from './Teacher';
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
 import charles from './../images/charles.jpg';
@@ -14,7 +15,9 @@ import kirk from './../images/kirk.jpg';
 import sandy from './../images/sandy.jpg';
 
 class Team extends Component {
+
 	render() {
+		
 		return (
 			<div className="container">
 				<Row>
@@ -38,37 +41,69 @@ class Team extends Component {
 			        	<h1>Test Prep</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<div class="team__teacher">
-			        				<img className="team__teacher-img" src={alex}/>
-			        			</div>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Peter Carver"
+			        				university="George Washington University"
+			        				src={pete}
+			        			/>
+			        			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={kirk}/>
+			        			<Teacher
+			        				name="Kirk Cowgill"
+			        				university="UC Davis"
+			        				src={kirk}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Sandy Qi"
+			        				university="University of Chicago"
+			        				src={sandy}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
 
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col >
 
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
@@ -80,69 +115,144 @@ class Team extends Component {
 			        	<h1>English Language Arts</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Peter Carver"
+			        				university="George Washington University"
+			        				src={pete}
+			        			/>
+			        			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={kirk}/>
+			        			<Teacher
+			        				name="Kirk Cowgill"
+			        				university="UC Davis"
+			        				src={kirk}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Sandy Qi"
+			        				university="University of Chicago"
+			        				src={sandy}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
 
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col >
 
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
+			        
 
 			        </TabPane>
 			        <TabPane tab='Prestige Only' key="3">
 			        	<h1>Prestige Only</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Peter Carver"
+			        				university="George Washington University"
+			        				src={pete}
+			        			/>
+			        			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={kirk}/>
+			        			<Teacher
+			        				name="Kirk Cowgill"
+			        				university="UC Davis"
+			        				src={kirk}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Sandy Qi"
+			        				university="University of Chicago"
+			        				src={sandy}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
 
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col >
+
+
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
+			        		</Col>
+
 			        	</Row>
 
 			        </TabPane>
@@ -151,33 +261,73 @@ class Team extends Component {
 			        	<h1>Course Coordinators</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Peter Carver"
+			        				university="George Washington University"
+			        				src={pete}
+			        			/>
+			        			
 			        		</Col >
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={kirk}/>
+			        			<Teacher
+			        				name="Kirk Cowgill"
+			        				university="UC Davis"
+			        				src={kirk}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={sandy}/>
+			        			<Teacher
+			        				name="Sandy Qi"
+			        				university="University of Chicago"
+			        				src={sandy}
+			        			/>
+			        			
 			        		</Col>
 
 			        	</Row>
 
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={alex}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
-			        			<img className="team__teacher-img" src={pete}/>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
 			        		</Col >
-			        	</Row>
 
+
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Alex Cion"
+			        				university="Lehigh University"
+			        				src={alex}
+			        			/>
+			        			
+			        		</Col>
+
+			        	</Row>
+			        
 
 			        </TabPane>
 			    </Tabs>
