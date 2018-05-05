@@ -14,8 +14,9 @@
 	font-size: 50px;
 	margin: 0;
 	position: relative;
-	top: 160px;
+	top: 70px;
 	color: white;
+	margin-bottom: 50px;
 }
 
 .landing--big .landing__subtitle {
@@ -23,6 +24,10 @@
 	position: relative;
 	bottom: 250px;
 	color: white;
+}
+
+.title__container {
+	height: 0;
 }
 
 .landing__button {

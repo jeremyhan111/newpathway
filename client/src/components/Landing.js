@@ -5,6 +5,7 @@ import { Translate } from 'react-localize-redux';
 
 import ContactButton from './ContactButton';
 
+import Clock from './Clock';
 import prepsmith from './../media/prepsmith.mp4';
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
@@ -29,12 +30,15 @@ export default class Landing extends Component {
 		return (
 			<div>
 				<div className="landing landing--big">
-					<h1 className="landing__title">New Pathway</h1>
+					<Clock/>
+					<div className="title__container">	
+						<h1 className="landing__title">New Pathway</h1>
+					</div>
 					<img src={chalkboard}/>
 					<h4 className="landing__subtitle"><Translate id="landing__subtitle">Teaching Lifelong Success</Translate></h4>
 
 					<Link to="/contact"><button className="landing__button">
-						<Translate id="signup">Sign Up For Classes</Translate>
+						<Translate id="signup">Sign Up For Classes Here</Translate>
 					</button></Link>
 				</div>
 
