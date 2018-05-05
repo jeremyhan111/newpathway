@@ -3,10 +3,8 @@ import 'rc-tabs/assets/index.css';
 import Tabs, { TabPane } from 'rc-tabs';
 import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
-import InkTabBar from 'rc-tabs/lib/InkTabBar';
-import { Row, Col, OverlayTrigger, Button, Popover } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
-import PageIntro from './PageIntro';
 import Teacher from './Teacher';
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
@@ -15,15 +13,17 @@ import kirk from './../images/kirk.jpg';
 import sandy from './../images/sandy.jpg';
 
 class Team extends Component {
+	componentDidMount() {
+	    window.scrollTo(0, 0)
+	}
 
 	render() {
-		
 		return (
 			<div className="container">
 				<Row>
 					<Col xs={12} md={8} mdOffset={2}>
 						<div className="team__intro">
-							<h1 className="team__header">Team</h1>
+							<h1 className="team__header"><b>TEAM</b></h1>
 							<p className="team__subheader">Our experienced team of teachers and consultants hail from top schools such as UCLA, 
 							   Univeristy of Chicago, George Washington, Lehigh, Washington University in St. Louis, Claremont McKenna, and Swarthmore.
 							   They have helped hundreds of students earn their goal scores and gain admission to their dream schools.

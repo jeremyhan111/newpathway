@@ -5,47 +5,54 @@ import PageIntro from './PageIntro';
 import Features from './Features';
 import ContactButton from './ContactButton';
 
-const Class = (props) => {
-	const test = `${props.test} Prep`
-	return (
-		<div className="container">
-			<PageIntro
-				title={test}
-			/>
+class Class extends React.Component {
+	componentDidMount() {
+	    window.scrollTo(0, 0)
+	}
 
-			<Row>
-				<Col sm={12} md={8}>
-					<div className="class">
-						<h4 className="class__about">About the {props.test}</h4>
-						<p className="class__description">
-							{props.testDescription}
-						</p>
-				
+	render() {
+		const test = `${this.props.test} Prep`
+		return (
+			<div className="container">
+				<PageIntro
+					title={test}
+				/>
 
-						<h4 className="class__about">About our course</h4>
-						<p className="class__description">
-							{props.classDescription}
-						</p>
-					</div>
-				</Col>
+				<Row>
+					<Col sm={12} md={8}>
+						<div className="class">
+							<h4 className="class__about">About the {this.props.test}</h4>
+							<p className="class__description">
+								{this.props.testDescription}
+							</p>
+					
 
-				<Col sm={12} md={4}>
-					<img className="test__logo" src={props.testLogo}/>
-					<h4 className="test__links">Useful Links</h4>
-					<a className="test__link" href={props.usRegister}>{props.test} US Registration</a><br/><br/>
-					<a className="test__link" href={props.internationalRegister}>{props.test} International Registration</a><br/><br/>
-					<a className="test__link" href={props.testDates}>{props.test} Test Dates</a><br/><br/>
-					<a className="test__link" href={props.testCenter}>Find your Test Center</a>
-					<br/><br/><br/><br/>
-					<h4 className="test__links">Download our Class Schedule</h4>
-					<a className="test__link">Schedule.pdf</a>
-				</Col>
-			</Row>
+							<h4 className="class__about">About our course</h4>
+							<p className="class__description">
+								{this.props.classDescription}
+							</p>
+						</div>
+					</Col>
 
-			<Features/>
-			<ContactButton/>
-		</div>
-	)
+					<Col sm={12} md={4}>
+						<img className="test__logo" src={this.props.testLogo}/>
+						<h4 className="test__links">Useful Links</h4>
+						<a className="test__link" href={this.props.usRegister}>{this.props.test} US Registration</a><br/><br/>
+						<a className="test__link" href={this.props.internationalRegister}>{this.props.test} International Registration</a><br/><br/>
+						<a className="test__link" href={this.props.testDates}>{this.props.test} Test Dates</a><br/><br/>
+						<a className="test__link" href={this.props.testCenter}>Find your Test Center</a>
+						<br/><br/><br/><br/>
+						<h4 className="test__links">Download our Class Schedule</h4>
+						<a className="test__link">Schedule.pdf</a>
+					</Col>
+				</Row>
+
+				<Features/>
+				<ContactButton/>
+			</div>
+		)
+	}
 }
+
 
 export default Class;

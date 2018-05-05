@@ -1,10 +1,14 @@
 import React, { Component } from 'react';
-import { FormGroup, ControlLabel, FormControl, HelpBlock, Checkbox, Radio, Button } from 'react-bootstrap';
+import { FormGroup, ControlLabel, FormControl, HelpBlock, Button } from 'react-bootstrap';
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import FieldGroup from './FieldGroup';
 
 class Contact extends Component {
+	componentDidMount() {
+	  window.scrollTo(0, 0)
+	}
+
 	render() {
 		return (
 			<div className="container">
@@ -79,6 +83,7 @@ class Contact extends Component {
 					</Grid>
 
 				    <Button className="link__button" id="contact__button" type="submit">Submit</Button>
+
 				</form>
 			</div>
 		)

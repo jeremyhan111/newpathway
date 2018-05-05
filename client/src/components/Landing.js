@@ -19,6 +19,7 @@ import medal from './../images/medal.svg';
 
 export default class Landing extends Component {
 	componentDidMount() {
+	    window.scrollTo(0, 0)
 		let el = document.querySelector('.landing');
 		setTimeout(() => {el.classList.add('fade-in')}, 0);
 	}

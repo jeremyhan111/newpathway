@@ -241,7 +241,7 @@ const AppRouter = () => (
 			<Header/>
 			<Switch>
 				<Route path="/" component={Landing} exact={true}/>
-				<Route path="/services" component={Services} exact={true}/>
+				<Route path="/services" component={Services}/>
 				<Route path="/elementary" component={Elementary}/>
 				<Route path="/middle" component={Middle}/>
 				<Route path="/high" component={High}/>
