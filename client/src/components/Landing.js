@@ -16,6 +16,7 @@ import scores from './../images/scores.png';
 import user from './../images/user.svg';
 import pencils from './../images/pencils.svg';
 import medal from './../images/medal.svg';
+import chalkboard from './../images/chalkboard.svg';
 
 export default class Landing extends Component {
 	componentDidMount() {
@@ -29,9 +30,10 @@ export default class Landing extends Component {
 			<div>
 				<div className="landing landing--big">
 					<h1 className="landing__title">New Pathway</h1>
+					<img src={chalkboard}/>
 					<h4 className="landing__subtitle"><Translate id="landing__subtitle">Teaching Lifelong Success</Translate></h4>
 
-					<Link to="/contact"><button className="link__button landing__button--spacing">
+					<Link to="/contact"><button className="landing__button">
 						<Translate id="signup">Sign Up For Classes</Translate>
 					</button></Link>
 				</div>

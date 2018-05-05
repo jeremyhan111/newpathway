@@ -99,16 +99,40 @@ a:hover {
   text-align: center;
   border-bottom: 1px solid lightgrey;
   opacity: 0;
-  transition-duration: 1s; }
+  transition-duration: 1s;
+  font-family: 'The Girl Next Door', cursive; }
 
 .fade-in {
   opacity: 1; }
 
 .landing--big .landing__title {
-  font-size: 50px; }
+  font-size: 50px;
+  margin: 0;
+  position: relative;
+  top: 160px;
+  color: white; }
 
 .landing--big .landing__subtitle {
-  font-size: 25px; }
+  font-size: 25px;
+  position: relative;
+  bottom: 250px;
+  color: white; }
+
+.landing__button {
+  position: relative;
+  bottom: 200px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  font-size: 28px;
+  background: transparent;
+  color: white;
+  transition-duration: .2s; }
+
+.landing__button:hover {
+  text-decoration: underline; }
 
 .blurb {
   margin-top: 20px;
@@ -188,7 +212,7 @@ a:hover {
 .show-grid {
   text-align: center; }
 
-.textimonials {
+.testimonials {
   width: 100%; }
 
 @keyframes bounce {
@@ -212,7 +236,7 @@ a:hover {
   .row--top {
     display: block; }
   .landing--big .landing__title {
-    font-size: 120px; }
+    font-size: 100px; }
   .landing--big .landing__subtitle {
     font-size: 40px; }
   .carousel__team {
@@ -403,7 +427,7 @@ a:hover {
 .features {
   margin: 50px 0;
   background-color: #dfeef6;
-  padding: 25px; }
+  padding: 30px 25px; }
 
 .feature__svg {
   width: 50px;
