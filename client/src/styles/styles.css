@@ -509,10 +509,10 @@ a:hover {
   animation: rotate 43200s infinite linear; }
 
 .minutes-container {
-  animation: rotate 3600s infinite linear; }
+  animation: rotate 3600s infinite steps(60); }
 
 .seconds-container {
-  animation: rotate 60s infinite linear; }
+  animation: rotate 60s infinite steps(60); }
 
 @keyframes rotate {
   100% {
