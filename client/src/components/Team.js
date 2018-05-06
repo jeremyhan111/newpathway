@@ -6,11 +6,20 @@ import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import { Row, Col } from 'react-bootstrap';
 
 import Teacher from './Teacher';
+
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
 import charles from './../images/charles.jpg';
 import kirk from './../images/kirk.jpg';
 import sandy from './../images/sandy.jpg';
+import bart from './../images/bart.jpg';
+import ellen from './../images/ellen.jpg';
+import jeremy from './../images/jeremy.jpg';
+import julie from './../images/julie.jpg';
+import justin from './../images/justin.jpg';
+import maura from './../images/maura.jpg';
+import miles from './../images/miles.jpg';
+import riley from './../images/riley.png';
 
 class Team extends Component {
 	componentDidMount() {
@@ -82,29 +91,70 @@ class Team extends Component {
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
 			        			<Teacher
-			        				name="Alex Cion"
-			        				university="Lehigh University"
-			        				src={alex}
+			        				name="Riley Inks"
+			        				university="University of Texas"
+			        				src={riley}
 			        			/>
 			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
 			        			<Teacher
-			        				name="Alex Cion"
-			        				university="Lehigh University"
-			        				src={alex}
+			        				name="Bart Rich"
+			        				university="University of Georgia"
+			        				src={bart}
 			        			/>
 			        		</Col >
 
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Justin Irizarry"
+			        				university="University of Texas"
+			        				src={justin}
+			        			/>
+			        		</Col>
 
 			        		<Col xs={12} sm={6} lg={3}>
 			        			<Teacher
-			        				name="Alex Cion"
-			        				university="Lehigh University"
-			        				src={alex}
+			        				name="Maura McKay"
+			        				university="University of Colorado"
+			        				src={maura}
+			        			/>
+			        		</Col >
+			        	</Row>  
+
+			        	<Row>	
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Jeremy Han"
+			        				university="Swarthmore College"
+			        				src={jeremy}
 			        			/>
 			        		</Col>
-			        	</Row>  	
+
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Ellen Chai"
+			        				university="Washington University in St. Louis"
+			        				src={ellen}
+			        			/>
+			        		</Col >
+
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Julie Gonzalez"
+			        				university="University of Texas"
+			        				src={julie}
+			        			/>
+			        		</Col>
+
+			        		<Col xs={12} sm={6} lg={3}>
+			        			<Teacher
+			        				name="Miles Taylor"
+			        				university="University of the West of England"
+			        				src={miles}
+			        			/>
+			        		</Col >
+			        	</Row>
 			        </TabPane>
 
 			        <TabPane tab='English Language Arts' key="2">
