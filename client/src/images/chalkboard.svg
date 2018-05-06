@@ -35,8 +35,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="349.73333"
-     inkscape:cy="159.77296"
+     inkscape:cx="295.34649"
+     inkscape:cy="21.050797"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -115,5 +115,12 @@
        preserveAspectRatio="none"
        height="5"
        width="34" />
+    <rect
+       style="fill:#00aced;fill-opacity:1;fill-rule:nonzero"
+       id="rect4163"
+       width="27.308655"
+       height="4.9969363"
+       x="128.25484"
+       y="1027.6547" />
   </g>
 </svg>

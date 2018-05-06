@@ -100,6 +100,7 @@ a:hover {
   border-bottom: 1px solid lightgrey;
   opacity: 0;
   transition-duration: 1s;
+  color: white;
   font-family: 'The Girl Next Door', cursive; }
 
 .fade-in {
@@ -110,14 +111,13 @@ a:hover {
   margin: 0;
   position: relative;
   top: 70px;
-  color: white;
   margin-bottom: 50px; }
 
 .landing--big .landing__subtitle {
   font-size: 25px;
   position: relative;
   bottom: 250px;
-  color: white; }
+  color: #00ACED; }
 
 .title__container {
   height: 0; }
