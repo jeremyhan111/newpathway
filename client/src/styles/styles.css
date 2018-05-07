@@ -358,8 +358,15 @@ a:hover {
   font-weight: bold; }
 
 .intro {
-  padding-bottom: 80px;
+  padding: 30px;
   border-bottom: 1px solid lightgrey; }
+
+.intro__container {
+  height: 0;
+  position: relative;
+  bottom: 200px;
+  color: white;
+  font-family: 'The Girl Next Door', cursive; }
 
 .intro__title {
   font-size: 60px;

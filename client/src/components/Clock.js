@@ -27,12 +27,10 @@ class Clock extends React.Component {
 	      angle: (seconds * 6)
 	    }
 	  ];
-	  console.log('hi')
 	  // Loop through each of these hands to set their angle
 	  for (var j = 0; j < hands.length; j++) {
 	    var elements = document.querySelectorAll('.' + hands[j].hand);
 	    for (var k = 0; k < elements.length; k++) {
-	    	console.log(k);
 	        elements[k].style.webkitTransform = 'rotateZ('+ hands[j].angle +'deg)';
 	        elements[k].style.transform = 'rotateZ('+ hands[j].angle +'deg)';
 	        // If this is a minute hand, note the seconds position (to calculate minute position later)
