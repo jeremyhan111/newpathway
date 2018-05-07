@@ -12,6 +12,7 @@ import Middle from './../components/Middle';
 import High from './../components/High';
 import Consulting from './../components/Consulting';
 import Class from './../components/Class';
+import About from './../components/About';
 
 import sat from './../images/sat.png';
 import act from './../images/act.png';
@@ -19,6 +20,7 @@ import ssat from './../images/ssat.png';
 import ap from './../images/ap.png';
 import isee from './../images/isee.jpeg';
 import toefl from './../images/toefl.png';
+import ela from './../images/ela.jpg';
 
 import ToDo from './../components/ToDo';
 
@@ -232,6 +234,34 @@ const TOEFL = () => {
 	)
 }
 
+const ELA = () => {
+	return (
+		<Class
+			testLogo={ela}
+			test="ELA"
+			testDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat." 
+			classDescription = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+								laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+								ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco"
+		/>
+	)
+}
+
 
 
 
@@ -248,10 +278,11 @@ const AppRouter = () => (
 				<Route path="/consulting" component={Consulting}/>
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
+				<Route path="/about" component={About}/> 
 
 				<Route path="/ssat" component={SSAT}/>
 				<Route path="/isee" component={ISEE}/>
-				<Route path="/ela" component={ToDo}/>
+				<Route path="/ela" component={ELA}/>
 				<Route path="/sat" component={SAT}/>
 				<Route path="/act" component={ACT}/>
 				<Route path="/satii" component={SATII}/>

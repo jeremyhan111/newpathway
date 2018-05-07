@@ -33,7 +33,7 @@ const Footer = () => {
 					</Col>
 					<Col sm={12} md={3}>
 						<ul className="footer__list">
-							<li className="footer__list-item footer__list-title">Company</li>
+							<li className="footer__list-item footer__list-title"><Link to="/about">Company</Link></li>
 							<li className="footer__list-item">Careers</li>
 							<li className="footer__list-item">About Us</li>
 							<li className="footer__list-item">Locations</li>
