@@ -95,49 +95,6 @@ a:hover {
 .language-menu__item > button {
   border: none; }
 
-.landing {
-  text-align: center;
-  border-bottom: 1px solid lightgrey;
-  opacity: 0;
-  transition-duration: 1s;
-  color: white;
-  font-family: 'The Girl Next Door', cursive; }
-
-.fade-in {
-  opacity: 1; }
-
-.landing--big .landing__title {
-  font-size: 50px;
-  margin: 0;
-  position: relative;
-  top: 70px;
-  margin-bottom: 50px; }
-
-.landing--big .landing__subtitle {
-  font-size: 25px;
-  position: relative;
-  bottom: 250px;
-  color: #00ACED; }
-
-.title__container {
-  height: 0; }
-
-.landing__button {
-  position: relative;
-  bottom: 200px;
-  border: none;
-  width: 200px;
-  height: 50px;
-  border-radius: 3px;
-  margin-bottom: 50px;
-  font-size: 28px;
-  background: transparent;
-  color: white;
-  transition-duration: .2s; }
-
-.landing__button:hover {
-  text-decoration: underline; }
-
 .blurb {
   margin-top: 20px;
   font-size: 22px; }
@@ -239,10 +196,6 @@ a:hover {
     padding: 75px 0; }
   .row--top {
     display: block; }
-  .landing--big .landing__title {
-    font-size: 100px; }
-  .landing--big .landing__subtitle {
-    font-size: 40px; }
   .carousel__team {
     width: 450px;
     margin: 0 auto; }
@@ -361,21 +314,42 @@ a:hover {
   padding: 30px;
   border-bottom: 1px solid lightgrey; }
 
+.intro__chalkboard {
+  max-width: 100%;
+  height: auto; }
+
 .intro__container {
   height: 0;
   position: relative;
-  bottom: 200px;
+  bottom: 120px;
   color: white;
   font-family: 'The Girl Next Door', cursive; }
 
 .intro__title {
-  font-size: 60px;
-  margin-bottom: 20px;
+  font-size: 30px;
+  margin-bottom: 0px;
   text-transform: uppercase;
   font-weight: bold; }
 
 .intro__description {
-  font-size: 18px; }
+  font-size: 16px; }
+
+@media (min-width: 540px) {
+  .intro__container {
+    bottom: 200px; }
+  .intro__title {
+    font-size: 60px; }
+  .intro__description {
+    font-size: 18px; } }
+
+@media (min-width: 992px) {
+  .intro__container {
+    bottom: 200px; }
+  .intro__title {
+    font-size: 60px;
+    margin-bottom: 20px; }
+  .intro__description {
+    font-size: 18px; } }
 
 .test-container {
   color: white;
@@ -449,10 +423,10 @@ a:hover {
 
 .clock-container {
   position: relative;
-  left: 45%;
-  padding: 4px;
+  left: 42%;
+  padding: 2px;
   text-align: center;
-  width: 120px;
+  width: 88px;
   border-radius: 50%;
   background-color: grey; }
 
@@ -460,10 +434,10 @@ a:hover {
   border-radius: 50%;
   background: #fff url(./../images/ios_clock.svg) no-repeat center;
   background-size: 88%;
-  height: 8em;
+  height: 6em;
   padding-bottom: 31%;
   position: relative;
-  width: 8em; }
+  width: 6em; }
 
 .clock.simple:after {
   background: #000;
@@ -521,6 +495,94 @@ a:hover {
 .seconds-container {
   transition: transform 0.2s cubic-bezier(0.4, 2.08, 0.55, 0.44); }
 
+@media (min-width: 768px) {
+  .clock-container {
+    left: 45%; } }
+
+@media (min-width: 992px) {
+  .clock-container {
+    padding: 4px;
+    left: 46%;
+    width: 120px; }
+  .clock {
+    height: 8em;
+    width: 8em; } }
+
 @keyframes rotate {
   100% {
     transform: rotateZ(360deg); } }
+
+.landing {
+  text-align: center;
+  border-bottom: 1px solid lightgrey;
+  opacity: 0;
+  transition-duration: 1s;
+  color: white;
+  font-family: 'The Girl Next Door', cursive; }
+
+.fade-in {
+  opacity: 1; }
+
+.landing--big .landing__title {
+  font-size: 50px;
+  margin: 0;
+  position: relative;
+  top: 30px;
+  margin-bottom: 50px; }
+
+.landing--big .landing__subtitle {
+  font-size: 25px;
+  position: relative;
+  bottom: 150px;
+  color: #00ACED; }
+
+.title__container {
+  height: 0; }
+
+.title__chalkboard {
+  max-width: 100%;
+  height: auto; }
+
+.landing__button {
+  position: relative;
+  bottom: 140px;
+  border: none;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  background: transparent;
+  color: white;
+  transition-duration: .2s; }
+
+.landing__button:hover {
+  text-decoration: underline; }
+
+@media (min-width: 540px) {
+  .landing--big .landing__title {
+    font-size: 70px;
+    top: 50px; }
+  .landing--big .landing__subtitle {
+    font-size: 32px;
+    bottom: 190px; } }
+
+@media (min-width: 768px) {
+  .landing--big .landing__title {
+    font-size: 80px; }
+  .landing--big .landing__subtitle {
+    font-size: 36px;
+    bottom: 250px; }
+  .landing__button {
+    font-size: 26px;
+    bottom: 210px; } }
+
+@media (min-width: 992px) {
+  .landing--big .landing__title {
+    font-size: 100px;
+    top: 70px; }
+  .landing--big .landing__subtitle {
+    font-size: 40px; }
+  .landing__button {
+    font-size: 28px;
+    bottom: 200px; } }

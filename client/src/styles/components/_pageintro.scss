@@ -3,21 +3,62 @@
 	border-bottom: 1px solid lightgrey;
 }
 
+.intro__chalkboard {
+	max-width: 100%;
+	height: auto;
+}
+
 .intro__container {
 	height: 0;
 	position: relative;
-	bottom: 200px;
+	bottom: 120px;
 	color: white;
 	font-family: 'The Girl Next Door', cursive;
 }
 
 .intro__title {
-	font-size: $header-size;
-	margin-bottom: 20px;
+	font-size: 30px;
+	margin-bottom: 0px;
 	text-transform: uppercase;
 	font-weight: bold;
+
 }
 
 .intro__description {
-	font-size: $subheader-size;
+	font-size: 16px;
+}
+
+@media (min-width: 540px) {
+	.intro__container {
+		bottom: 200px;
+	}
+
+	.intro__title {
+		font-size: $header-size;
+	}
+
+	.intro__description {
+		font-size: $subheader-size;
+	}
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+	.intro__container {
+		bottom: 200px;
+	}
+
+	.intro__title {
+		font-size: $header-size;
+		margin-bottom: 20px;
+	}
+
+	.intro__description {
+		font-size: $subheader-size;
+	}
+
 }

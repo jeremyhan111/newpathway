@@ -4,8 +4,8 @@ import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
 
 import ContactButton from './ContactButton';
+import Title from './Title';
 
-import Clock from './Clock';
 import prepsmith from './../media/prepsmith.mp4';
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
@@ -17,31 +17,17 @@ import scores from './../images/scores.png';
 import user from './../images/user.svg';
 import pencils from './../images/pencils.svg';
 import medal from './../images/medal.svg';
-import chalkboard from './../images/chalkboard.svg';
+
 
 export default class Landing extends Component {
 	componentDidMount() {
 	    window.scrollTo(0, 0)
-		let el = document.querySelector('.landing');
-		setTimeout(() => {el.classList.add('fade-in')}, 0);
 	}
 
 	render() {
 		return (
 			<div>
-				<div className="landing landing--big">
-					<Clock/>
-					<div className="title__container">	
-						<h1 className="landing__title">New Pathway</h1>
-					</div>
-					<img src={chalkboard}/>
-					<h4 className="landing__subtitle"><Translate id="landing__subtitle">Teaching Lifelong Success</Translate></h4>
-
-					<Link to="/contact"><button className="landing__button">
-						<Translate id="signup">Sign Up For Classes Here</Translate>
-					</button></Link>
-				</div>
-
+				<Title/>
 				<Grid className="container__page">
 					<Row className="show-grid row--spacing row--top container">
 						<h1 className="blurb__title"><Translate id="ourservices">OUR SERVICES</Translate></h1>
@@ -181,12 +167,6 @@ export default class Landing extends Component {
 							</Col>
 						</Row>
 					</div>
-
-
-
-
-
-
 
 					<Row className="show-grid row--spacing container">
 						<Col xs={12} md={12}>

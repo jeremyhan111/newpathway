@@ -6,7 +6,6 @@ const PageIntro = (props) => {
 	return (
 		<div>
 			<div className="intro">
-
 				<img className="intro__chalkboard"src={chalkboard}/>
 				<div className="intro__container">
 					<h1 className="intro__title">{props.title}</h1>
