@@ -12,7 +12,7 @@
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="195mm"
    height="120mm"
-   viewBox="0 0 690.94488 425.19685"
+   viewBox="0 0 690.94488 425.19686"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
@@ -21,10 +21,10 @@
      id="defs4">
     <inkscape:perspective
        sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18112 : 1"
+       inkscape:vp_x="0 : 526.18113 : 1"
        inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09447 : 526.18112 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.7874 : 1"
+       inkscape:vp_z="744.09447 : 526.18113 : 1"
+       inkscape:persp3d-origin="372.04724 : 350.78741 : 1"
        id="perspective3356" />
   </defs>
   <sodipodi:namedview
@@ -35,8 +35,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4142136"
-     inkscape:cx="295.34649"
-     inkscape:cy="21.050797"
+     inkscape:cx="323.63076"
+     inkscape:cy="275.60923"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -53,7 +53,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -61,7 +61,7 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-627.16535)">
+     transform="translate(0,-627.16534)">
     <rect
        style="fill:#d38d5f"
        id="rect3336"

@@ -5,6 +5,7 @@ import { Translate } from 'react-localize-redux';
 
 import ContactButton from './ContactButton';
 import Title from './Title';
+import Locations from './Locations';
 
 import prepsmith from './../media/prepsmith.mp4';
 import alex from './../images/alex.jpg';

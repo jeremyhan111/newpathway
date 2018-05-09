@@ -80,15 +80,10 @@
   transition: transform 0.2s cubic-bezier(.4,2.08,.55,.44);
 }
 
-@media (min-width: 540px) {
-
-}
-
 @media (min-width: 768px) {
   .clock-container {
     left: 45%; 
   }
-
 }
 
 @media (min-width: 992px) {
@@ -102,9 +97,7 @@
     height: 8em;
     width: 8em;
   }
-
 }
-
 
 @keyframes rotate {
   100% {

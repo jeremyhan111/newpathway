@@ -19,7 +19,6 @@ class Services extends React.Component {
 
 				<PageIntro 
 					title="Services" 
-					description="We offer classes and consulting to students of all ages."
 				/>
 
 				<Row className="row--spacing">

@@ -28,6 +28,9 @@ const Header = (props) => (
 			        <NavItem eventKey={3}>
 			        	<NavLink to="/team"><Translate id="team">Team</Translate></NavLink>
 			        </NavItem>
+			        <NavItem eventKey={3}>
+			        	<NavLink to="/about"><Translate id="about">About</Translate></NavLink>
+			        </NavItem>
 			        <NavItem eventKey={4}>
 			        	<NavLink to="/contact"><Translate id="contact">Contact Us</Translate></NavLink>
 			        </NavItem>

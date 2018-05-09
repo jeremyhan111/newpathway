@@ -6,9 +6,7 @@ import { Translate } from 'react-localize-redux';
 
 export default class Title extends Component {
 	componentDidMount() {
-		console.log('hi');
 		let el = document.querySelector('.landing');
-		console.log(el);
 		setTimeout(() => {el.classList.add('fade-in')}, 0);
 	}
 
