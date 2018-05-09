@@ -587,10 +587,18 @@ a:hover {
     bottom: 200px; } }
 
 .about__title {
-  font-size: 50px; }
+  font-size: 50px;
+  font-family: 'Satisfy', cursive; }
 
 .about__paragraph {
   font-size: 16px; }
+
+.about__list {
+  list-style: none;
+  padding: 0px; }
+
+.about__list > li {
+  margin-bottom: 10px; }
 
 .value {
   padding: 40px; }
