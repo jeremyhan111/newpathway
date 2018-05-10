@@ -6,9 +6,11 @@ const Teacher = (props) => {
 	const popoverHoverFocus = (
 		<Popover id="popover-trigger-focus" title={props.name}>
 		    <strong>{props.university}</strong><br/>
-		    {props.degree} <br/><br/>
-		    {props.experience} <br/><br/>
-		   	{props.funfact}
+		    <ul>
+		    	<li>{props.degree}</li>
+		    	<li>{props.experience}</li>
+		   		<li>{props.funfact}</li>
+		   	</ul>
 		</Popover>
 	);
 
