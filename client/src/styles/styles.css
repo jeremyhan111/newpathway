@@ -265,7 +265,29 @@ a:hover {
   font-size: 16px; }
 
 #contact__button {
-  margin-bottom: 40px; }
+  color: white;
+  border: none;
+  font-size: 18px;
+  background-color: #FF4D4C;
+  width: 200px;
+  height: 50px;
+  border-radius: 3px;
+  margin: 20px;
+  transition-duration: .2s;
+  background-image: none;
+  text-shadow: none;
+  position: relative;
+  overflow: hidden; }
+
+#contact__button:before {
+  content: url(./../images/mail.svg);
+  position: absolute;
+  left: -40px;
+  top: 11px;
+  transition: all 200ms ease; }
+
+#contact__button:hover:before {
+  left: 20px; }
 
 .rc-tabs-nav-wrap {
   text-align: center; }

@@ -82,7 +82,7 @@ class Contact extends Component {
 						</Row>
 					</Grid>
 
-				    <Button className="link__button" id="contact__button" type="submit">Submit</Button>
+				    <Button id="contact__button" type="submit">Submit</Button>
 
 				</form>
 			</div>
