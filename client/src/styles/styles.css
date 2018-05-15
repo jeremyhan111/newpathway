@@ -521,12 +521,7 @@ a:hover {
 @media (min-width: 992px) {
   .clock-container {
     position: absolute;
-    right: 17%;
-    padding: 4px;
-    width: 120px; }
-  .clock {
-    height: 8em;
-    width: 8em; } }
+    right: 20%; } }
 
 @keyframes rotate {
   100% {

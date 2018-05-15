@@ -5,6 +5,7 @@ import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import { Row, Col } from 'react-bootstrap';
 
+import PageIntro from './PageIntro'
 import Teacher from './Teacher';
 
 import alex from './../images/alex.jpg';
@@ -29,24 +30,16 @@ class Team extends Component {
 	render() {
 		return (
 			<div className="container">
-				<Row>
-					<Col xs={12} md={8} mdOffset={2}>
-						<div className="team__intro">
-							<h1 className="team__header"><b>TEAM</b></h1>
-							<p className="team__subheader">Our experienced team of teachers and consultants hail from top schools such as UCLA, 
-							   Univeristy of Chicago, George Washington, Lehigh, Washington University in St. Louis, Claremont McKenna, and Swarthmore.
-							   They have helped hundreds of students earn their goal scores and gain admission to their dream schools.
-							 </p>
-						</div>
-					</Col>
-				</Row>
+				<PageIntro
+					title="Team"
+				/>
 
 				<Tabs
 			        defaultActiveKey="1"
 			        renderTabBar={()=><ScrollableInkTabBar />}
 			        renderTabContent={()=><TabContent />}
 			    >
-			        <TabPane tab='Test Prep' key="1">
+			        <TabPane tab='TEST PREP' key="1">
 			        	<h1>Test Prep</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
