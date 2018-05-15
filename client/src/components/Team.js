@@ -39,7 +39,7 @@ class Team extends Component {
 			        renderTabBar={()=><ScrollableInkTabBar />}
 			        renderTabContent={()=><TabContent />}
 			    >
-			        <TabPane tab='TEST PREP' key="1">
+			        <TabPane tab='Test Prep' key="1">
 			        	<h1>Test Prep</h1>
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
