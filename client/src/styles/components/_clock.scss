@@ -1,11 +1,10 @@
 .clock-container {
-  position: relative;
-  left: 42%;
   padding: 2px;
-  text-align: center;
   width: 88px;
+  text-align: none;
   border-radius: 50%;
   background-color: grey;
+  box-shadow: 0 0 3px #777777;
 }
 
 .clock {
@@ -81,16 +80,14 @@
 }
 
 @media (min-width: 768px) {
-  .clock-container {
-    left: 45%; 
-  }
 }
 
 @media (min-width: 992px) {
   .clock-container {
-    padding: 4px;
-    left: 46%;
-    width: 120px;
+    position: absolute;
+    right: 17%;
+    padding: 6px;
+    width: 124px;
   }
 
   .clock {

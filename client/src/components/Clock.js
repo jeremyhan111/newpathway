@@ -101,7 +101,7 @@ class Clock extends React.Component {
 
 	render() {
 		return (
-			<div className="clock-container">
+			<div className="clock-container container">
 				<article className="clock simple show">
 				    <div className="hours-container">
 				    	<div className="hours"></div>
