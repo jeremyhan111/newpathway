@@ -49,12 +49,12 @@ const Header = (props) => (
 					onClick={() => {props.dispatch(setActiveLanguage('ja'))}}>日本語</li>
 			</ul>
 
-			<div className="social-media-bar">
+			<nav className="social-media-bar">
 	  			<SocialIcon url="https://twitter.com/newpathwayed/" style={{ height: 20, width: 20 }}/>
 	  			<SocialIcon url="https://www.facebook.com/NewPathwayEducation/" style={{ height: 20, width: 20 }}/>
 	  			<SocialIcon url="https://www.linkedin.com/company/new-pathway-education-&-technology-group/" style={{ height: 20, width: 20 }}/>
 	  			<SocialIcon url="https://www.youtube.com/user/NewPathwayEducation" style={{ height: 20, width: 20 }}/>
-	  		</div>
+	  		</nav>
 		</div>
 	</header>	
 );

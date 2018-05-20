@@ -13,7 +13,6 @@ import High from './../components/High';
 import Consulting from './../components/Consulting';
 import Class from './../components/Class';
 import About from './../components/About';
-import Map from './../components/Map';
 
 import sat from './../images/sat.png';
 import act from './../images/act.png';
@@ -280,7 +279,6 @@ const AppRouter = () => (
 				<Route path="/team" component={Team}/>
 				<Route path="/contact" component={Contact}/>
 				<Route path="/about" component={About}/> 
-				<Route path="/locations" component={Map}/>
 
 				<Route path="/ssat" component={SSAT}/>
 				<Route path="/isee" component={ISEE}/>

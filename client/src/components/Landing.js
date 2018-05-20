@@ -5,7 +5,6 @@ import { Translate } from 'react-localize-redux';
 
 import ContactButton from './ContactButton';
 import Title from './Title';
-import Locations from './Locations';
 
 import prepsmith from './../media/prepsmith.mp4';
 import alex from './../images/alex.jpg';
@@ -75,9 +74,6 @@ export default class Landing extends Component {
 							</div>
 						</Col>
 					</Row>
-
-
-
 
 					<div className="container--grey">
 						<Row className="show-grid row--spacing container">
@@ -188,7 +184,6 @@ export default class Landing extends Component {
 									<img src={scores} alt="Scores"/>
 								</Carousel.Item>
 							</Carousel>
-
 						</Col>
 					</Row>
 
@@ -197,36 +192,34 @@ export default class Landing extends Component {
 						<Row className="show-grid row--spacing row--top testimonials container">
 							<h1 className="blurb__title"><Translate id="testimonials">TESTIMONIALS</Translate></h1>
 							<Col xs={12} md={4}>
-								<div className="blurb">
+								<p className="blurb">
 									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 									laboris nisi ut aliquip ex ea commodo consequat." 
 									<br/>
 									<br/>
 									<i>John Kim, scored a 1580 on the SAT</i>
-
-
-								</div>
+								</p>
 							</Col>
 							<Col xs={12} md={4}>
-								<div className="blurb">
+								<p className="blurb">
 									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 									laboris nisi ut aliquip ex ea commodo consequat." 
 									<br/>
 									<br/>
 									<i>April Chen, scored a 35 on the ACT</i>
-								</div>
+								</p>
 							</Col>
 							<Col xs={12} md={4}>
-								<div className="blurb">
+								<p className="blurb">
 									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
 									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
 									laboris nisi ut aliquip ex ea commodo consequat." 
 									<br/>
 									<br/>
 									<i>Eric Li, scored a 1540 on the SAT</i>
-								</div>
+								</p>
 							</Col>
 						</Row>
 					</div>

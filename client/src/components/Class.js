@@ -35,15 +35,17 @@ class Class extends React.Component {
 					</Col>
 
 					<Col sm={12} md={4}>
-						<img className="test__logo" src={this.props.testLogo}/>
-						<h4 className="test__links">Useful Links</h4>
-						<a className="test__link" href={this.props.usRegister}>{this.props.test} US Registration</a><br/><br/>
-						<a className="test__link" href={this.props.internationalRegister}>{this.props.test} International Registration</a><br/><br/>
-						<a className="test__link" href={this.props.testDates}>{this.props.test} Test Dates</a><br/><br/>
-						<a className="test__link" href={this.props.testCenter}>Find your Test Center</a>
-						<br/><br/><br/><br/>
-						<h4 className="test__links">Download our Class Schedule</h4>
-						<a className="test__link">Schedule.pdf</a>
+						<nav>
+							<img className="test__logo" src={this.props.testLogo}/>
+							<h4 className="test__links">Useful Links</h4>
+							<a className="test__link" href={this.props.usRegister}>{this.props.test} US Registration</a><br/><br/>
+							<a className="test__link" href={this.props.internationalRegister}>{this.props.test} International Registration</a><br/><br/>
+							<a className="test__link" href={this.props.testDates}>{this.props.test} Test Dates</a><br/><br/>
+							<a className="test__link" href={this.props.testCenter}>Find your Test Center</a>
+							<br/><br/><br/><br/>
+							<h4 className="test__links">Download our Class Schedule</h4>
+							<a className="test__link">Schedule.pdf</a>
+						</nav>
 					</Col>
 				</Row>
 

@@ -10,12 +10,12 @@ const Test = (props) => {
 	return (
 		<div className="test-container">
 			<Link to={props.link}>
-				<div style={style} className="test__title">
+				<h1 style={style} className="test__title">
 					{props.title}
-				</div>
-				<div className="test__description">
+				</h1>
+				<p className="test__description">
 					{props.description}
-				</div>
+				</p>
 			</Link>
 		</div>
 	)

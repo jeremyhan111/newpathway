@@ -382,13 +382,9 @@ class Team extends Component {
 			        				name="Alex Cion"
 			        				university="Lehigh University"
 			        				src={alex}
-			        			/>
-			        			
+			        			/>	
 			        		</Col>
-
 			        	</Row>
-			        
-
 			        </TabPane>
 			    </Tabs>
 

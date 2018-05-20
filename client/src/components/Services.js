@@ -16,7 +16,6 @@ class Services extends React.Component {
 	render() {
 		return (
 			<div className="container">
-
 				<PageIntro 
 					title="Services" 
 				/>
@@ -30,9 +29,9 @@ class Services extends React.Component {
 									<b>ELEMENTARY SCHOOL</b><br/><br/>
 								</div>
 							</Link>
-							<div id="testprep__blurb">
+							<p id="testprep__blurb">
 								We offer a top-notch English language school for Young Learners (YL) ages 6-12.
-							</div>
+							</p>
 						</div>
 					</Col>
 					<Col xs={12} md={6} lg={3}>
@@ -43,9 +42,9 @@ class Services extends React.Component {
 									<b>MIDDLE SCHOOL</b><br/><br/>
 								</div>
 							</Link>
-							<div id="testprep__blurb">
+							<p id="testprep__blurb">
 								We prepare middle school students to earn top marks on the ELA, SSAT, and ISEE exams.
-							</div>
+							</p>
 						</div>
 					</Col>
 					<Col xs={12} md={6} lg={3}>
@@ -56,9 +55,9 @@ class Services extends React.Component {
 									<b>HIGH SCHOOL</b><br/><br/>
 								</div>
 							</Link>
-							<div id="testprep__blurb">
+							<p id="testprep__blurb">
 								We prepare high school students to earn their goal scores on the SAT, ACT, SATII, AP, and TOEFL exams.
-							</div>
+							</p>
 						</div>
 					</Col>
 					<Col xs={12} md={6} lg={3}>
@@ -69,9 +68,9 @@ class Services extends React.Component {
 									<b>ACADEMIC CONSULTING</b><br/><br/>
 								</div>
 							</Link>
-							<div id="testprep__blurb">
+							<p id="testprep__blurb">
 								We offer consulting to help students apply and gain admission to the top boarding schools and colleges.
-							</div>
+							</p>
 						</div>
 					</Col>
 				</Row>

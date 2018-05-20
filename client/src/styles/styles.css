@@ -388,7 +388,8 @@ a:hover {
   padding: 30px;
   font-weight: bold;
   font-size: 40px;
-  color: white; }
+  color: white;
+  margin-bottom: 0px; }
 
 .test__title:hover {
   text-decoration: underline; }
@@ -439,8 +440,7 @@ a:hover {
   padding: 30px 25px; }
 
 .feature__svg {
-  width: 50px;
-  margin-bottom: 25px; }
+  width: 50px; }
 
 .feature__description {
   font-size: 18px; }
