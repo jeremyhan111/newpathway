@@ -58,15 +58,15 @@
 }
 
 #contact__button:before {
-	content: url(./../images/mailcopy.svg);
+	content: url(./../images/mail.svg);
 	position: absolute;
 	left: -40px;
-	top: 14px;
+	top: 13px;
 	transition: all 200ms ease;
 }
 
 #contact__button:hover:before {
-	left: 25px;
+	left: 22px;
 }
 
 #contact__button:focus:before {

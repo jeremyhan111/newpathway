@@ -280,14 +280,14 @@ a:hover {
   overflow: hidden; }
 
 #contact__button:before {
-  content: url(./../images/mailcopy.svg);
+  content: url(./../images/mail.svg);
   position: absolute;
   left: -40px;
-  top: 14px;
+  top: 13px;
   transition: all 200ms ease; }
 
 #contact__button:hover:before {
-  left: 25px; }
+  left: 22px; }
 
 #contact__button:focus:before {
   left: 200px; }
@@ -446,12 +446,11 @@ a:hover {
   font-size: 18px; }
 
 .clock-container {
-  padding: 2px;
-  width: 88px;
+  padding: 3px;
+  width: 90px;
   text-align: none;
   border-radius: 50%;
-  background-color: grey;
-  box-shadow: 0 0 3px #777777; }
+  background-color: black; }
 
 .clock {
   border-radius: 50%;
@@ -521,7 +520,7 @@ a:hover {
 @media (min-width: 992px) {
   .clock-container {
     position: absolute;
-    right: 20%; } }
+    right: 18%; } }
 
 @keyframes rotate {
   100% {
@@ -548,8 +547,7 @@ a:hover {
 .landing--big .landing__subtitle {
   font-size: 25px;
   position: relative;
-  bottom: 130px;
-  color: #00ACED; }
+  bottom: 130px; }
 
 .title__container {
   height: 0; }
