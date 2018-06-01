@@ -1,3 +1,11 @@
+.contact__form {
+	padding: 20px;
+}
+
+.contact__container {
+	text-align: center;
+}
+
 .form-group {
 	margin: 0;
 }
@@ -58,7 +66,7 @@
 }
 
 #contact__button:before {
-	content: url(./../images/mail.svg);
+	content: url('./../images/mail.svg');
 	position: absolute;
 	left: -40px;
 	top: 13px;

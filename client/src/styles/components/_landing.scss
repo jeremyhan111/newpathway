@@ -17,6 +17,13 @@
 	animation: bounce 1s;
 }
 
+.blurb--red {
+	background-image: url('./../images/background-red.svg');
+	background-size: contain;
+	background-repeat: no-repeat;
+	padding: 60px 0;
+}
+
 .blurb--spacing {
 	margin-bottom: 40px;
 }

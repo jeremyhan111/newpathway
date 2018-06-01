@@ -11,7 +11,7 @@ class Contact extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="contact__container">
 				<Row>
 					<Col xs={12} md={8} mdOffset={2}>
 						<div className="contact__intro">
@@ -23,7 +23,7 @@ class Contact extends Component {
 					</Col>
 				</Row>
 
-				<form>
+				<form className="contact__form">
 					<h1>Send a message</h1>
 					<Grid>
 						<Row>
@@ -75,7 +75,7 @@ class Contact extends Component {
 						<Row>
 							<Col xs={12} md={8} mdOffset={2}>
 							    <FormGroup controlId="formControlsTextarea">
-							        <FormControl componentClass="textarea" placeholder="Leave a message..." />
+							        <FormControl componentClass="textarea" style={{ height: 150 }} placeholder="Leave a message..." />
 							    </FormGroup>
 							</Col>
 						</Row>

@@ -75,7 +75,7 @@ export default class Landing extends Component {
 						</Col>
 					</Row>
 
-					<div className="container--grey">
+					<div>
 						<Row className="show-grid row--spacing container">
 							<Col xs={12} md={6} mdPush={6}>
 								<div className="blurb__media">
@@ -135,8 +135,8 @@ export default class Landing extends Component {
 								</div>
 							</Col>
 							<Col xs={12} md={6} mdPull={6}>
-								<div className="blurb">
-									<p className="blurb__text"><Translate id="meetteam__blurb"><b>Meet our experienced and well-educated team of international teachers</b></Translate></p>
+								<div className="blurb blurb--red">
+									<p className="blurb__text"><Translate id="meetteam__blurb">Meet our experienced and well-educated team of international teachers</Translate></p>
 									<Link to="/team"><button className="link__button"><Translate id="meetteam">Meet The Team</Translate></button></Link>
 								</div>
 								
@@ -155,9 +155,9 @@ export default class Landing extends Component {
 							</Col>
 
 							<Col xs={12} md={6}>
-								<div className="blurb">
+								<div className="blurb blurb--red">
 									<p className="blurb__text">
-										<Translate id="prepsmith__blurb"><b>One of the few learning centers in China with tech-team supported software to simulate <i>real</i> online testing conditions</b></Translate>
+										<Translate id="prepsmith__blurb">One of the few learning centers in China with tech-team supported software to simulate <i>real</i> online testing conditions</Translate>
 									</p>
 									<a href="http://www.prepsmith.com"><button className="link__button">Check Out Prepsmith</button></a>
 								</div>

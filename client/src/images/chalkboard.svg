@@ -1,126 +1,75 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   xmlns:dc="http://purl.org/dc/elements/1.1/"
-   xmlns:cc="http://creativecommons.org/ns#"
-   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-   xmlns:svg="http://www.w3.org/2000/svg"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:xlink="http://www.w3.org/1999/xlink"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="195mm"
-   height="120mm"
-   viewBox="0 0 690.94488 425.19686"
-   id="svg2"
-   version="1.1"
-   inkscape:version="0.91 r13725"
-   sodipodi:docname="chalkboard.svg">
-  <defs
-     id="defs4">
-    <inkscape:perspective
-       sodipodi:type="inkscape:persp3d"
-       inkscape:vp_x="0 : 526.18113 : 1"
-       inkscape:vp_y="0 : 1000 : 0"
-       inkscape:vp_z="744.09447 : 526.18113 : 1"
-       inkscape:persp3d-origin="372.04724 : 350.78741 : 1"
-       id="perspective3356" />
-  </defs>
-  <sodipodi:namedview
-     id="base"
-     pagecolor="#ffffff"
-     bordercolor="#666666"
-     borderopacity="1.0"
-     inkscape:pageopacity="0.0"
-     inkscape:pageshadow="2"
-     inkscape:zoom="1.4142136"
-     inkscape:cx="323.63076"
-     inkscape:cy="275.60923"
-     inkscape:document-units="px"
-     inkscape:current-layer="layer1"
-     showgrid="false"
-     inkscape:window-width="1440"
-     inkscape:window-height="810"
-     inkscape:window-x="0"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0" />
-  <metadata
-     id="metadata7">
-    <rdf:RDF>
-      <cc:Work
-         rdf:about="">
-        <dc:format>image/svg+xml</dc:format>
-        <dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
-      </cc:Work>
-    </rdf:RDF>
-  </metadata>
-  <g
-     inkscape:label="Layer 1"
-     inkscape:groupmode="layer"
-     id="layer1"
-     transform="translate(0,-627.16534)">
-    <rect
-       style="fill:#d38d5f"
-       id="rect3336"
-       width="670.74127"
-       height="410.12195"
-       x="9.2934027"
-       y="639.10883" />
-    <rect
-       style="fill:#375646;fill-opacity:1"
-       id="rect3338"
-       width="635.83142"
-       height="378.45444"
-       x="28.122089"
-       y="654.685" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1"
-       id="rect4146"
-       width="34"
-       height="5"
-       x="410.8873"
-       y="1027.5082" />
-    <rect
-       style="fill:#ffffff;fill-opacity:1"
-       id="rect4148"
-       width="35"
-       height="8"
-       x="560.88733"
-       y="1024.1547" />
-    <rect
-       style="fill:#c87137;fill-opacity:1"
-       id="rect4160"
-       width="43"
-       height="12"
-       x="556.88733"
-       y="1014.1547" />
-    <image
-       y="240.8622"
-       x="-173"
-       id="image4183"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAIAAACvjKkbAAAAA3NCSVQICAjb4U/gAAAAF0lEQVQo kWP8//8/A+0BEx3sGLWGPAAACWkDBzbhY2gAAAAASUVORK5CYII= "
-       style="image-rendering:optimizeSpeed"
-       preserveAspectRatio="none"
-       height="5"
-       width="34" />
-    <image
-       y="1027.6547"
-       x="51.887302"
-       id="image4207"
-       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAIAAACvjKkbAAAAA3NCSVQICAjb4U/gAAAAF0lEQVQo kWP8//8/A+0BEx3sGLWGPAAACWkDBzbhY2gAAAAASUVORK5CYII= "
-       style="image-rendering:optimizeSpeed"
-       preserveAspectRatio="none"
-       height="5"
-       width="34" />
-    <rect
-       style="fill:#00aced;fill-opacity:1;fill-rule:nonzero"
-       id="rect4163"
-       width="27.308655"
-       height="4.9969363"
-       x="128.25484"
-       y="1027.6547" />
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440px" height="600px" viewBox="0 0 1440 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>chalkboard</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="chalkboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Chalkboard" transform="translate(202.000000, 84.000000)">
+            <g id="chalkboard" transform="translate(2.000000, 1.000000)">
+                <rect id="rect3336" fill="#D38D5F" fill-rule="nonzero" x="0.2934027" y="0.94349" width="670.74127" height="410.12195"></rect>
+                <rect id="rect3338" fill="#375646" fill-rule="nonzero" x="19.122089" y="16.51966" width="635.83142" height="378.45444"></rect>
+                <rect id="rect4146" fill="#FFFFFF" fill-rule="nonzero" x="401.8873" y="389.34286" width="34" height="5"></rect>
+                <rect id="rect4148" fill="#FFFFFF" fill-rule="nonzero" x="551.88733" y="385.98936" width="35" height="8"></rect>
+                <polygon id="rect4160" fill="#C87137" fill-rule="nonzero" points="547.88733 375.98936 590.88733 375.98936 590.88733 387.98936 572.108176 387.98936 566.141582 387.98936 547.88733 387.98936"></polygon>
+                <image id="image4207" x="43" y="389" width="34" height="5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAIAAACvjKkbAAAABGdBTUEAALGOGCHvlwAAABpJREFUKBVj/P//PwPtARPtrQDZMGoNGeEMAAlpAweNN3j9AAAAAElFTkSuQmCC"></image>
+                <rect id="rect4163" fill="#00ACED" fill-rule="nonzero" x="119.25484" y="389.48936" width="27.308655" height="4.9969363"></rect>
+            </g>
+            <text id="New-Pathway" font-family="TheGirlNextDoor, The Girl Next Door" font-size="84" font-weight="normal" fill="#FFFFFF">
+                <tspan x="100" y="120">New Pathway</tspan>
+            </text>
+            <text id="Teaching-Lifelong-Su" font-family="TheGirlNextDoor, The Girl Next Door" font-size="36" font-weight="normal" fill="#FFFFFF">
+                <tspan x="129" y="216">Teaching Lifelong Success</tspan>
+            </text>
+        </g>
+        <g id="Outlet" transform="translate(237.000000, 540.000000)">
+            <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
+            <g transform="translate(4.000000, 5.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+            <g id="Outlet-Copy" transform="translate(4.000000, 25.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CACACA"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+        </g>
+        <g id="Outlet-Copy-3" transform="translate(264.000000, 540.000000)">
+            <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
+            <g id="Outlet" transform="translate(4.000000, 5.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+            <g id="Outlet-Copy" transform="translate(4.000000, 25.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CACACA"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+        </g>
+        <g id="Outlet-Copy-2" transform="translate(991.000000, 540.000000)">
+            <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
+            <g id="Outlet" transform="translate(4.000000, 5.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+            <g id="Outlet-Copy" transform="translate(4.000000, 25.000000)">
+                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CACACA"></path>
+                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
+                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
+                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
+            </g>
+        </g>
+        <g id="Group" transform="translate(900.000000, 122.000000)">
+            <rect id="Rectangle-16" fill="#D9A665" x="0" y="0" width="338" height="338"></rect>
+            <rect id="Rectangle-16-Copy-2" fill="#9D7A46" x="23" y="23" width="292" height="292"></rect>
+        </g>
+    </g>
 </svg>
