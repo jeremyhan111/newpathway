@@ -3,17 +3,28 @@
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>chalkboard</title>
     <desc>Created with Sketch.</desc>
-    <defs></defs>
+    <defs>
+        <radialGradient cx="50%" cy="50%" fx="50%" fy="50%" r="73.2884754%" id="radialGradient-1">
+            <stop stop-color="#FFFFFF" stop-opacity="0.153702446" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.153702446" offset="100%"></stop>
+        </radialGradient>
+        <rect id="path-2" x="932" y="154" width="276" height="50"></rect>
+        <filter x="-0.7%" y="-2.0%" width="101.4%" height="108.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
     <g id="chalkboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Chalkboard" transform="translate(202.000000, 84.000000)">
             <g id="chalkboard" transform="translate(2.000000, 1.000000)">
                 <rect id="rect3336" fill="#D38D5F" fill-rule="nonzero" x="0.2934027" y="0.94349" width="670.74127" height="410.12195"></rect>
-                <rect id="rect3338" fill="#375646" fill-rule="nonzero" x="19.122089" y="16.51966" width="635.83142" height="378.45444"></rect>
+                <rect id="rect3338" stroke-opacity="0.551234149" stroke="#313131" stroke-width="2" fill="#375646" fill-rule="nonzero" x="20.122089" y="17.51966" width="633.83142" height="376.45444"></rect>
                 <rect id="rect4146" fill="#FFFFFF" fill-rule="nonzero" x="401.8873" y="389.34286" width="34" height="5"></rect>
-                <rect id="rect4148" fill="#FFFFFF" fill-rule="nonzero" x="551.88733" y="385.98936" width="35" height="8"></rect>
                 <polygon id="rect4160" fill="#C87137" fill-rule="nonzero" points="547.88733 375.98936 590.88733 375.98936 590.88733 387.98936 572.108176 387.98936 566.141582 387.98936 547.88733 387.98936"></polygon>
                 <image id="image4207" x="43" y="389" width="34" height="5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAIAAACvjKkbAAAABGdBTUEAALGOGCHvlwAAABpJREFUKBVj/P//PwPtARPtrQDZMGoNGeEMAAlpAweNN3j9AAAAAElFTkSuQmCC"></image>
                 <rect id="rect4163" fill="#00ACED" fill-rule="nonzero" x="119.25484" y="389.48936" width="27.308655" height="4.9969363"></rect>
+                <rect id="rect4148" fill="#FFFFFF" fill-rule="nonzero" x="551.88733" y="387.98936" width="35" height="6"></rect>
             </g>
             <text id="New-Pathway" font-family="TheGirlNextDoor, The Girl Next Door" font-size="84" font-weight="normal" fill="#FFFFFF">
                 <tspan x="100" y="120">New Pathway</tspan>
@@ -39,10 +50,13 @@
         </g>
         <g id="Group" transform="translate(900.000000, 122.000000)">
             <rect id="Rectangle-16" fill="#D9A665" x="0" y="0" width="338" height="338"></rect>
-            <rect id="Rectangle-16-Copy-2" fill="#9D7A46" x="23" y="23" width="292" height="292"></rect>
+            <rect id="Rectangle-16-Copy-2" stroke="url(#radialGradient-1)" stroke-width="2" fill="#9D7A46" x="24" y="24" width="290" height="290"></rect>
         </g>
         <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="936" cy="158" r="1"></circle>
-        <rect id="Rectangle-17" fill="#FFFFFF" x="932" y="154" width="276" height="50"></rect>
+        <g id="Rectangle-17">
+            <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+            <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-2"></use>
+        </g>
         <text id="ANNOUNCEMENTS" font-family="TsukuARdGothic-Regular, Tsukushi A Round Gothic" font-size="26" font-weight="normal" fill="#000000">
             <tspan x="947" y="185">ANNOUNCEMENTS</tspan>
         </text>
