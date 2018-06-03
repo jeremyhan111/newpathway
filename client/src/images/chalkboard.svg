@@ -22,37 +22,7 @@
                 <tspan x="129" y="216">Teaching Lifelong Success</tspan>
             </text>
         </g>
-        <g id="Outlet" transform="translate(237.000000, 540.000000)">
-            <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
-            <g transform="translate(4.000000, 5.000000)">
-                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
-                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
-                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
-                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
-            </g>
-            <g id="Outlet-Copy" transform="translate(4.000000, 25.000000)">
-                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CACACA"></path>
-                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
-                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
-                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
-            </g>
-        </g>
-        <g id="Outlet-Copy-3" transform="translate(264.000000, 540.000000)">
-            <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
-            <g id="Outlet" transform="translate(4.000000, 5.000000)">
-                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
-                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
-                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
-                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
-            </g>
-            <g id="Outlet-Copy" transform="translate(4.000000, 25.000000)">
-                <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CACACA"></path>
-                <rect id="Rectangle-12" stroke="#000000" x="6.5" y="2.5" width="1" height="4"></rect>
-                <rect id="Rectangle-12-Copy" stroke="#000000" x="13.5" y="2.5" width="1" height="4"></rect>
-                <path d="M8,10 C8,8.8954305 8.8954305,8 10,8 C11.1045695,8 12,8.8954305 12,10 L12,12 L8,12 L8,10 Z" id="Combined-Shape" stroke="#000000" fill="#000000"></path>
-            </g>
-        </g>
-        <g id="Outlet-Copy-2" transform="translate(991.000000, 540.000000)">
+        <g id="Outlet-Copy-2" transform="translate(276.000000, 531.000000)">
             <rect id="Rectangle-11" stroke="#CFCFCF" fill="#FFFFFF" x="0.5" y="0.5" width="27" height="42"></rect>
             <g id="Outlet" transform="translate(4.000000, 5.000000)">
                 <path d="M2.8585672,0 L17.1414328,0 C18.9096817,1.80375068 20,4.2745466 20,7 C20,9.7254534 18.9096817,12.1962493 17.1414328,14 L2.8585672,14 C1.09031832,12.1962493 0,9.7254534 0,7 C0,4.2745466 1.09031832,1.80375068 2.8585672,0 Z" id="Combined-Shape" stroke="#CDCDCD"></path>
@@ -71,5 +41,17 @@
             <rect id="Rectangle-16" fill="#D9A665" x="0" y="0" width="338" height="338"></rect>
             <rect id="Rectangle-16-Copy-2" fill="#9D7A46" x="23" y="23" width="292" height="292"></rect>
         </g>
+        <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="936" cy="158" r="1"></circle>
+        <rect id="Rectangle-17" fill="#FFFFFF" x="932" y="154" width="276" height="50"></rect>
+        <text id="ANNOUNCEMENTS" font-family="TsukuARdGothic-Regular, Tsukushi A Round Gothic" font-size="26" font-weight="normal" fill="#000000">
+            <tspan x="947" y="185">ANNOUNCEMENTS</tspan>
+        </text>
+        <circle id="Oval-5" fill="#FF4949" cx="936" cy="158" r="2"></circle>
+        <circle id="Oval-5-Copy-2" fill="#4954FF" cx="933" cy="413" r="2"></circle>
+        <circle id="Oval-5-Copy-4" fill="#FF495F" cx="938" cy="424" r="2"></circle>
+        <circle id="Oval-5-Copy-3" fill="#FFFB58" cx="944" cy="413" r="2"></circle>
+        <circle id="Oval-5-Copy-6" fill="#FFC127" cx="953" cy="409" r="2"></circle>
+        <circle id="Oval-5-Copy-5" fill="#39FF44" cx="956" cy="423" r="2"></circle>
+        <circle id="Oval-5-Copy" fill="#46A940" cx="1204" cy="158" r="2"></circle>
     </g>
 </svg>

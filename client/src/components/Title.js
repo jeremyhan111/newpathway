@@ -22,7 +22,7 @@ export default class Title extends Component {
 				<h4 className="landing__subtitle"></h4>
 
 				<Link to="/contact"><button className="landing__button">
-					{/*<Translate id="signup">Sign Up For Classes Here</Translate>*/}
+					<Translate id="signup">Sign Up For Classes Here</Translate>
 				</button></Link>
 			</div>
 		)

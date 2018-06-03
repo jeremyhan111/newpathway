@@ -38,6 +38,7 @@
 
 .contact__intro {	
 	padding-bottom: 20px;
+	border-bottom: 1px solid lightgrey;
 }
 
 .contact__header {
@@ -53,10 +54,10 @@
 	color: white;
 	border: none;
 	font-size: 18px;
+	border-radius: 0px;
 	background-color: #FF4D4C;
 	width: 200px;
 	height: 50px;
-	border-radius: 3px;
 	margin: 20px;
 	transition-duration: .2s;
 	background-image: none;

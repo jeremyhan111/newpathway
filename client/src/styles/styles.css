@@ -129,7 +129,6 @@ a:hover {
   background-color: #FF4D4C;
   width: 200px;
   height: 50px;
-  border-radius: 3px;
   margin-top: 20px;
   transition-duration: .2s;
   background-image: none;
@@ -267,7 +266,8 @@ a:hover {
   text-align: center; }
 
 .contact__intro {
-  padding-bottom: 20px; }
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgrey; }
 
 .contact__header {
   font-size: 60px;
@@ -280,10 +280,10 @@ a:hover {
   color: white;
   border: none;
   font-size: 18px;
+  border-radius: 0px;
   background-color: #FF4D4C;
   width: 200px;
   height: 50px;
-  border-radius: 3px;
   margin: 20px;
   transition-duration: .2s;
   background-image: none;
@@ -599,7 +599,8 @@ a:hover {
   font-size: 24px;
   background: transparent;
   color: white;
-  transition-duration: .2s; }
+  transition-duration: .2s;
+  right: 12%; }
 
 .landing__button:hover {
   text-decoration: underline; }
@@ -646,7 +647,7 @@ a:hover {
     bottom: 250px; }
   .landing__button {
     font-size: 26px;
-    bottom: 210px; } }
+    bottom: 200px; } }
 
 @media (min-width: 992px) {
   .title__screen {
@@ -658,7 +659,7 @@ a:hover {
     font-size: 40px; }
   .landing__button {
     font-size: 28px;
-    bottom: 200px; } }
+    bottom: 240px; } }
 
 .about__title {
   font-size: 50px;
