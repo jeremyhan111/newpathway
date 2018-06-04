@@ -219,7 +219,8 @@ a:hover {
 .footer-bar {
   float: none;
   text-align: center;
-  margin-top: 20px; }
+  margin-top: 20px;
+  position: static; }
 
 .footer__list-item {
   font-size: 14px; }

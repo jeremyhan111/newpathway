@@ -8,7 +8,7 @@ const Footer = () => {
 		<footer className="footer">
 			<Grid>
 				<Row>
-					<Col sm={12} md={3}>
+					<Col sm={12} md={4}>
 						<nav>
 							<ul className="footer__list">
 								<li className="footer__list-item footer__list-title"><Link to="/services">Services</Link></li>
@@ -19,7 +19,7 @@ const Footer = () => {
 							</ul>
 						</nav>
 					</Col>
-					<Col sm={12} md={3}>
+					<Col sm={12} md={4}>
 						<nav>
 							<ul className="footer__list">
 								<li className="footer__list-item footer__list-title"><Link to="/team">Teams</Link></li>
@@ -29,27 +29,21 @@ const Footer = () => {
 							</ul>
 						</nav>
 					</Col>
-					<Col sm={12} md={3}>
-						<ul className="footer__list">
-							<li className="footer__list-item footer__list-title">Other Stuff</li>
-							<li className="footer__list-item">Blah</li>
-						</ul>
-					</Col>
-					<Col sm={12} md={3}>
+					<Col sm={12} md={4}>
 						<nav>
 							<ul className="footer__list">
 								<li className="footer__list-item footer__list-title"><Link to="/about">Company</Link></li>
-								<li className="footer__list-item">Careers</li>
-								<li className="footer__list-item">About Us</li>
-								<li className="footer__list-item">Locations</li>
-								<li className="footer__list-item">Contact Us</li>
+								<li className="footer__list-item"><Link to="/jobs">Jobs</Link></li>
+								<li className="footer__list-item"><Link to="/about">About Us</Link></li>
+								<li className="footer__list-item"><Link to="/contact">Locations</Link></li>
+								<li className="footer__list-item"><Link to="/contact">Contact Us</Link></li>
 							</ul>
 						</nav>
 					</Col>
 				</Row>
 
 				<Row>
-					<Col sm={12}>
+					<Col sm={4} smOffset={4}>
 						<nav className="social-media-bar footer-bar">
 							Copyright(C) New Pathway Education<br/>
 				  			<SocialIcon url="https://twitter.com/newpathwayed/" style={{ height: 20, width: 20 }}/>
