@@ -8,18 +8,54 @@
             <stop stop-color="#FFFFFF" stop-opacity="0.153702446" offset="0%"></stop>
             <stop stop-color="#000000" stop-opacity="0.153702446" offset="100%"></stop>
         </radialGradient>
-        <rect id="path-2" x="932" y="154" width="276" height="50"></rect>
-        <filter x="-0.7%" y="-2.0%" width="101.4%" height="108.0%" filterUnits="objectBoundingBox" id="filter-3">
+        <rect id="path-2" x="932" y="154" width="276" height="43"></rect>
+        <filter x="-0.7%" y="-2.3%" width="101.4%" height="109.3%" filterUnits="objectBoundingBox" id="filter-3">
             <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="0.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-4" cx="936" cy="158" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-6" cx="933" cy="413" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-8" cx="938" cy="424" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-10" cx="944" cy="413" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-11">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-12" cx="953" cy="409" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-13">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-14" cx="956" cy="423" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-15">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <circle id="path-16" cx="1204" cy="158" r="2"></circle>
+        <filter x="-12.5%" y="-12.5%" width="125.0%" height="150.0%" filterUnits="objectBoundingBox" id="filter-17">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="chalkboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Chalkboard" transform="translate(202.000000, 84.000000)">
             <g id="chalkboard" transform="translate(2.000000, 1.000000)">
-                <rect id="rect3336" fill="#D38D5F" fill-rule="nonzero" x="0.2934027" y="0.94349" width="670.74127" height="410.12195"></rect>
-                <rect id="rect3338" stroke-opacity="0.551234149" stroke="#313131" stroke-width="2" fill="#375646" fill-rule="nonzero" x="20.122089" y="17.51966" width="633.83142" height="376.45444"></rect>
+                <rect id="rect3336" stroke-opacity="0.47265625" stroke="#656565" fill="#D38D5F" fill-rule="nonzero" x="0.2934027" y="0.94349" width="670.74127" height="410.12195"></rect>
+                <rect id="rect3338" stroke-opacity="0.551234149" stroke="#313131" stroke-width="4" fill="#375646" fill-rule="nonzero" x="21.122089" y="18.51966" width="631.83142" height="374.45444"></rect>
                 <rect id="rect4146" fill="#FFFFFF" fill-rule="nonzero" x="401.8873" y="389.34286" width="34" height="5"></rect>
                 <polygon id="rect4160" fill="#C87137" fill-rule="nonzero" points="547.88733 375.98936 590.88733 375.98936 590.88733 387.98936 572.108176 387.98936 566.141582 387.98936 547.88733 387.98936"></polygon>
                 <image id="image4207" x="43" y="389" width="34" height="5" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAFCAIAAACvjKkbAAAABGdBTUEAALGOGCHvlwAAABpJREFUKBVj/P//PwPtARPtrQDZMGoNGeEMAAlpAweNN3j9AAAAAElFTkSuQmCC"></image>
@@ -49,8 +85,8 @@
             </g>
         </g>
         <g id="Group" transform="translate(900.000000, 122.000000)">
-            <rect id="Rectangle-16" fill="#D9A665" x="0" y="0" width="338" height="338"></rect>
-            <rect id="Rectangle-16-Copy-2" stroke="url(#radialGradient-1)" stroke-width="2" fill="#9D7A46" x="24" y="24" width="290" height="290"></rect>
+            <rect id="Rectangle-16" stroke-opacity="0.645040761" stroke="#A0A0A0" fill="#D9A665" x="0.5" y="0.5" width="337" height="337"></rect>
+            <rect id="Rectangle-16-Copy-2" stroke="url(#radialGradient-1)" stroke-width="4" fill="#9D7A46" x="25" y="25" width="288" height="288"></rect>
         </g>
         <circle id="Oval" stroke="#979797" fill="#D8D8D8" cx="936" cy="158" r="1"></circle>
         <g id="Rectangle-17">
@@ -60,12 +96,33 @@
         <text id="ANNOUNCEMENTS" font-family="TsukuARdGothic-Regular, Tsukushi A Round Gothic" font-size="26" font-weight="normal" fill="#000000">
             <tspan x="947" y="185">ANNOUNCEMENTS</tspan>
         </text>
-        <circle id="Oval-5" fill="#FF4949" cx="936" cy="158" r="2"></circle>
-        <circle id="Oval-5-Copy-2" fill="#4954FF" cx="933" cy="413" r="2"></circle>
-        <circle id="Oval-5-Copy-4" fill="#FF495F" cx="938" cy="424" r="2"></circle>
-        <circle id="Oval-5-Copy-3" fill="#FFFB58" cx="944" cy="413" r="2"></circle>
-        <circle id="Oval-5-Copy-6" fill="#FFC127" cx="953" cy="409" r="2"></circle>
-        <circle id="Oval-5-Copy-5" fill="#39FF44" cx="956" cy="423" r="2"></circle>
-        <circle id="Oval-5-Copy" fill="#46A940" cx="1204" cy="158" r="2"></circle>
+        <g id="Oval-5">
+            <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+            <use fill="#FF4949" fill-rule="evenodd" xlink:href="#path-4"></use>
+        </g>
+        <g id="Oval-5-Copy-2">
+            <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+            <use fill="#4954FF" fill-rule="evenodd" xlink:href="#path-6"></use>
+        </g>
+        <g id="Oval-5-Copy-4">
+            <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+            <use fill="#FF495F" fill-rule="evenodd" xlink:href="#path-8"></use>
+        </g>
+        <g id="Oval-5-Copy-3">
+            <use fill="black" fill-opacity="1" filter="url(#filter-11)" xlink:href="#path-10"></use>
+            <use fill="#FFFB58" fill-rule="evenodd" xlink:href="#path-10"></use>
+        </g>
+        <g id="Oval-5-Copy-6">
+            <use fill="black" fill-opacity="1" filter="url(#filter-13)" xlink:href="#path-12"></use>
+            <use fill="#FFC127" fill-rule="evenodd" xlink:href="#path-12"></use>
+        </g>
+        <g id="Oval-5-Copy-5">
+            <use fill="black" fill-opacity="1" filter="url(#filter-15)" xlink:href="#path-14"></use>
+            <use fill="#39FF44" fill-rule="evenodd" xlink:href="#path-14"></use>
+        </g>
+        <g id="Oval-5-Copy">
+            <use fill="black" fill-opacity="1" filter="url(#filter-17)" xlink:href="#path-16"></use>
+            <use fill="#46A940" fill-rule="evenodd" xlink:href="#path-16"></use>
+        </g>
     </g>
 </svg>

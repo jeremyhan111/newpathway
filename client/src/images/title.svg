@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="597px" height="232px" viewBox="0 0 597 232" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="628px" height="244px" viewBox="0 0 628 244" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>title</title>
     <desc>Created with Sketch.</desc>
@@ -8,14 +8,14 @@
         <g id="chalkboard-copy" transform="translate(-142.000000, -81.000000)" fill-rule="nonzero">
             <g id="title" transform="translate(140.000000, 81.000000)">
                 <g id="Chalkboard">
-                    <g id="chalkboard" transform="translate(1.901587, 0.000000)">
-                        <rect id="rect3336" fill="#D38D5F" x="0.260699831" y="0.531397796" width="595.979982" height="230.991214"></rect>
-                        <rect id="rect3338" stroke-opacity="0.551234149" stroke="#313131" stroke-width="2" fill="#375646" x="13.7452668" y="10.3042967" width="571.452129" height="211.155259"></rect>
+                    <g id="chalkboard" transform="translate(2.000000, 0.000000)">
+                        <rect id="rect3336" fill="#D38D5F" x="0.274191809" y="0.558765922" width="626.823687" height="242.887757"></rect>
+                        <rect id="rect3338" stroke-opacity="0.551234149" stroke="#313131" stroke-width="3" fill="#375646" x="14.9048716" y="11.283488" width="600.129953" height="221.133212"></rect>
                     </g>
                 </g>
-                <polygon id="rect4160" fill="#C87137" points="54 205 95 205 95 216 77.0942949 216 71.405217 216 54 216"></polygon>
-                <rect id="rect4148" fill="#FFFFFF" x="58" y="216" width="33" height="6"></rect>
-                <rect id="rect4146" fill="#FFFFFF" x="224" y="217" width="32" height="5"></rect>
+                <polygon id="rect4160" fill="#C87137" points="57 215 100 215 100 227 81.2208458 227 75.254252 227 57 227"></polygon>
+                <rect id="rect4148" fill="#FFFFFF" x="61" y="227" width="35" height="6"></rect>
+                <rect id="rect4146" fill="#FFFFFF" x="236" y="228" width="34" height="5"></rect>
             </g>
         </g>
     </g>
