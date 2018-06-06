@@ -3,6 +3,7 @@ import { FormGroup, ControlLabel, FormControl, HelpBlock, Button } from 'react-b
 import { Grid, Row, Col } from 'react-bootstrap';
 
 import FieldGroup from './FieldGroup';
+import Locations from './Locations';
 
 class Contact extends Component {
 	componentDidMount() {
@@ -84,6 +85,9 @@ class Contact extends Component {
 				    <Button id="contact__button" type="submit">Submit</Button>
 
 				</form>
+
+
+				<Locations/>
 			</div>
 		)
 	};

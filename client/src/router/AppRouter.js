@@ -14,6 +14,7 @@ import Consulting from './../components/Consulting';
 import Class from './../components/Class';
 import About from './../components/About';
 import Jobs from './../components/Jobs';
+import Locations from './../components/Locations';
 
 import sat from './../images/sat.png';
 import act from './../images/act.png';
@@ -281,6 +282,7 @@ const AppRouter = () => (
 				<Route path="/contact" component={Contact}/>
 				<Route path="/about" component={About}/> 
 				<Route path="/jobs" component={Jobs}/> 
+				<Route path="/locations" component={Locations}/> 
 
 				<Route path="/ssat" component={SSAT}/>
 				<Route path="/isee" component={ISEE}/>
