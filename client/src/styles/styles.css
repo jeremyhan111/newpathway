@@ -688,3 +688,40 @@ a:hover {
 
 .vision {
   border: 10px solid #69de92; }
+
+.job__block {
+  margin-bottom: 50px; }
+
+.jobs__header {
+  font-size: 40px;
+  text-align: left; }
+
+.jobs__subheader {
+  font-size: 20px;
+  text-align: left; }
+
+.jobgenre {
+  text-align: left; }
+
+.jobgenre__header {
+  padding-bottom: 10px;
+  border-bottom: lightgrey solid 1px;
+  font-weight: bold; }
+
+.job {
+  margin-bottom: 20px; }
+
+.job__link {
+  color: black;
+  transition-duration: .2s; }
+
+.job__link:hover {
+  color: #3683d2; }
+
+.job__title {
+  text-align: left;
+  margin: 0px; }
+
+.job__location {
+  text-align: left;
+  margin: 0px; }

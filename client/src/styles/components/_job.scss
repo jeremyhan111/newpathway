@@ -1,0 +1,22 @@
+.job {
+	margin-bottom: 20px;
+}
+
+.job__link {
+	color: black;
+	transition-duration: .2s;
+}
+
+.job__link:hover {
+	color: #3683d2;
+}
+
+.job__title {
+	text-align: left;
+	margin: 0px;
+}
+
+.job__location {
+	text-align: left;
+	margin: 0px;
+}
