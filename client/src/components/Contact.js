@@ -24,6 +24,7 @@ class Contact extends Component {
 					</Col>
 				</Row>
 
+
 				<form className="contact__form">
 					<h1>Send a message</h1>
 					<Grid>
@@ -85,9 +86,6 @@ class Contact extends Component {
 				    <Button id="contact__button" type="submit">Submit</Button>
 
 				</form>
-
-
-				<Locations/>
 			</div>
 		)
 	};
