@@ -81,9 +81,14 @@ class Contact extends Component {
 							    </FormGroup>
 							</Col>
 						</Row>
+
+						<Row xs={12} md={8} mdOffset={2}>
+							<Button id="contact__button" type="submit">Submit</Button>
+						</Row>
+
 					</Grid>
 
-				    <Button id="contact__button" type="submit">Submit</Button>
+
 
 				</form>
 			</div>

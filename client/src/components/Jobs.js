@@ -12,12 +12,14 @@ class Jobs extends Component {
 	render() {
 		return (
 			<div className="container">
-				<Row>
-					<Col sm={12} md={6} mdOffset={1}>
-						<h1 className="jobs__header">Join the Team</h1>
-						<p className="jobs__subheader">And impact the lives of students all over China</p>
-					</Col>
-				</Row>
+				<div className="jobs__intro">
+					<Row>
+						<Col sm={12} md={6} mdOffset={1}>
+							<h1 className="jobs__header">Join the Team</h1>
+							<p className="jobs__subheader">And impact the lives of students all over China</p>
+						</Col>
+					</Row>
+				</div>
 				<div className="job__block">
 					<JobGenre title="Business Development"/>
 					<Job title="Business Development Manager" location="Shanghai" url="https://google.com"/>
