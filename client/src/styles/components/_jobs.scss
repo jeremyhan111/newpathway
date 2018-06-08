@@ -10,7 +10,7 @@
 }
 
 .jobs__header {
-	margin-top: 100px;
+	margin-top: 120px;
 	margin-bottom: 10px;
 	font-size: 50px;
 	text-align: left;
@@ -21,4 +21,17 @@
 	color: white;
 	font-size: 20px;
 	text-align: left;
+}
+
+.jobs__section {
+	font-size: 18px;
+	text-align: left;
+}
+
+.jobs__section--spacing {
+	margin-top: 40px;
+}
+
+.jobs__npicon {
+	width: 220px;
 }
