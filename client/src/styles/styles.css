@@ -265,7 +265,7 @@ a:hover {
 
 .contact__intro {
   padding-bottom: 20px;
-  border-bottom: 1px solid lightgrey; }
+  border-bottom: 2px solid lightgrey; }
 
 .contact__header {
   font-size: 60px;
@@ -697,7 +697,8 @@ a:hover {
 
 .jobs__header {
   margin-top: 100px;
-  font-size: 40px;
+  margin-bottom: 10px;
+  font-size: 50px;
   text-align: left;
   color: white; }
 
@@ -705,6 +706,13 @@ a:hover {
   color: white;
   font-size: 20px;
   text-align: left; }
+
+.locations__header {
+  font-size: 40px; }
+
+.map__contact {
+  margin-bottom: 25px;
+  margin-top: 10px; }
 
 .jobgenre {
   text-align: left; }

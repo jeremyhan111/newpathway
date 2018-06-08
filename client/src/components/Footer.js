@@ -2,6 +2,7 @@ import React from 'react';
 import { Grid, Row, Col } from 'react-bootstrap';
 import { SocialIcon } from 'react-social-icons';
 import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Footer = () => {
 	return (
@@ -35,7 +36,11 @@ const Footer = () => {
 								<li className="footer__list-item footer__list-title"><Link to="/about">Company</Link></li>
 								<li className="footer__list-item"><Link to="/jobs">Jobs</Link></li>
 								<li className="footer__list-item"><Link to="/about">About Us</Link></li>
-								<li className="footer__list-item"><Link to="/contact">Locations</Link></li>
+								<li className="footer__list-item"><HashLink to="/contact#locations">Locations</HashLink></li>
+
+
+
+
 								<li className="footer__list-item"><Link to="/contact">Contact Us</Link></li>
 							</ul>
 						</nav>

@@ -89,8 +89,8 @@ class Contact extends Component {
 					</Grid>
 
 
-
 				</form>
+				<Locations/>
 			</div>
 		)
 	};
