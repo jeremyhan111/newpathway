@@ -3,9 +3,10 @@ import MyMapComponent from './Map';
 import { Row, Col } from 'react-bootstrap';
 import key from './../config/keys';
 
-const url = "http://maps.google.cn/maps/api/js?key=" + key.mapsApiKey + "&v=3.exp&libraries=geometry,drawing,places"
+const url = "https://maps.google.cn/maps/api/js?key=" + key.mapsApiKey + "&v=3.exp&libraries=geometry,drawing,places"
 
 const Locations = () => {
+	console.log(url);
 	return (
 		<div className="container">
 			<h1 id="locations" className="locations__header">Locations</h1>
