@@ -18,12 +18,9 @@ const Locations = () => {
 						  mapUrl={url}
 						  loadingElement={<div>Loading.....</div>}
 						  mapContainer={<div style={{ height: '100%' }} />} >
-						  <Marker position={{ lng: 116.404, lat: 39.915 }} />
+						  <Marker position={{ lng: 121.432, lat: 31.185 }} />
 						</BaiduMap>
 					</div>
-
-
-					
 					
 					<p className="map__contact">
 						<b>Shanghai Xujiahui (HQ)</b><br/>Unit F, G, H, 25th Floor, No. 899, Lingling Road, Cross Region Building, Xuhui District<br/>
@@ -31,7 +28,14 @@ const Locations = () => {
 					</p>
 				</Col>
 				<Col sm={12} md={4}>
-					
+					<div style={{ background: '#444', height: '300px' }}>
+						<BaiduMap
+						  mapUrl={url}
+						  loadingElement={<div>Loading.....</div>}
+						  mapContainer={<div style={{ height: '100%' }} />} >
+						  <Marker position={{ lng: 121.394, lat: 31.194 }} />
+						</BaiduMap>
+					</div>
 					<p className="map__contact">
 						<b>Shanghai Gubei</b><br/>9th Floor, No. 37, South Shuicheng Road, North Wanke Building, Changning District<br/>
 						<b>+86-21-6275-4553</b>
@@ -41,6 +45,14 @@ const Locations = () => {
 			</Row>
 			<Row>
 				<Col sm={12} md={4} mdOffset={2}>
+					<div style={{ background: '#444', height: '300px' }}>
+						<BaiduMap
+						  mapUrl={url}
+						  loadingElement={<div>Loading.....</div>}
+						  mapContainer={<div style={{ height: '100%' }} />} >
+						  <Marker position={{ lng: 121.552, lat: 31.225 }} />
+						</BaiduMap>
+					</div>
 					
 					<p className="map__contact">
 						<b>Shanghai Pudong</b><br/>1705, No. 58 Changliu Road, Pudong New District<br/>
@@ -49,6 +61,14 @@ const Locations = () => {
 				</Col>
 
 				<Col sm={12} md={4}>
+					<div style={{ background: '#444', height: '300px' }}>
+						<BaiduMap
+						  mapUrl={url}
+						  loadingElement={<div>Loading.....</div>}
+						  mapContainer={<div style={{ height: '100%' }} />} >
+						  <Marker position={{ lng: 116.544, lat: 40.105 }} />
+						</BaiduMap>
+					</div>
 					
 					<p className="map__contact">
 						<b>Beijing</b><br/>Lemon Lake Clubhouse, Tianbei Rd, Houshayu Town, Shunyi District<br/>
