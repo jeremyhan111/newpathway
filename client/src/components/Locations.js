@@ -13,14 +13,14 @@ const Locations = () => {
 			<h1 id="locations" className="locations__header">Locations</h1>
 			<Row>
 				<Col sm={12} md={4} mdOffset={2}>
-					<div style={{ background: '#444', height: '500px' }}>
+					<div style={{ background: '#444', height: '300px' }}>
 						<BaiduMap
 						  mapUrl={url}
 						  loadingElement={<div>Loading.....</div>}
 						  mapContainer={<div style={{ height: '100%' }} />} >
 						  <Marker position={{ lng: 116.404, lat: 39.915 }} />
 						</BaiduMap>
-					</div>, container);
+					</div>
 
 
 					
