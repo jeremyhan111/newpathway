@@ -90,7 +90,6 @@ class Contact extends Component {
 
 
 				</form>
-				<Locations/>
 			</div>
 		)
 	};
