@@ -10,6 +10,9 @@ const Locations = () => {
 			<h1 id="locations" className="locations__header">Locations</h1>
 			<Row>
 				<Col sm={12} md={4} mdOffset={2}>
+				<div style={{ background: '#444', height: '500px' }}>
+				    <BaiduMap mapContainer={<div style={{ height: '100%' }} />} />
+				</div>, container);
 					
 					<p className="map__contact">
 						<b>Shanghai Xujiahui (HQ)</b><br/>Unit F, G, H, 25th Floor, No. 899, Lingling Road, Cross Region Building, Xuhui District<br/>
