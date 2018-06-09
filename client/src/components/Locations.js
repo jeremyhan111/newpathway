@@ -1,11 +1,10 @@
 import React from 'react';
-import MyMapComponent from './Map';
 import { Row, Col } from 'react-bootstrap';
+import { BaiduMap } from 'react-baidu-maps';
 import key from './../config/keys';
 
 
 const Locations = () => {
-	console.log(url);
 	return (
 		<div className="container">
 			<h1 id="locations" className="locations__header">Locations</h1>
