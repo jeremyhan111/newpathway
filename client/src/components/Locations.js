@@ -1,8 +1,11 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { BaiduMap } from 'react-baidu-maps';
+import { BaiduMap, Marker } from 'react-baidu-maps';
 import key from './../config/keys';
 
+
+
+const url = `https://api.map.baidu.com/api?v=2.0&ak=EgeDVs86fhrPgkTNnyzdU3tyCnCthk9z`;
 
 const Locations = () => {
 	return (
@@ -10,9 +13,17 @@ const Locations = () => {
 			<h1 id="locations" className="locations__header">Locations</h1>
 			<Row>
 				<Col sm={12} md={4} mdOffset={2}>
-				<div style={{ background: '#444', height: '500px' }}>
-				    <BaiduMap mapContainer={<div style={{ height: '100%' }} />} />
-				</div>, container);
+					<div style={{ background: '#444', height: '500px' }}>
+						<BaiduMap
+						  mapUrl={url}
+						  loadingElement={<div>Loading.....</div>}
+						  mapContainer={<div style={{ height: '100%' }} />} >
+						  <Marker position={{ lng: 116.404, lat: 39.915 }} />
+						</BaiduMap>
+					</div>, container);
+
+
+					
 					
 					<p className="map__contact">
 						<b>Shanghai Xujiahui (HQ)</b><br/>Unit F, G, H, 25th Floor, No. 899, Lingling Road, Cross Region Building, Xuhui District<br/>
