@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="671px" height="30px" viewBox="0 0 671 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="660px" height="30px" viewBox="0 0 660 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
     <title>pencil</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <filter x="-0.1%" y="-3.6%" width="100.3%" height="114.3%" filterUnits="objectBoundingBox" id="filter-1">
+        <filter x="-0.2%" y="-3.6%" width="100.3%" height="114.3%" filterUnits="objectBoundingBox" id="filter-1">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
             <feMerge>
@@ -17,20 +17,24 @@
             <stop stop-color="#E58484" offset="100%"></stop>
         </linearGradient>
         <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#73B564" offset="0%"></stop>
+            <stop stop-color="#3F7E34" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
             <stop stop-color="#EFC164" offset="0%"></stop>
             <stop stop-color="#B36B16" offset="100%"></stop>
         </linearGradient>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Artboard-Copy-2" transform="translate(-78.000000, -72.000000)">
-            <g id="pencil" filter="url(#filter-1)" transform="translate(78.000000, 72.000000)">
-                <rect id="Rectangle-18" fill="url(#linearGradient-2)" x="0" y="0" width="50" height="28" rx="10"></rect>
-                <rect id="Rectangle-18-Copy" fill="#3F7E34" x="39" y="0" width="17" height="28"></rect>
-                <rect id="Rectangle-18-Copy-2" fill="#FDFB75" x="54" y="0" width="534" height="9"></rect>
-                <rect id="Rectangle-18-Copy-3" fill="#D4CB41" x="54" y="19" width="534" height="9"></rect>
-                <rect id="Rectangle-18-Copy-4" fill="#EFEA49" x="54" y="7" width="534" height="14"></rect>
-                <polygon id="Triangle" fill="url(#linearGradient-3)" points="671 14 587 28 587 0"></polygon>
-                <polygon id="Triangle-Copy" fill="#634646" points="671 14 647 18 647 10"></polygon>
+        <g id="Artboard-Copy-2" transform="translate(-89.000000, -72.000000)">
+            <g id="pencil" filter="url(#filter-1)" transform="translate(89.000000, 72.000000)">
+                <rect id="Rectangle-18" fill="url(#linearGradient-2)" x="0" y="0" width="39" height="28" rx="6"></rect>
+                <rect id="Rectangle-18-Copy" fill="url(#linearGradient-3)" x="28" y="0" width="17" height="28"></rect>
+                <rect id="Rectangle-18-Copy-2" fill="#FDFB75" x="43" y="0" width="534" height="9"></rect>
+                <rect id="Rectangle-18-Copy-3" fill="#D4CB41" x="43" y="19" width="534" height="9"></rect>
+                <rect id="Rectangle-18-Copy-4" fill="#EFEA49" x="43" y="7" width="534" height="14"></rect>
+                <polygon id="Triangle" fill="url(#linearGradient-4)" points="660 14 576 28 576 0"></polygon>
+                <polygon id="Triangle-Copy" fill="#634646" points="660 14 636 18 636 10"></polygon>
             </g>
         </g>
     </g>

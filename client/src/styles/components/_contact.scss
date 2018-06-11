@@ -1,9 +1,17 @@
-.contact__form {
-
-}
-
 .contact__container {
 	text-align: center;
+}
+
+.contact__wechat:before {
+	content: url('./../images/wechat.svg');
+}
+
+.contact__number:before {
+	content: url('./../images/telephone.svg');
+}
+
+.contact__email:before {
+	content: url('./../images/mail-small.svg');
 }
 
 .form-group {
@@ -38,7 +46,6 @@
 
 .contact__intro {	
 	padding-bottom: 20px;
-	border-bottom: 2px solid lightgrey;
 }
 
 .contact__header {
@@ -47,7 +54,7 @@
 }
 
 .contact__subheader {
-	font-size: 16px;
+	font-size: 22px;
 }
 
 #contact__button {

@@ -3,6 +3,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
+import { HashLink } from 'react-router-hash-link';
 
 const ContactButton = () => {
 	return (
@@ -14,15 +15,17 @@ const ContactButton = () => {
 							Ready to improve your scores and get into your dream schools?
 						</Translate>
 					</p>
-					<Link to="/contact"><button className="link__button">
+					<HashLink to="/contact#sendmessage"><button className="link__button">
 						<Translate id="contact">
 							Contact Us
 						</Translate>
-					</button></Link>
+					</button></HashLink>
 				</Col>
 			</Row>
 		</div>
 	)
 }
+
+
 
 export default ContactButton;

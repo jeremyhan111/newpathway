@@ -239,6 +239,15 @@ a:hover {
 .contact__container {
   text-align: center; }
 
+.contact__wechat:before {
+  content: url("./../images/wechat.svg"); }
+
+.contact__number:before {
+  content: url("./../images/telephone.svg"); }
+
+.contact__email:before {
+  content: url("./../images/mail-small.svg"); }
+
 .form-group {
   margin: 0; }
 
@@ -264,15 +273,14 @@ a:hover {
   text-align: center; }
 
 .contact__intro {
-  padding-bottom: 20px;
-  border-bottom: 2px solid lightgrey; }
+  padding-bottom: 20px; }
 
 .contact__header {
   font-size: 60px;
   margin-bottom: 0; }
 
 .contact__subheader {
-  font-size: 16px; }
+  font-size: 22px; }
 
 #contact__button {
   color: white;
@@ -731,9 +739,15 @@ a:hover {
 .locations__header {
   font-size: 40px; }
 
-.map__contact {
+.campus {
   margin-bottom: 25px;
   margin-top: 10px; }
+
+.campus__address {
+  height: 100px; }
+
+.campus__number {
+  font-weight: bold; }
 
 .jobgenre {
   text-align: left; }
