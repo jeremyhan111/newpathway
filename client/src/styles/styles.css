@@ -741,7 +741,11 @@ a:hover {
 
 .campus {
   margin-bottom: 25px;
-  margin-top: 10px; }
+  margin-top: 10px;
+  color: black; }
+
+.campus:hover {
+  color: #3B5998; }
 
 .campus__number {
   font-weight: bold; }

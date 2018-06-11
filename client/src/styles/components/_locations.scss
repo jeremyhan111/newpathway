@@ -5,9 +5,12 @@
 .campus {
 	margin-bottom: 25px;
 	margin-top: 10px;
+	color: black;
 }
 
-
+.campus:hover {
+	color: $navy-blue;
+}
 
 .campus__number {
 	font-weight: bold;
