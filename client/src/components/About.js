@@ -2,6 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import PageIntro from './PageIntro';
+import pencil from './../images/pencil.svg';
 
 class About extends React.Component {
 	componentDidMount() {
@@ -18,7 +19,7 @@ class About extends React.Component {
 				<Row className="row--spacing">
 					<Col sm={12} md={8} mdOffset={2}>
 						<div className="about__intro">
-							<h1 className="about__title about__title--font">New Pathway Education</h1>
+							<h1 className="about__title about__title--underline about__title--font">New Pathway Education</h1>
 							<p className="about__paragraph">
 								We provide the most innovative and inspirational one-stop platform 
 								in terms of test preparation and college counseling. We facilitate 
@@ -30,9 +31,10 @@ class About extends React.Component {
 						</div>
 					</Col>
 				</Row>
+				<img className="pencil" src={pencil}/>
 				<Row className="row--spacing">
 					<Col sm={12} md={7}>	
-						<h1 className="about__title">History</h1>	
+						<h1 className="about__title about__title--underline about__title--font">History</h1>	
 						<p className="about__paragraph">
 							New Pathway Education & Technology Group was founded in 2009. Our teachers 
 							possess strong academic backgrounds, a passion for education, and varied 
@@ -63,14 +65,16 @@ class About extends React.Component {
 					</Col>
 
 					<Col sm={12} md={4} mdOffset={1}>
-						<h1 className="about__title">Core Values</h1>
-						<ul className="about__paragraph about__list">
-							<li> <b>Passion & Initiative:</b><br/> We have purpose, we are inspired by our mission and thus we are determined </li>
-							<li> <b>Teamwork:</b><br/> We are collaborative, we see our multi-cultural team as an asset and not an obstacle </li>
-							<li> <b>Professionalism:</b><br/> We exercise high levels of professionalism and relay to our clients in this manner so we can produce the best work possible </li>
-							<li> <b>Support & Care:</b><br/> We are for each other, our clients, and our students on a personal level and demonstrate respect for the individual. We are committed to the idea of maximizing each student’s potential </li>
-							<li> <b>Quality & Results:</b><br/> We want to be the best and deliver only quality products and achieve real results. Whatever it takes (WIT) </li>
-						</ul>
+						<div className="core-values">
+							<h1 className="about__title about__title--underline about__title--font">Core Values</h1>
+							<ul className="about__paragraph about__list">
+								<li> <b>Passion & Initiative:</b><br/> We have purpose, we are inspired by our mission and thus we are determined </li>
+								<li> <b>Teamwork:</b><br/> We are collaborative, we see our multi-cultural team as an asset and not an obstacle </li>
+								<li> <b>Professionalism:</b><br/> We exercise high levels of professionalism and relay to our clients in this manner so we can produce the best work possible </li>
+								<li> <b>Support & Care:</b><br/> We are for each other, our clients, and our students on a personal level and demonstrate respect for the individual. We are committed to the idea of maximizing each student’s potential </li>
+								<li> <b>Quality & Results:</b><br/> We want to be the best and deliver only quality products and achieve real results. Whatever it takes (WIT) </li>
+							</ul>
+						</div>
 					</Col>
 				</Row>
 

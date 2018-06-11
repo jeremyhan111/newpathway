@@ -4,7 +4,19 @@
 
 .about__title {
 	font-size: 50px;
+	
+}
+
+.pencil {
+	max-width: 100%;
+}
+
+.about__title--font {
 	font-family: 'Satisfy', cursive;
+}
+
+.about__title--underline {
+	text-decoration: underline solid $red;
 }
 
 .about__title--font {
@@ -26,17 +38,11 @@
 
 .value {
 	padding: 40px;
+	background-image: url('./../images/postit.svg');
+	background-size: contain;
+	font-family: 'The Girl Next Door', cursive;
 }
 
 .philosophy {
 	padding: 20px;
-	border: 10px solid #ef4658;
-}
-
-.mission {
-	border: 10px solid #53a2e3;
-}
-
-.vision {
-	border: 10px solid #69de92;
 }

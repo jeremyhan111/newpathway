@@ -13,15 +13,39 @@ class Contact extends Component {
 	render() {
 		return (
 			<div className="contact__container">
+				<h1 className="contact__header">Contact Us</h1>
 				<Row>
 					<Col xs={12} md={8} mdOffset={2}>
 						<div className="contact__intro">
-							<h1 className="contact__header">Contact Us</h1>
 							<h4 className="contact__subheader"><b>Headquarters:</b> 25th Floor, No. 899, Lingling Road, Xuhui District, Shanghai</h4>
 							<h4 className="contact__subheader"><b>WeChat:</b> newpathwayeducation</h4>
-							<h4 className="contact__subheader"><b>General Inquiries:</b> 1-111-111-1111</h4>
+							<h4 className="contact__subheader"><b>General Inquiries:</b> 86-21-5432-5782</h4>
 						</div>
 					</Col>
+				</Row>
+
+				<Row>
+					<Col xs={12} md={2} mdOffset={3}>
+						<p className="map__contact">
+							<h1>Gubei</h1>
+							9th Floor, No. 37, South Shuicheng Road, North Wanke Building, Changning District<br/><br/>
+							<b>86-21-6275-4553</b>
+						</p>
+					</Col> 
+					<Col xs={12} md={2}>
+						<p className="map__contact">
+							<h1>Pudong</h1>
+							1705, No. 58 Changliu Road, Pudong New District<br/><br/><br/>
+							<b>86-21-3382-0351</b>
+						</p>
+					</Col> 
+					<Col xs={12} md={2}>
+						<p className="map__contact">
+							<h1>Beijing</h1>
+							Lemon Lake Clubhouse, Tianbei Rd, Houshayu Town, Shunyi District<br/><br/>
+							<b>86-10-6475-6678</b>
+						</p>
+					</Col> 
 				</Row>
 
 
@@ -87,7 +111,6 @@ class Contact extends Component {
 						</Row>
 
 					</Grid>
-					<Locations/>
 
 				</form>
 			</div>

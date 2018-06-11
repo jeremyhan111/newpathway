@@ -33,9 +33,17 @@
 	margin-bottom: 60px;
 }
 
+.team__title {
+	padding: 50px;
+	background-image: url('./../images/fullteam.png');
+	background-size: cover;
+}
+
 .team__header {
+	position: relative;
+	right: 30%;
+	color: white;
 	font-size: $header-size;
-	margin-bottom: 20px;
 }
 
 .team__subheader {

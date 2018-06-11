@@ -30,8 +30,9 @@ class Team extends Component {
 	render() {
 		return (
 			<div className="container">
-				<h1 className="team__header">Team</h1>
-				<br/>
+				<div className="team__title">
+					<h1 className="team__header">Team</h1>
+				</div>
 	        	<Tabs
 			        defaultActiveKey="1"
 			        renderTabBar={()=><ScrollableInkTabBar />}
