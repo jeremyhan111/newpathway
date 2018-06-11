@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="189px" height="165px" viewBox="0 0 189 165" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>bjbuilding1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="chalkboard-copy" transform="translate(-807.000000, -44.000000)">
+            <g id="bjbuilding1" transform="translate(809.000000, 46.000000)">
+                <g>
+                    <path d="M23.0505521,60.9526134 L32.1737402,43.7498633 L49.0651074,43.7498633 L49.0651074,27.9998496 L46.6521582,27.9998496 C32.2376953,27.9998496 20.510791,17.7942734 20.510791,5.24979492 L32.5758984,5.24979492 C32.5758984,11.0808529 37.2815276,15.973415 43.5615741,17.2024808 L52.6848926,0 L92.5,0 L132.315107,0 L141.438426,17.2024808 C147.718472,15.973415 152.424102,11.0808529 152.424102,5.24979492 L164.489209,5.24979492 C164.489209,17.7942734 152.762305,27.9998496 138.347842,27.9998496 L135.934893,27.9998496 L135.934893,43.7498633 L152.82626,43.7498633 L161.949448,60.9526134 C168.229379,59.7234728 172.934893,54.8309591 172.934893,48.9999727 L185,48.9999727 C185,61.5444512 173.273096,71.7500273 158.858633,71.7500273 L158.858633,101.500123 L185,101.500123 L185,161 L152.82626,161 L128.695684,161 L104.565107,161 L104.565107,129.499973 L92.5,129.499973 L80.4348926,129.499973 L80.4348926,161 L56.3043164,161 L32.1737402,161 L0,161 L0,101.500123 L26.1413672,101.500123 L26.1413672,71.7500273 C11.7269043,71.7500273 0,61.5444512 0,48.9999727 L12.0651074,48.9999727 C12.0651074,54.8309591 16.7706212,59.7234728 23.0505521,60.9526134 Z" id="Combined-Shape" stroke="#FF4730" stroke-width="3" fill-rule="nonzero"></path>
+                    <g id="Group" transform="translate(84.000000, 0.000000)"></g>
+                    <g id="Group"></g>
+                    <g id="Group" transform="translate(0.000000, 6.000000)"></g>
+                    <g id="Group" transform="translate(0.000000, 6.000000)"></g>
+                    <g id="Group" transform="translate(0.000000, 6.000000)"></g>
+                </g>
+                <path d="M50,28 L135.89135,28" id="Path-3" stroke="#FF4730" stroke-width="3"></path>
+                <path d="M26,72 L159,72" id="Path-3-Copy" stroke="#FF4730" stroke-width="3"></path>
+                <path d="M26,101 L159,101" id="Path-3-Copy-2" stroke="#FF4730" stroke-width="3"></path>
+                <path d="M27,116 L160,116" id="Path-3-Copy-5" stroke="#FF4730" stroke-width="3"></path>
+                <path d="M26,162 L26,102.5" id="Path-3-Copy-3" stroke="#FF4730" stroke-width="3"></path>
+                <path d="M159,162 L159,102.5" id="Path-3-Copy-4" stroke="#FF4730" stroke-width="3"></path>
+            </g>
+        </g>
+    </g>
+</svg>
