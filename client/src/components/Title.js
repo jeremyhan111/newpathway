@@ -4,6 +4,7 @@ import chalkboard from './../images/chalkboard.svg';
 import screen from './../images/projectorscreen.svg';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
+import { HashLink } from 'react-router-hash-link';
 
 export default class Title extends Component {
 	componentDidMount() {
@@ -15,15 +16,13 @@ export default class Title extends Component {
 		return (
 			<div className="landing landing--big">
 				<Clock/>
-				<div className="title__container">	
-				</div>
 
 				<img className="title__chalkboard" src={chalkboard}/>
 				<h4 className="landing__subtitle"></h4>
 
-				<Link to="/contact"><button className="landing__button">
+				<HashLink to="/contact#sendmessage"><button className="landing__button">
 					<Translate id="signup">Sign Up For Classes Here</Translate>
-				</button></Link>
+				</button></HashLink>
 			</div>
 		)
 	}
