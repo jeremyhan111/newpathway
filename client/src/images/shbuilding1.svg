@@ -4,55 +4,46 @@
     <title>shbuilding1</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <rect id="path-1" x="0" y="0" width="150" height="176"></rect>
-        <rect id="path-3" x="0" y="0" width="156" height="195"></rect>
+        <rect id="path-1" x="0" y="0" width="156" height="163"></rect>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="shbuilding1" transform="translate(-28.000000, -13.000000)">
-            <mask id="mask-2" fill="white">
-                <use xlink:href="#path-1"></use>
-            </mask>
-            <g id="Mask"></g>
-            <g mask="url(#mask-2)">
-                <g transform="translate(5.000000, -3.000000)">
-                    <mask id="mask-4" fill="white">
-                        <use xlink:href="#path-3"></use>
-                    </mask>
-                    <g id="path-1" stroke="none" fill="none"></g>
-                    <g id="Group-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" mask="url(#mask-4)">
-                        <g transform="translate(25.000000, 18.000000)" id="Group">
-                            <g>
-                                <g id="shbuilding1">
-                                    <path d="M15.3900752,6.1e-07 C5.1289095,72.7204339 0,130.227539 0,172.5 C0,214.772461 5.1289095,272.279566 15.3900752,344.999999 L94,345 L94,0 L15.390069,0 L15.3900752,6.1e-07 Z" id="Rectangle-21" stroke="#000000" stroke-width="4"></path>
-                                    <path d="M9.5152364,50.9746144 L92.5550061,50.9746144" id="Path-2" stroke="#000000" stroke-width="3"></path>
-                                    <path d="M37.36,13.182 L39.284,13.182 L39.284,21.216 L48.93,21.216 L48.93,23.036 L39.284,23.036 L39.284,34.164 L51.14,34.164 L51.14,35.984 L28,35.984 L28,34.164 L37.36,34.164 L37.36,13.182 Z M63.75,16.978 C63.282,17.732 62.814,18.434 62.294,19.11 L75.502,19.11 C75.424,21.398 75.346,23.426 75.294,25.194 L77.504,25.194 L77.504,26.936 L75.216,26.936 C75.112,28.834 75.034,30.368 74.956,31.564 L77.088,31.564 L77.088,33.176 L74.826,33.176 C74.748,33.904 74.67,34.346 74.618,34.554 C74.358,35.386 73.864,36.01 73.136,36.426 C72.408,36.79 71.368,36.972 69.964,36.972 C69.314,36.972 68.56,36.998 67.702,36.998 L67.156,35.282 C68.092,35.334 68.95,35.386 69.73,35.386 C70.432,35.386 71.056,35.308 71.628,35.178 C72.2,34.996 72.616,34.606 72.876,34.008 C72.928,33.878 72.98,33.592 73.032,33.176 L60.656,33.176 C61.072,31.096 61.436,29.016 61.696,26.936 L59.096,26.936 L59.096,25.194 L61.878,25.194 C62.086,23.192 62.216,21.164 62.268,19.136 C61.722,19.838 61.15,20.488 60.552,21.086 L59.356,19.656 C61.124,17.966 62.554,15.756 63.672,13 L65.544,13.39 C65.284,14.04 64.998,14.664 64.712,15.236 L76.724,15.236 L76.724,16.978 L63.75,16.978 Z M63.464,26.936 C63.256,28.6 63.022,30.16 62.736,31.564 L73.188,31.564 C73.266,30.394 73.344,28.86 73.448,26.936 L63.464,26.936 Z M73.526,25.194 C73.578,23.842 73.63,22.36 73.682,20.774 L63.958,20.774 C63.88,22.334 63.776,23.816 63.646,25.194 L73.526,25.194 Z M67.442,21.216 C68.742,22.048 69.834,22.906 70.718,23.764 L69.522,24.96 C68.742,24.128 67.65,23.27 66.272,22.36 L67.442,21.216 Z M67.208,27.248 C68.508,28.184 69.574,29.12 70.458,30.056 L69.236,31.252 C68.456,30.368 67.39,29.406 66.038,28.392 L67.208,27.248 Z M55.56,13.624 C57.12,14.664 58.446,15.73 59.538,16.822 L58.212,18.174 C57.25,17.134 55.924,16.042 54.208,14.898 L55.56,13.624 Z M55.144,19.942 C56.704,21.034 58.03,22.152 59.122,23.244 L57.796,24.57 C56.834,23.53 55.508,22.438 53.792,21.242 L55.144,19.942 Z M57.822,27.56 L59.434,28.184 C58.342,31.2 57.094,34.034 55.742,36.686 L54,35.932 C55.456,33.202 56.73,30.42 57.822,27.56 Z" id="上海" fill="#000000" fill-rule="nonzero"></path>
-                                </g>
-                                <polygon id="Rectangle-22" stroke="#000000" stroke-width="3" fill="#000000" fill-rule="nonzero" points="17.3388987 57.5 15.9725511 69.5 29.5 69.5 29.5 57.5"></polygon>
-                                <polygon id="Rectangle-22-Copy-16" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" points="10.1766344 133.5 9.5768461 145.5 29.5 145.5 29.5 133.5"></polygon>
-                                <polygon id="Rectangle-22-Copy-8" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" points="13.6712537 95.5 12.7058642 107.5 29.5 107.5 29.5 95.5"></polygon>
-                                <polygon id="Rectangle-22-Copy-4" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" points="15.9880622 76.5 14.5951298 88.5 29.5 88.5 29.5 76.5"></polygon>
-                                <polygon id="Rectangle-22-Copy-18" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" points="9.4385165 152.5 8.6074732 164.5 29.5 164.5 29.5 152.5"></polygon>
-                                <polygon id="Rectangle-22-Copy-9" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" points="11.9300031 114.5 11.1221982 126.5 29.5 126.5 29.5 114.5"></polygon>
-                                <rect id="Rectangle-22-Copy" stroke="#000000" stroke-width="3" fill="#000000" fill-rule="nonzero" x="36.5" y="57.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-20" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="36.5" y="133.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-10" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" x="36.5" y="95.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-5" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="36.5" y="76.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-22" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" x="36.5" y="152.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-11" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" x="36.5" y="114.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-2" stroke="#000000" stroke-width="3" fill="#000000" fill-rule="nonzero" x="55.5" y="57.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-24" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="55.5" y="133.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-12" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="55.5" y="95.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-6" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="55.5" y="76.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-26" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="55.5" y="152.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-13" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" x="55.5" y="114.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-3" stroke="#000000" stroke-width="3" fill="#FFF605" fill-rule="nonzero" x="74.5" y="57.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-28" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="74.5" y="133.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-14" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="74.5" y="95.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-7" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="74.5" y="76.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-30" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="74.5" y="152.5" width="12" height="12"></rect>
-                                <rect id="Rectangle-22-Copy-15" stroke="#000000" stroke-width="3" fill="#020202" fill-rule="nonzero" x="74.5" y="114.5" width="12" height="12"></rect>
-                            </g>
+        <g id="chalkboard-copy" transform="translate(-340.000000, -53.000000)">
+            <g id="shbuilding1" transform="translate(311.000000, 53.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-2" mask="url(#mask-2)">
+                    <g transform="translate(29.000000, 0.000000)">
+                        <g id="shbuilding1" stroke="none" stroke-width="1" fill-rule="evenodd">
+                            <path d="M17.3900752,2.00000061 C7.1289095,74.7204339 2,132.227539 2,174.5 C2,216.772461 7.1289095,274.279566 17.3900752,346.999999 L96,347 L96,2 L17.390069,2 Z" id="Rectangle-21" stroke="#000000" stroke-width="4"></path>
+                            <path d="M11.5152364,52.9746144 L94.5550061,52.9746144" id="Path-2" stroke="#000000" stroke-width="3"></path>
+                            <path d="M39.36,15.182 L41.284,15.182 L41.284,23.216 L50.93,23.216 L50.93,25.036 L41.284,25.036 L41.284,36.164 L53.14,36.164 L53.14,37.984 L30,37.984 L30,36.164 L39.36,36.164 L39.36,15.182 Z M65.75,18.978 C65.282,19.732 64.814,20.434 64.294,21.11 L77.502,21.11 C77.424,23.398 77.346,25.426 77.294,27.194 L79.504,27.194 L79.504,28.936 L77.216,28.936 C77.112,30.834 77.034,32.368 76.956,33.564 L79.088,33.564 L79.088,35.176 L76.826,35.176 C76.748,35.904 76.67,36.346 76.618,36.554 C76.358,37.386 75.864,38.01 75.136,38.426 C74.408,38.79 73.368,38.972 71.964,38.972 C71.314,38.972 70.56,38.998 69.702,38.998 L69.156,37.282 C70.092,37.334 70.95,37.386 71.73,37.386 C72.432,37.386 73.056,37.308 73.628,37.178 C74.2,36.996 74.616,36.606 74.876,36.008 C74.928,35.878 74.98,35.592 75.032,35.176 L62.656,35.176 C63.072,33.096 63.436,31.016 63.696,28.936 L61.096,28.936 L61.096,27.194 L63.878,27.194 C64.086,25.192 64.216,23.164 64.268,21.136 C63.722,21.838 63.15,22.488 62.552,23.086 L61.356,21.656 C63.124,19.966 64.554,17.756 65.672,15 L67.544,15.39 C67.284,16.04 66.998,16.664 66.712,17.236 L78.724,17.236 L78.724,18.978 L65.75,18.978 Z M65.464,28.936 C65.256,30.6 65.022,32.16 64.736,33.564 L75.188,33.564 C75.266,32.394 75.344,30.86 75.448,28.936 L65.464,28.936 Z M75.526,27.194 C75.578,25.842 75.63,24.36 75.682,22.774 L65.958,22.774 C65.88,24.334 65.776,25.816 65.646,27.194 L75.526,27.194 Z M69.442,23.216 C70.742,24.048 71.834,24.906 72.718,25.764 L71.522,26.96 C70.742,26.128 69.65,25.27 68.272,24.36 L69.442,23.216 Z M69.208,29.248 C70.508,30.184 71.574,31.12 72.458,32.056 L71.236,33.252 C70.456,32.368 69.39,31.406 68.038,30.392 L69.208,29.248 Z M57.56,15.624 C59.12,16.664 60.446,17.73 61.538,18.822 L60.212,20.174 C59.25,19.134 57.924,18.042 56.208,16.898 L57.56,15.624 Z M57.144,21.942 C58.704,23.034 60.03,24.152 61.122,25.244 L59.796,26.57 C58.834,25.53 57.508,24.438 55.792,23.242 L57.144,21.942 Z M59.822,29.56 L61.434,30.184 C60.342,33.2 59.094,36.034 57.742,38.686 L56,37.932 C57.456,35.202 58.73,32.42 59.822,29.56 Z" id="上海" fill="#000000"></path>
                         </g>
+                        <path d="M19.3388987,59.5 L17.9725511,71.5 L31.5,71.5 L31.5,59.5 L19.3388987,59.5 Z" id="Rectangle-22" stroke="#000000" stroke-width="3"></path>
+                        <path d="M12.1766344,135.5 L11.5768461,147.5 L31.5,147.5 L31.5,135.5 L12.1766344,135.5 Z" id="Rectangle-22-Copy-16" stroke="#000000" stroke-width="3"></path>
+                        <path d="M15.6712537,97.5 L14.7058642,109.5 L31.5,109.5 L31.5,97.5 L15.6712537,97.5 Z" id="Rectangle-22-Copy-8" stroke="#000000" stroke-width="3"></path>
+                        <path d="M17.9880622,78.5 L16.5951298,90.5 L31.5,90.5 L31.5,78.5 L17.9880622,78.5 Z" id="Rectangle-22-Copy-4" stroke="#000000" stroke-width="3"></path>
+                        <path d="M11.4385165,154.5 L10.6074732,166.5 L31.5,166.5 L31.5,154.5 L11.4385165,154.5 Z" id="Rectangle-22-Copy-18" stroke="#000000" stroke-width="3"></path>
+                        <path d="M13.9300031,116.5 L13.1221982,128.5 L31.5,128.5 L31.5,116.5 L13.9300031,116.5 Z" id="Rectangle-22-Copy-9" stroke="#000000" stroke-width="3"></path>
+                        <rect id="Rectangle-22-Copy" stroke="#000000" stroke-width="3" x="38.5" y="59.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-20" stroke="#000000" stroke-width="3" x="38.5" y="135.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-10" stroke="#000000" stroke-width="3" x="38.5" y="97.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-5" stroke="#000000" stroke-width="3" x="38.5" y="78.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-22" stroke="#000000" stroke-width="3" x="38.5" y="154.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-11" stroke="#000000" stroke-width="3" x="38.5" y="116.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-2" stroke="#000000" stroke-width="3" x="57.5" y="59.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-24" stroke="#000000" stroke-width="3" x="57.5" y="135.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-12" stroke="#000000" stroke-width="3" x="57.5" y="97.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-6" stroke="#000000" stroke-width="3" x="57.5" y="78.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-26" stroke="#000000" stroke-width="3" x="57.5" y="154.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-13" stroke="#000000" stroke-width="3" x="57.5" y="116.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-3" stroke="#000000" stroke-width="3" x="76.5" y="59.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-28" stroke="#000000" stroke-width="3" x="76.5" y="135.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-14" stroke="#000000" stroke-width="3" x="76.5" y="97.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-7" stroke="#000000" stroke-width="3" x="76.5" y="78.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-30" stroke="#000000" stroke-width="3" x="76.5" y="154.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-15" stroke="#000000" stroke-width="3" x="76.5" y="116.5" width="12" height="12"></rect>
                     </g>
                 </g>
             </g>

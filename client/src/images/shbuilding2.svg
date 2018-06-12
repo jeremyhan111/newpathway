@@ -15,34 +15,34 @@
                 <g id="Mask"></g>
                 <g id="Group-3" mask="url(#mask-2)">
                     <g transform="translate(17.000000, 0.000000)">
-                        <g id="shbuilding2" stroke="none" stroke-width="1" fill="none">
+                        <g id="shbuilding2" stroke="none" stroke-width="1" fill-rule="evenodd">
                             <path d="M2,2 L2,356.141621 L96,356.141621 L96,2 L2,2 Z" id="Combined-Shape" stroke="#000000" stroke-width="4"></path>
-                            <path d="M13.6653098,17 L24.7284989,55 L72.5032231,55 L84.4971197,17 L13.6653098,17 Z" id="Rectangle" stroke="#000000" stroke-width="4"></path>
+                            <path d="M13.7673457,17 L24.6731636,50 L72.561294,50 L84.3845804,17 L13.7673457,17 Z" id="Rectangle" stroke="#000000" stroke-width="4"></path>
                         </g>
-                        <rect id="Rectangle-22-Copy-39" stroke="#000000" stroke-width="3" fill="#020202" x="14.5" y="101.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-47" stroke="#000000" stroke-width="3" fill="#020202" x="14.5" y="139.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-55" stroke="#000000" stroke-width="3" fill="#020202" x="14.5" y="63.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-82" stroke="#000000" stroke-width="3" fill="#020202" x="14.5" y="157.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-63" stroke="#000000" stroke-width="3" fill="#FFF605" x="14.5" y="120.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-64" stroke="#000000" stroke-width="3" fill="#020202" x="14.5" y="82.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-65" stroke="#000000" stroke-width="3" fill="#020202" x="33.5" y="101.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-66" stroke="#000000" stroke-width="3" fill="#020202" x="33.5" y="139.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-67" stroke="#000000" stroke-width="3" fill="#FFF605" x="33.5" y="63.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-87" stroke="#000000" stroke-width="3" fill="#020202" x="33.5" y="157.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-68" stroke="#000000" stroke-width="3" fill="#020202" x="33.5" y="120.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-69" stroke="#000000" stroke-width="3" fill="#FFF605" x="33.5" y="82.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-70" stroke="#000000" stroke-width="3" fill="#FFF605" x="52.5" y="101.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-71" stroke="#000000" stroke-width="3" fill="#FFF605" x="52.5" y="139.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-72" stroke="#000000" stroke-width="3" fill="#020202" x="52.5" y="63.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-92" stroke="#000000" stroke-width="3" fill="#020202" x="52.5" y="157.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-73" stroke="#000000" stroke-width="3" fill="#020202" x="52.5" y="120.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-74" stroke="#000000" stroke-width="3" fill="#FFF605" x="52.5" y="82.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-75" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="101.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-76" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="139.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-77" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="63.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-97" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="157.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-78" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="120.5" width="12" height="12"></rect>
-                        <rect id="Rectangle-22-Copy-79" stroke="#000000" stroke-width="3" fill="#020202" x="71.5" y="82.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-39" stroke="#000000" stroke-width="3" x="14.5" y="101.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-47" stroke="#000000" stroke-width="3" x="14.5" y="139.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-55" stroke="#000000" stroke-width="3" x="14.5" y="63.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-82" stroke="#000000" stroke-width="3" x="14.5" y="157.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-63" stroke="#000000" stroke-width="3" x="14.5" y="120.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-64" stroke="#000000" stroke-width="3" x="14.5" y="82.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-65" stroke="#000000" stroke-width="3" x="33.5" y="101.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-66" stroke="#000000" stroke-width="3" x="33.5" y="139.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-67" stroke="#000000" stroke-width="3" x="33.5" y="63.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-87" stroke="#000000" stroke-width="3" x="33.5" y="157.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-68" stroke="#000000" stroke-width="3" x="33.5" y="120.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-69" stroke="#000000" stroke-width="3" x="33.5" y="82.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-70" stroke="#000000" stroke-width="3" x="52.5" y="101.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-71" stroke="#000000" stroke-width="3" x="52.5" y="139.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-72" stroke="#000000" stroke-width="3" x="52.5" y="63.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-92" stroke="#000000" stroke-width="3" x="52.5" y="157.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-73" stroke="#000000" stroke-width="3" x="52.5" y="120.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-74" stroke="#000000" stroke-width="3" x="52.5" y="82.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-75" stroke="#000000" stroke-width="3" x="71.5" y="101.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-76" stroke="#000000" stroke-width="3" x="71.5" y="139.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-77" stroke="#000000" stroke-width="3" x="71.5" y="63.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-97" stroke="#000000" stroke-width="3" x="71.5" y="157.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-78" stroke="#000000" stroke-width="3" x="71.5" y="120.5" width="12" height="12"></rect>
+                        <rect id="Rectangle-22-Copy-79" stroke="#000000" stroke-width="3" x="71.5" y="82.5" width="12" height="12"></rect>
                     </g>
                 </g>
             </g>
