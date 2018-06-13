@@ -108,7 +108,7 @@ a:hover {
   width: 75px; }
 
 .services__link:hover {
-  animation: bounce 1s; }
+  text-decoration: underline; }
 
 .blurb--red {
   background-image: url("./../images/background-red.svg");
