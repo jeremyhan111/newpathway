@@ -15,7 +15,7 @@ const Features = () => {
 						<img className="feature__svg" src={pen}/>
 						<h3><b>Experienced Teachers</b></h3>
 						<p className="feature__description">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Our teachers hail from top schools and boast years of teaching experience, including time spent teaching at universities. 
 						</p>
 					</section>
 				</Col>
@@ -24,16 +24,17 @@ const Features = () => {
 						<img className="feature__svg" src={computer}/>
 						<h3><b>Proven Results</b></h3>
 						<p className="feature__description">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Our teachers have helped hundreds of students achieve their goal scores on all of the tests offered.
 						</p>
 					</section>
 				</Col>
 				<Col sm={12} md={6} lg={3}>
 					<section className="feature">
 						<img className="feature__svg" src={abacus}/>
-						<h3><b>Flexibility</b></h3>
+						<h3><b>Personal Attention</b></h3>
 						<p className="feature__description">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Our teachers develop curriculums tailored to their students' strengths and weaknesses.
+							
 						</p>
 					</section>
 				</Col>
@@ -42,7 +43,7 @@ const Features = () => {
 						<img className="feature__svg" src={sqrrt}/>
 						<h3><b>Dedication</b></h3>
 						<p className="feature__description">
-							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							Our teachers are dedicated to helping students succeed in the classroom and beyond.
 						</p>
 					</section>
 				</Col>
