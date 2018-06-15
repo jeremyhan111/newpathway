@@ -13,9 +13,6 @@ const Test = (props) => {
 				<h1 style={style} className="test__title">
 					{props.title}
 				</h1>
-				<p className="test__description">
-					{props.description}
-				</p>
 			</Link>
 		</div>
 	)
