@@ -377,44 +377,27 @@ a:hover {
   font-weight: bold; }
 
 .intro {
-  padding: 30px;
-  border-bottom: 1px solid lightgrey; }
-
-.intro__chalkboard {
-  max-width: 100%;
-  height: auto; }
+  background: url("./../images/title.svg") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 0;
+  padding-top: 37.58%;
+  position: relative; }
 
 .intro__container {
-  height: 0;
-  position: relative;
-  bottom: 100px;
-  color: white;
-  font-family: 'The Girl Next Door', cursive; }
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0; }
 
 .intro__title {
-  font-size: 30px;
-  margin-bottom: 0px;
-  text-transform: uppercase;
-  font-weight: bold; }
-
-.intro__description {
-  font-size: 16px; }
-
-@media (min-width: 540px) {
-  .intro__container {
-    bottom: 180px; }
-  .intro__title {
-    font-size: 60px; }
-  .intro__description {
-    font-size: 18px; } }
-
-@media (min-width: 992px) {
-  .intro__container {
-    bottom: 180px; }
-  .intro__title {
-    font-size: 60px; }
-  .intro__description {
-    font-size: 18px; } }
+  color: white;
+  font-family: 'The Girl Next Door', cursive;
+  position: relative;
+  top: 34%;
+  font-size: 50px;
+  margin: 0; }
 
 .test-container {
   color: white;
@@ -563,8 +546,8 @@ a:hover {
 
 @media (min-width: 992px) {
   .clock-container {
-    position: absolute;
-    right: 18%; } }
+    position: relative;
+    left: 28%; } }
 
 @keyframes rotate {
   100% {
@@ -573,6 +556,7 @@ a:hover {
 .landing {
   text-align: center;
   border-bottom: 1px solid lightgrey;
+  padding-bottom: 150px;
   opacity: 0;
   transition-duration: 1s;
   color: white;
@@ -601,22 +585,38 @@ a:hover {
   height: auto; }
 
 .title__chalkboard {
-  max-width: 100%;
-  height: auto; }
+  background: url("./../images/chalkboard.svg") no-repeat center;
+  background-size: contain;
+  width: 100%;
+  height: 0;
+  padding-top: 61.35%;
+  position: relative;
+  top: 20px; }
+
+.chalkboard__button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0; }
+
+.title__announcementboard {
+  background: url("./../images/announcementboard.svg") no-repeat center;
+  background-size: contain;
+  height: 0;
+  width: 100%;
+  padding-top: 132.84%;
+  position: relative;
+  top: 40px; }
 
 .landing__button {
   position: relative;
-  bottom: 120px;
+  top: 67%;
   border: none;
-  width: 200px;
-  height: 50px;
-  border-radius: 3px;
-  margin-bottom: 50px;
-  font-size: 24px;
+  font-size: 20px;
   background: transparent;
   color: white;
-  transition-duration: .2s;
-  right: 12%; }
+  transition-duration: .2s; }
 
 .landing__button:hover {
   text-decoration: underline; }
@@ -629,19 +629,7 @@ a:hover {
     font-size: 28px;
     bottom: 150px; }
   .landing__button {
-    font-size: 26px;
-    bottom: 140px; } }
-
-@media (min-width: 4600px) {
-  .landing--big .landing__title {
-    font-size: 60px;
-    top: 120px; }
-  .landing--big .landing__subtitle {
-    font-size: 32px;
-    bottom: 190px; }
-  .landing__button {
-    font-size: 26px;
-    bottom: 180px; } }
+    font-size: 26px; } }
 
 @media (min-width: 540px) {
   .landing--big .landing__title {
@@ -649,10 +637,7 @@ a:hover {
     top: 120px; }
   .landing--big .landing__subtitle {
     font-size: 32px;
-    bottom: 190px; }
-  .landing__button {
-    font-size: 26px;
-    bottom: 180px; } }
+    bottom: 190px; } }
 
 @media (min-width: 768px) {
   .landing--big .landing__title {
@@ -660,10 +645,7 @@ a:hover {
     top: 120px; }
   .landing--big .landing__subtitle {
     font-size: 36px;
-    bottom: 250px; }
-  .landing__button {
-    font-size: 26px;
-    bottom: 200px; } }
+    bottom: 250px; } }
 
 @media (min-width: 992px) {
   .title__screen {
@@ -672,10 +654,7 @@ a:hover {
     font-size: 100px;
     top: 180px; }
   .landing--big .landing__subtitle {
-    font-size: 40px; }
-  .landing__button {
-    font-size: 28px;
-    bottom: 240px; } }
+    font-size: 40px; } }
 
 .about__title {
   font-size: 50px; }
