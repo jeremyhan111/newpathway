@@ -239,15 +239,6 @@ a:hover {
 .contact__container {
   text-align: center; }
 
-.contact__wechat:before {
-  content: url("./../images/wechat.svg"); }
-
-.contact__number:before {
-  content: url("./../images/telephone.svg"); }
-
-.contact__email:before {
-  content: url("./../images/mail-small.svg"); }
-
 .form-group {
   margin: 0; }
 
@@ -272,15 +263,9 @@ a:hover {
 .contact-container {
   text-align: center; }
 
-.contact__intro {
-  padding-bottom: 20px; }
-
 .contact__header {
   font-size: 60px;
   margin-bottom: 0; }
-
-.contact__subheader {
-  font-size: 22px; }
 
 #contact__button {
   color: white;
@@ -719,3 +704,18 @@ a:hover {
 .job__location {
   text-align: left;
   margin: 0px; }
+
+.contact__intro {
+  padding-bottom: 20px; }
+
+.contact__subheader {
+  font-size: 22px; }
+
+.contact__wechat:before {
+  content: url("./../images/wechat.svg"); }
+
+.contact__number:before {
+  content: url("./../images/telephone.svg"); }
+
+.contact__email:before {
+  content: url("./../images/mail-small.svg"); }

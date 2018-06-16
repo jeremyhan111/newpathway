@@ -12,22 +12,22 @@ const Footer = () => {
 					<Col sm={12} md={4}>
 						<nav>
 							<ul className="footer__list">
+								<li className="footer__list-item footer__list-title"><Link to="/">Home</Link></li>
+								<li className="footer__list-item"><Link to="/team">Team</Link></li>
+							</ul>
+							
+						</nav>
+					</Col>
+					<Col sm={12} md={4}>
+						<nav>
+							<ul className="footer__list">
 								<li className="footer__list-item footer__list-title"><Link to="/services">Services</Link></li>
 								<li className="footer__list-item"><Link to="/elementary">Elementary School</Link></li>
 								<li className="footer__list-item"><Link to="/middle">Middle School</Link></li>
 								<li className="footer__list-item"><Link to="/high">High School</Link></li>
 								<li className="footer__list-item"><Link to="/consulting">Academic Counseling</Link></li>
 							</ul>
-						</nav>
-					</Col>
-					<Col sm={12} md={4}>
-						<nav>
-							<ul className="footer__list">
-								<li className="footer__list-item footer__list-title"><Link to="/team">Teams</Link></li>
-								<li className="footer__list-item"><Link to="/team">Test Prep</Link></li>
-								<li className="footer__list-item"><Link to="/team">ELA</Link></li>
-								<li className="footer__list-item"><Link to="/team">Prestige Only</Link></li>
-							</ul>
+	
 						</nav>
 					</Col>
 					<Col sm={12} md={4}>
@@ -37,10 +37,6 @@ const Footer = () => {
 								<li className="footer__list-item"><Link to="/jobs">Jobs</Link></li>
 								<li className="footer__list-item"><Link to="/about">About Us</Link></li>
 								<li className="footer__list-item"><HashLink to="/contact#locations">Locations</HashLink></li>
-
-
-
-
 								<li className="footer__list-item"><Link to="/contact">Contact Us</Link></li>
 							</ul>
 						</nav>

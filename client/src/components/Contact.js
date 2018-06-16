@@ -4,6 +4,7 @@ import { Grid, Row, Col } from 'react-bootstrap';
 
 import FieldGroup from './FieldGroup';
 import Locations from './Locations';
+import ContactInfo from './ContactInfo';
 
 class Contact extends Component {
 	componentDidMount() {
@@ -14,16 +15,8 @@ class Contact extends Component {
 		return (
 			<div className="contact__container">
 				<h1 className="contact__header">Contact Us</h1>
-				<Row>
-					<Col xs={12} md={8} mdOffset={2}>
-						<div className="contact__intro">
-							<h4 className="contact__subheader contact__email"> newpathwayeducation@gmail.com</h4>
-							<h4 className="contact__subheader contact__wechat"> newpathwayeducation</h4>
-							<h4 className="contact__subheader contact__number"> 86-21-5432-5782</h4>
-						</div>
-					</Col>
-				</Row>
-
+				
+				<ContactInfo/>
 				<Locations/>
 
 				<form className="contact__form">

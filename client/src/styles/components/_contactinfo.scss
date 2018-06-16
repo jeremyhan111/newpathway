@@ -1,0 +1,19 @@
+.contact__intro {	
+	padding-bottom: 20px;
+}
+
+.contact__subheader {
+	font-size: 22px;
+}
+
+.contact__wechat:before {
+	content: url('./../images/wechat.svg');
+}
+
+.contact__number:before {
+	content: url('./../images/telephone.svg');
+}
+
+.contact__email:before {
+	content: url('./../images/mail-small.svg');
+}
