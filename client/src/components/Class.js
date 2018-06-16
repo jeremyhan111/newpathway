@@ -42,7 +42,7 @@ class Class extends React.Component {
 					<Col sm={12} md={4}>
 						<nav>
 							<img className="test__logo" src={this.props.testLogo}/>
-							<h4 className="test__links">Useful Links</h4>
+							{(this.props.usRegister || this.props.internationalRegister || this.props.usTestDates || this.props.internationalTestDates || this.props.testCenter) && <h4 className="test__links">Useful Links</h4>}
 							{this.props.usRegister && <a className="test__link" href={this.props.usRegister}>{this.props.test} US Registration<br/><br/></a>}
 							{this.props.internationalRegister && <a className="test__link" href={this.props.internationalRegister}>{this.props.test} International Registration<br/><br/></a>}
 							{this.props.usTestDates && <a className="test__link" href={this.props.usTestDates}>{this.props.test} US Test Dates<br/><br/></a>}
