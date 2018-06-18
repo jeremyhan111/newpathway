@@ -1,7 +1,6 @@
 import React from 'react';
 
 import { Row, Col } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
 import { HashLink } from 'react-router-hash-link';
 

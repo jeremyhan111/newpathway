@@ -1,7 +1,6 @@
 import React from 'react';
 
-import chalkboard from './../images/title.svg';
-import { Grid, Row, Col } from 'react-bootstrap';
+import { Row, Col } from 'react-bootstrap';
 
 const PageIntro = (props) => {
 	return (

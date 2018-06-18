@@ -5,12 +5,10 @@ import TabContent from 'rc-tabs/lib/TabContent';
 import ScrollableInkTabBar from 'rc-tabs/lib/ScrollableInkTabBar';
 import { Row, Col } from 'react-bootstrap';
 
-import PageIntro from './PageIntro'
 import Teacher from './Teacher';
 
 import alex from './../images/alex.jpg';
 import pete from './../images/pete.jpg';
-import charles from './../images/charles.jpg';
 import kirk from './../images/kirk.jpg';
 import sandy from './../images/sandy.jpg';
 import bart from './../images/bart.jpg';

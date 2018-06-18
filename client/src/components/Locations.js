@@ -1,15 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import { BaiduMap, Marker, asyncWrapper } from 'react-baidu-maps';
-import key from './../config/keys';
 import shbuilding1 from './../images/shbuilding1.svg';
 import shbuilding2 from './../images/shbuilding2.svg';
 import shbuilding3 from './../images/shbuilding3.svg';
 import bjbuilding1 from './../images/bjbuilding1.svg';
-
-
-const url = `https://api.map.baidu.com/api?v=2.0&ak=EgeDVs86fhrPgkTNnyzdU3tyCnCthk9z`;
-const AsyncMap = asyncWrapper(BaiduMap);
 
 const Locations = () => {
 	return (

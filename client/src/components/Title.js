@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import Clock from './Clock';
 import { Row, Col } from 'react-bootstrap';
-import chalkboard from './../images/chalkboard.svg';
 
-import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
 import { HashLink } from 'react-router-hash-link';
 

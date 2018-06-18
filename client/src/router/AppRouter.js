@@ -20,7 +20,6 @@ import sat from './../images/sat.png';
 import act from './../images/act.png';
 import ssat_isee from './../images/ssat_isee.png';
 import ap from './../images/ap.png';
-import isee from './../images/isee.jpeg';
 import toefl from './../images/toefl.png';
 import ela from './../images/ela.jpg';
 
@@ -31,10 +30,6 @@ import ap_course from './../images/ap_course.jpg';
 import toefl_course from './../images/toefl_course.jpg';
 import ela_course from './../images/ela_course.jpg';
 import sat2_course from './../images/sat2_course.jpg';
-
-import ToDo from './../components/ToDo';
-
-
 
 const SAT = () => {
 	return (
