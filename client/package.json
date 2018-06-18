@@ -8,6 +8,7 @@
     }
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "google-maps-react": "^2.0.2",
     "node-sass-chokidar": "^1.2.2",
     "normalize.css": "^8.0.0",

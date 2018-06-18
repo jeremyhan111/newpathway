@@ -21,7 +21,10 @@
     "concurrently": "^3.5.1"
   },
   "dependencies": {
+    "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "rc-tabs": "^9.2.5"
+    "nodemailer": "^4.6.7",
+    "rc-tabs": "^9.2.5",
+    "xoauth2": "^1.2.0"
   }
 }
