@@ -710,3 +710,6 @@ a:hover {
 
 .emailform__element--tall {
   height: 150px; }
+
+#nyancat {
+  max-width: 100%; }

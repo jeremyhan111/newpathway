@@ -15,6 +15,7 @@ import Class from './../components/Class';
 import About from './../components/About';
 import Jobs from './../components/Jobs';
 import Locations from './../components/Locations';
+import Four from './../components/404';
 
 import sat from './../images/sat.png';
 import act from './../images/act.png';
@@ -141,6 +142,7 @@ const AppRouter = () => (
 				<Route path="/satii" component={SATII}/>
 				<Route path="/ap" component={AP}/>
 				<Route path="/toefl" component={TOEFL}/>
+				<Route component={Four}/>
 			</Switch>
 			<Footer/>
 		</div>
