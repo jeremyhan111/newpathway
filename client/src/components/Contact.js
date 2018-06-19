@@ -1,9 +1,6 @@
 import React, { Component } from 'react';
 import Loadable from 'react-loadable';
 
-import Locations from './Locations';
-import ContactInfo from './ContactInfo';
-import EmailForm from './EmailForm';
 
 const LoadableLocations = Loadable({
   	loader: () => import('./../components/Locations'),
@@ -13,7 +10,7 @@ const LoadableLocations = Loadable({
 });
 
 const LoadableContactInfo = Loadable({
-  	loader: () => import('./../componentseContactInfo'),
+  	loader: () => import('./../components/ContactInfo'),
   	loading() {
     	return <div>Loading...</div>
   	}
