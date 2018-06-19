@@ -3,9 +3,7 @@ var xoauth2 = require('xoauth2');
 
 const transporter = nodemailer.createTransport({
   	service: 'gmail',
-
 });
-
 
 module.exports = (app) => {
 	app.post('/api/email', (req, res) => {
@@ -19,11 +17,11 @@ module.exports = (app) => {
 		}
 
 		transporter.sendMail(mailOptions, function(error, info){
-		  if (error) {
-		    console.log(error);
-		  } else {
-		    console.log('Email sent: ' + info.response);
-		  }
+		    if (error) {
+		    	console.log(error);
+		    } else {
+		    	console.log('Email sent: ' + info.response);
+		    }
 		});
 
 		console.log(req.body);

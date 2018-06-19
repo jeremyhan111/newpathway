@@ -2,22 +2,56 @@ import React, { Component } from 'react';
 import { Grid, Row, Col, Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
+import Loadable from 'react-loadable';
 
-import ContactButton from './ContactButton';
-import Title from './Title';
+const LoadableTitle = Loadable({
+  	loader: () => import('./Title'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-import prepsmith from './../media/prepsmith.mp4';
-import alex from './../images/alex.jpg';
-import pete from './../images/pete.jpg';
-import charles from './../images/charles.jpg';
-import kirk from './../images/kirk.jpg';
-import sandy from './../images/sandy.jpg';
-import colleges from './../images/colleges.png';
-import scores from './../images/scores.png';
-import user from './../images/user.svg';
-import pencils from './../images/pencils.svg';
-import medal from './../images/medal.svg';
+const LoadableContactButton = Loadable({
+  	loader: () => import('./ContactButton'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
+const LoadablePrepsmith = Loadable({
+  	loader: () => import('./Prepsmith'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
+
+const LoadableTeacherShowcase = Loadable({
+  	loader: () => import('./TeacherShowcase'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
+
+const LoadableTestimonials = Loadable({
+  	loader: () => import('./Testimonials'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
+
+const LoadableServicesShowcase = Loadable({
+  	loader: () => import('./ServicesShowcase'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
+
+const LoadableStatistics = Loadable({
+  	loader: () => import('./Statistics'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
 export default class Landing extends Component {
 	componentDidMount() {
@@ -27,204 +61,22 @@ export default class Landing extends Component {
 	render() {
 		return (
 			<div>
-				<Title/>
+				<LoadableTitle/>
 				<Grid className="container__page">
-					<Row className="show-grid row--spacing row--top container">
-						<h1 className="blurb__title"><Translate id="ourservices">OUR SERVICES</Translate></h1>
-						<Col xs={12} md={4}>
-							<div className="blurb">
-								<Link to="/services">
-									<div className="services__link">
-										<img className="blurb__svg" src={pencils} alt="Pencils"/><br/><br/>
-										<b><Translate id="testprep">TEST PREP & TUTORING</Translate></b><br/><br/>
-									</div>
-								</Link>
-								<Translate id="testprep__blurb">
-									We offer top notch test prep service in standardized tests such as SAT, ACT, SAT subject tests, 
-									AP tests and TOEFL. Face-to-face and virtual classes are available in all subjects. 
-									Features mobile apps for homework practice and management reports.
-								</Translate>
-							</div>
-						</Col>
-						<Col xs={12} md={4}>
-							<div className="blurb">
-								<Link to="/services">
-									<div className="services__link">
-										<img className="blurb__svg" src={user} alt="Camps"/><br/><br/>
-										<b><Translate id="camps">CAMPS & WORKSHOPS</Translate></b><br/><br/>
-									</div>
-								</Link>
-								<Translate id="camps__blurb">
-									Summer & Winter camps in technology, business, medicine, international relations and engineering fields. 
-									Soft skill development workshops.
-								</Translate>
-							</div>
-						</Col>
-						<Col xs={12} md={4}>
-							<div className="blurb">
-								<Link to="/consulting">
-									<div className="services__link">
-										<img className="blurb__svg" src={medal} alt="Medal"/><br/><br/>
-										<b><Translate id="admissions">ACADEMIC CONSULTING</Translate></b><br/><br/>
-									</div>
-								</Link>
-								<Translate id="admissions__blurb">
-									Our students have gotten into top schools (boarding/day schools, colleges and graduate schools) in the U.S.
-								</Translate>
-							</div>
-						</Col>
-					</Row>
+					<LoadableServicesShowcase/>
 
 					<div className="container--grey">
-						<Row className="show-grid row--spacing container">
-							<Col xs={12} md={6} mdPush={6}>
-								<div className="blurb__media">
-									<Carousel className="carousel__team"
-											  indicators={false} 
-											  interval={4000}>
-										<Carousel.Item>
-											<img className="carousel__teacher" src={alex} alt="Alex Cion"/>
-											<Carousel.Caption>
-												<div className="carousel-caption__textbox">
-													<h2>Alex Cion</h2>
-													<p>Lehigh, Taught 4+ years</p>
-												</div>
-											</Carousel.Caption>
-										</Carousel.Item>
-
-										<Carousel.Item>
-											<img className="carousel__teacher" src={pete} alt="Peter Carver"/>
-											<Carousel.Caption>
-												<div className="carousel-caption__textbox">
-													<h2>Peter Carver</h2>
-													<p>GWU, Taught 8+ years</p>
-												</div>
-											</Carousel.Caption>
-										</Carousel.Item>
-
-										<Carousel.Item>
-											<img className="carousel__teacher" src={kirk} alt="Kirk Cowgill"/>
-											<Carousel.Caption>
-												<div className="carousel-caption__textbox">
-													<h2>Kirk Cowgill</h2>
-													<p>UCDavis, Taught 4+ years</p>
-												</div>
-											</Carousel.Caption>
-										</Carousel.Item>
-
-										<Carousel.Item>
-											<img className="carousel__teacher" src={sandy} alt="Sandy Qi"/>
-											<Carousel.Caption>
-												<div className="carousel-caption__textbox">
-													<h2>Sandy Qi</h2>
-													<p>UChicago, Taught 3+ years</p>
-												</div>
-											</Carousel.Caption>
-										</Carousel.Item>
-
-										<Carousel.Item>
-											<img className="carousel__teacher" src={charles} alt="Charles Carrier"/>
-											<Carousel.Caption>
-												<div className="carousel-caption__textbox">
-													<h2>Charles Carrier</h2>
-													<p>Guilford, Taught 4+ years</p>
-												</div>
-											</Carousel.Caption>
-										</Carousel.Item>
-									</Carousel>
-								</div>
-							</Col>
-							<Col xs={12} md={6} mdPull={6}>
-								<div className="blurb">
-									<p className="blurb__text"><Translate id="meetteam__blurb">Meet our experienced and well-educated team of international teachers</Translate></p>
-									<Link to="/team"><button className="link__button"><Translate id="meetteam">Meet The Team</Translate></button></Link>
-								</div>
-								
-							</Col>
-						</Row>
-
-						<Row className="show-grid row--spacing container">
-							<Col xs={12} md={6}>
-								<div className="blurb__media">
-									<video id={"prepsmith-video"} autoPlay controls muted loop>
-										<source src={prepsmith}/>
-										Your browser does not support the video tag.
-									</video>
-								</div>
-
-							</Col>
-
-							<Col xs={12} md={6}>
-								<div className="blurb">
-									<p className="blurb__text">
-										<Translate id="prepsmith__blurb">One of the few learning centers in China with tech-team supported software to simulate <i>real</i> online testing conditions</Translate>
-									</p>
-									<a href="http://www.prepsmith.com"><button className="link__button">Check Out Prepsmith</button></a>
-								</div>
-							</Col>
-						</Row>
+						<LoadableTeacherShowcase/>
+						<LoadablePrepsmith/>
 					</div>
 
-					<Row className="show-grid row--spacing container">
-						<Col xs={12} md={12}>
-							<p className="blurb blurb--spacing">
-								<Translate id="ourstudents">
-									Our students earn excellent scores and attend
-									top universities
-								</Translate>
-							</p>
-
-							<Carousel controls={true}
-									  interval={2500}>
-								<Carousel.Item>
-										<img src={colleges} alt="Colleges"/>
-								</Carousel.Item>
-
-								<Carousel.Item>
-									<img src={scores} alt="Scores"/>
-								</Carousel.Item>
-							</Carousel>
-						</Col>
-					</Row>
-
+					<LoadableStatistics/>
 
 					<div className="container--grey">
-						<Row className="show-grid row--spacing row--top testimonials container">
-							<h1 className="blurb__title"><Translate id="testimonials">TESTIMONIALS</Translate></h1>
-							<Col xs={12} md={4}>
-								<p className="blurb">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-									laboris nisi ut aliquip ex ea commodo consequat." 
-									<br/>
-									<br/>
-									<i>John Kim, scored a 1580 on the SAT</i>
-								</p>
-							</Col>
-							<Col xs={12} md={4}>
-								<p className="blurb">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-									laboris nisi ut aliquip ex ea commodo consequat." 
-									<br/>
-									<br/>
-									<i>April Chen, scored a 35 on the ACT</i>
-								</p>
-							</Col>
-							<Col xs={12} md={4}>
-								<p className="blurb">
-									"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
-									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
-									laboris nisi ut aliquip ex ea commodo consequat." 
-									<br/>
-									<br/>
-									<i>Eric Li, scored a 1540 on the SAT</i>
-								</p>
-							</Col>
-						</Row>
+						<LoadableTestimonials/>
 					</div>
 
-					<ContactButton/>
+					<LoadableContactButton/>
 
 				</Grid>
 			</div>

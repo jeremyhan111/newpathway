@@ -1,7 +1,9 @@
 const express = require('express');
 var bodyParser = require('body-parser');
+
 const app = express();
 app.use(bodyParser.json());
+
 require('./routes/emailRoute')(app);
 
 if (process.env.NODE_ENV === 'production') {

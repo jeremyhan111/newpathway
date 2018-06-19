@@ -1,6 +1,8 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import asyncComponent from './../components/AsyncComponent';
+import Loadable from 'react-loadable';
+
 
 
 import Header from './../components/Header';
@@ -21,49 +23,127 @@ import toefl_course from './../images/toefl_course.jpg';
 import ela_course from './../images/ela_course.jpg';
 import sat2_course from './../images/sat2_course.jpg';
 
-const Landing = asyncComponent(() =>
-    import('./../components/Landing').then(module => module.default)
-)
+const LoadableLanding = Loadable({
+  	loader: () => import('./../components/Landing'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Services = asyncComponent(() =>
-    import('./../components/Services').then(module => module.default)
-)
+const LoadableServices = Loadable({
+  	loader: () => import('./../components/Services'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Team = asyncComponent(() =>
-    import('./../components/Team').then(module => module.default)
-)
+const LoadableTeam = Loadable({
+  	loader: () => import('./../components/Team'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Contact = asyncComponent(() =>
-    import('./../components/Contact').then(module => module.default)
-)
+const LoadableContact = Loadable({
+  	loader: () => import('./../components/Contact'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Elementary = asyncComponent(() =>
-    import('./../components/Elementary').then(module => module.default)
-)
+const LoadableElementary = Loadable({
+  	loader: () => import('./../components/Elementary'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Middle = asyncComponent(() =>
-    import('./../components/Middle').then(module => module.default)
-)
+const LoadableMiddle = Loadable({
+  	loader: () => import('./../components/Middle'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const High = asyncComponent(() =>
-    import('./../components/High').then(module => module.default)
-)
+const LoadableHigh = Loadable({
+  	loader: () => import('./../components/High'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Consulting = asyncComponent(() =>
-    import('./../components/Consulting').then(module => module.default)
-)
+const LoadableConsulting = Loadable({
+  	loader: () => import('./../components/Consulting'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const About = asyncComponent(() =>
-    import('./../components/About').then(module => module.default)
-)
+const LoadableAbout = Loadable({
+  	loader: () => import('./../components/About'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const Jobs = asyncComponent(() =>
-    import('./../components/Jobs').then(module => module.default)
-)
+const LoadableJobs = Loadable({
+  	loader: () => import('./../components/Jobs'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
 
-const NotFound = asyncComponent(() =>
-    import('./../components/404').then(module => module.default)
-)
+const LoadableNotFound = Loadable({
+  	loader: () => import('./../components/404'),
+  	loading() {
+    	return <div>Loading...</div>
+  	}
+});
+
+
+// const Landing = asyncComponent(() =>
+//     import('./../components/Landing').then(module => module.default)
+// )
+
+// const Services = asyncComponent(() =>
+//     import('./../components/Services').then(module => module.default)
+// )
+
+// const Team = asyncComponent(() =>
+//     import('./../components/Team').then(module => module.default)
+// )
+
+// const Contact = asyncComponent(() =>
+//     import('./../components/Contact').then(module => module.default)
+// )
+
+// const Elementary = asyncComponent(() =>
+//     import('./../components/Elementary').then(module => module.default)
+// )
+
+// const Middle = asyncComponent(() =>
+//     import('./../components/Middle').then(module => module.default)
+// )
+
+// const High = asyncComponent(() =>
+//     import('./../components/High').then(module => module.default)
+// )
+
+// const Consulting = asyncComponent(() =>
+//     import('./../components/Consulting').then(module => module.default)
+// )
+
+// const About = asyncComponent(() =>
+//     import('./../components/About').then(module => module.default)
+// )
+
+// const Jobs = asyncComponent(() =>
+//     import('./../components/Jobs').then(module => module.default)
+// )
+
+// const NotFound = asyncComponent(() =>
+//     import('./../components/404').then(module => module.default)
+// )
 
 const SAT = () => {
 	return (
@@ -155,16 +235,16 @@ const AppRouter = () => (
 		<div>
 			<Header/>
 			<Switch>
-				<Route path="/" component={Landing} exact={true}/>
-				<Route path="/services" component={Services}/>
-				<Route path="/elementary" component={Elementary}/>
-				<Route path="/middle" component={Middle}/>
-				<Route path="/high" component={High}/>
-				<Route path="/consulting" component={Consulting}/>
-				<Route path="/team" component={Team}/>
-				<Route path="/contact" component={Contact}/>
-				<Route path="/about" component={About}/> 
-				<Route path="/jobs" component={Jobs}/> 
+				<Route path="/" component={LoadableLanding} exact={true}/>
+				<Route path="/services" component={LoadableServices}/>
+				<Route path="/elementary" component={LoadableElementary}/>
+				<Route path="/middle" component={LoadableMiddle}/>
+				<Route path="/high" component={LoadableHigh}/>
+				<Route path="/consulting" component={LoadableConsulting}/>
+				<Route path="/team" component={LoadableTeam}/>
+				<Route path="/contact" component={LoadableContact}/>
+				<Route path="/about" component={LoadableAbout}/> 
+				<Route path="/jobs" component={LoadableJobs}/> 
 
 				<Route path="/ssat-isee" component={SSATISEE}/>
 				<Route path="/ela" component={ELA}/>
@@ -173,7 +253,7 @@ const AppRouter = () => (
 				<Route path="/satii" component={SATII}/>
 				<Route path="/ap" component={AP}/>
 				<Route path="/toefl" component={TOEFL}/>
-				<Route path="*" component={NotFound}/>
+				<Route path="*" component={LoadableNotFound}/>
 			</Switch>
 			<Footer/>
 		</div>
