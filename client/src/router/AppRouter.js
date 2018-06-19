@@ -4,6 +4,17 @@ import asyncComponent from './../components/AsyncComponent';
 import Loadable from 'react-loadable';
 
 
+// import Landing from './../components/Landing';
+// import Services from './../components/Services';
+// import Team from './../components/Team';
+// import Contact from './../components/Contact';
+// import Elementary from './../components/Elementary';
+// import Middle from './../components/Middle';
+// import High from './../components/High';
+// import Consulting from './../components/Consulting';
+// import About from './../components/About';
+// import Jobs from './../components/Jobs';
+// import NotFound from './../components/404';
 
 import Header from './../components/Header';
 import Footer from './../components/Footer';
