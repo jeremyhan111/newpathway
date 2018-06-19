@@ -45,26 +45,65 @@ class Jobs extends Component {
 
 				<div className="job__block">
 					<JobGenre title="Business Development"/>
-					<Job title="Business Development Manager" location="Shanghai" url="https://google.com"/>
-					<Job title="Business Development Manager" location="Shanghai" url="https://google.com"/>
-					<Job title="Business Development Manager" location="Shanghai" url="https://google.com"/>
-					<Job title="Business Development Manager" location="Shanghai" url="https://google.com"/>
+					<Job title="Business Development Manager" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
 				</div>
 				<div className="job__block">
 					<JobGenre title="Marketing"/>
-					<Job title="Marketing Lead" location="Shanghai" url="https://google.com"/>
-					<Job title="Marketing Analyst" location="Shanghai" url="https://google.com"/>
-					<Job title="Marketing Manager" location="Shanghai" url="https://google.com"/>
+					<Job title="Marketing Lead" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
+					<Job title="Marketing Analyst" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
+					<Job title="Marketing Manager" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
 				</div>
 				<div className="job__block">
 					<JobGenre title="Operations"/>
-					<Job title="Operations Analyst" location="Shanghai" url="https://google.com"/>
+					<Job title="Operations Analyst" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
 				</div>
 				<div className="job__block">
 					<JobGenre title="Teaching"/>
-					<Job title="Math/Science Teacher" location="Shanghai" url="https://google.com"/>
-					<Job title="Lead Teacher" location="Shanghai" url="https://google.com"/>
-					<Job title="English/Reading Teacher" location="Shanghai" url="https://google.com"/>
+					<Job title="Math/Science Teacher" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
+					<Job title="Lead Teacher" location="Shanghai" />
+					<Job title="English/Reading Teacher" location="Shanghai" lookingFor="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." responsibilities="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat." requirements="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+									ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco 
+									laboris nisi ut aliquip ex ea commodo consequat."/>
 				</div>
 			</div>
 

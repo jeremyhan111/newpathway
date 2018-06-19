@@ -1,9 +1,14 @@
 .job {
 	margin-bottom: 20px;
+	text-align: left;
 }
 
 .job__link {
-	color: black;
+	border: none;
+	text-align: left;
+	background-image: none;
+	text-shadow: none;
+	box-shadow: none;
 	transition-duration: .2s;
 }
 
