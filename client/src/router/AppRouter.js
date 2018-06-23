@@ -62,13 +62,6 @@ const LoadableContact = Loadable({
   	}
 });
 
-const LoadableElementary = Loadable({
-  	loader: () => import('./../components/Elementary'),
-  	loading() {
-    	return null;
-  	}
-});
-
 const LoadableMiddle = Loadable({
   	loader: () => import('./../components/Middle'),
   	loading() {
@@ -201,7 +194,6 @@ const AppRouter = () => (
 			<Switch>
 				<Route path="/" component={LoadableLanding} exact={true}/>
 				<Route path="/services" component={LoadableServices}/>
-				<Route path="/elementary" component={LoadableElementary}/>
 				<Route path="/middle" component={LoadableMiddle}/>
 				<Route path="/high" component={LoadableHigh}/>
 				<Route path="/consulting" component={LoadableConsulting}/>
