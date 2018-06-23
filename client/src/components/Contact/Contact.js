@@ -3,23 +3,23 @@ import Loadable from 'react-loadable';
 
 
 const LoadableLocations = Loadable({
-  	loader: () => import('./../components/Locations'),
+  	loader: () => import('./Locations'),
   	loading() {
-    	return null;
+    	return <div>Loading...</div>
   	}
 });
 
 const LoadableContactInfo = Loadable({
-  	loader: () => import('./../components/ContactInfo'),
+  	loader: () => import('./ContactInfo'),
   	loading() {
-    	return null;
+    	return <div>Loading...</div>
   	}
 });
 
 const LoadableEmailForm = Loadable({
-  	loader: () => import('./../components/EmailForm'),
+  	loader: () => import('./EmailForm'),
   	loading() {
-    	return null;
+    	return <div>Loading...</div>
   	}
 });
 

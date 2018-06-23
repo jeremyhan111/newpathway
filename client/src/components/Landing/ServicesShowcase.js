@@ -3,9 +3,9 @@ import { Row, Col, Carousel } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import { Translate } from 'react-localize-redux';
 
-import user from './../images/user.svg';
-import pencils from './../images/pencils.svg';
-import medal from './../images/medal.svg';
+import user from './../../images/user.svg';
+import pencils from './../../images/pencils.svg';
+import medal from './../../images/medal.svg';
 
 const ServicesShowcase = () => {
 	return (

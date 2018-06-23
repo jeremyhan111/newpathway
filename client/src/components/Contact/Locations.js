@@ -1,9 +1,9 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
-import shbuilding1 from './../images/shbuilding1.svg';
-import shbuilding2 from './../images/shbuilding2.svg';
-import shbuilding3 from './../images/shbuilding3.svg';
-import bjbuilding1 from './../images/bjbuilding1.svg';
+import shbuilding1 from './../../images/shbuilding1.svg';
+import shbuilding2 from './../../images/shbuilding2.svg';
+import shbuilding3 from './../../images/shbuilding3.svg';
+import bjbuilding1 from './../../images/bjbuilding1.svg';
 
 const Locations = () => {
 	return (

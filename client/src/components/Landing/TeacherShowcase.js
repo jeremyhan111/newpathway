@@ -3,11 +3,11 @@ import { Row, Col, Carousel } from 'react-bootstrap';
 import { Translate } from 'react-localize-redux';
 import { Link } from 'react-router-dom';
 
-import alex from './../images/alex.jpg';
-import pete from './../images/pete.jpg';
-import charles from './../images/charles.jpg';
-import kirk from './../images/kirk.jpg';
-import sandy from './../images/sandy.jpg';
+import alex from './../../images/alex.jpg';
+import pete from './../../images/pete.jpg';
+import charles from './../../images/charles.jpg';
+import kirk from './../../images/kirk.jpg';
+import sandy from './../../images/sandy.jpg';
 
 const TeacherShowcase = () => {
 	return (

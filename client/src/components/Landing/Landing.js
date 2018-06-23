@@ -12,7 +12,7 @@ const LoadableTitle = Loadable({
 });
 
 const LoadableContactButton = Loadable({
-  	loader: () => import('./ContactButton'),
+  	loader: () => import('./../ContactButton'),
   	loading() {
     	return null;
   	}

@@ -2,8 +2,8 @@ import React from 'react';
 import { Row, Col, Carousel } from 'react-bootstrap';
 import { Translate } from 'react-localize-redux';
 
-import colleges from './../images/colleges.png';
-import scores from './../images/scores.png';
+import colleges from './../../images/colleges.png';
+import scores from './../../images/scores.png';
 
 const Statistics = () => {
 	return (

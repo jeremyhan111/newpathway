@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Translate } from 'react-localize-redux';
 
-import prepsmith from './../media/prepsmith.mp4';
+import prepsmith from './../../media/prepsmith.mp4';
 
 
 
