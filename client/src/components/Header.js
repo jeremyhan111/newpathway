@@ -13,7 +13,7 @@ const Header = (props) => (
   		<Navbar inverse collapseOnSelect>
 			<Navbar.Header>
 			    <Navbar.Brand>
-			      	<NavLink to="/"><img src={nplogo} alt="New Pathway Logo"/></NavLink>
+			      	<NavLink to="/"><img className="nplogo" src={nplogo} alt="New Pathway Logo"/></NavLink>
 			    </Navbar.Brand>
 			    <Navbar.Toggle />
 			</Navbar.Header>
