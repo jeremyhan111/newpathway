@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
-import PageIntro from './PageIntro';
-import Test from './Test';
+import PageIntro from './../PageIntro';
+import Test from './../Test';
 
 class High extends React.Component {
 	componentDidMount() {

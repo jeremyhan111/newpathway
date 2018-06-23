@@ -1,6 +1,5 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import asyncComponent from './../components/AsyncComponent';
 import Loadable from 'react-loadable';
 
 // import Landing from './../components/Landing';
@@ -36,20 +35,23 @@ import sat2_course from './../images/sat2_course.jpg';
 
 const LoadableLanding = Loadable({
   	loader: () => import('./../components/Landing/Landing'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableServices = Loadable({
-  	loader: () => import('./../components/Services'),
+  	loader: () => import('./../components/Services/Services'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableTeam = Loadable({
-  	loader: () => import('./../components/Team'),
+  	loader: () => import('./../components/Team/Team'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
@@ -57,41 +59,47 @@ const LoadableTeam = Loadable({
 
 const LoadableContact = Loadable({
   	loader: () => import('./../components/Contact/Contact'),
+  	delay: 300,
   	loading() {
     	return null;
-  	}
+  	},
 });
 
 const LoadableMiddle = Loadable({
-  	loader: () => import('./../components/Middle'),
+  	loader: () => import('./../components/Middle/Middle'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableHigh = Loadable({
-  	loader: () => import('./../components/High'),
+  	loader: () => import('./../components/High/High'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableConsulting = Loadable({
-  	loader: () => import('./../components/Consulting'),
+  	loader: () => import('./../components/Consulting/Consulting'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableAbout = Loadable({
-  	loader: () => import('./../components/About'),
+  	loader: () => import('./../components/About/About'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
 });
 
 const LoadableJobs = Loadable({
-  	loader: () => import('./../components/Jobs'),
+  	loader: () => import('./../components/Jobs/Jobs'),
+  	delay: 300,
   	loading() {
     	return null;
   	}
@@ -99,6 +107,7 @@ const LoadableJobs = Loadable({
 
 const LoadableNotFound = Loadable({
   	loader: () => import('./../components/404'),
+  	delay: 300,
   	loading() {
     	return null;
   	}

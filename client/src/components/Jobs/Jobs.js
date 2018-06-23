@@ -3,7 +3,7 @@ import { Row, Col } from 'react-bootstrap';
 
 import JobGenre from './JobGenre';
 import Job from './Job';
-import npicon from './../images/npicon.png';
+import npicon from './../../images/npicon.png';
 
 class Jobs extends Component {
 	componentDidMount() {

@@ -7,18 +7,18 @@ import { Row, Col } from 'react-bootstrap';
 
 import Teacher from './Teacher';
 
-import alex from './../images/alex.jpg';
-import pete from './../images/pete.jpg';
-import kirk from './../images/kirk.jpg';
-import sandy from './../images/sandy.jpg';
-import bart from './../images/bart.jpg';
-import ellen from './../images/ellen.jpg';
-import jeremy from './../images/jeremy.jpg';
-import julie from './../images/julie.jpg';
-import justin from './../images/justin.jpg';
-import maura from './../images/maura.jpg';
-import miles from './../images/miles.jpg';
-import riley from './../images/riley.png';
+import alex from './../../images/alex.jpg';
+import pete from './../../images/pete.jpg';
+import kirk from './../../images/kirk.jpg';
+import sandy from './../../images/sandy.jpg';
+import bart from './../../images/bart.jpg';
+import ellen from './../../images/ellen.jpg';
+import jeremy from './../../images/jeremy.jpg';
+import julie from './../../images/julie.jpg';
+import justin from './../../images/justin.jpg';
+import maura from './../../images/maura.jpg';
+import miles from './../../images/miles.jpg';
+import riley from './../../images/riley.png';
 
 class Team extends Component {
 	componentDidMount() {

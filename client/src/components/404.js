@@ -10,7 +10,7 @@ class Four extends Component {
 		return (
 			<div className="container spacer">
 				<h1>Sorry, that page was not found!</h1>
-
+				<img id="nyancat" src={nyancat}/>
 				<br/><br/>
 				
 			</div>

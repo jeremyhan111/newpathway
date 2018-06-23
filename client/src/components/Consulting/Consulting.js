@@ -1,8 +1,8 @@
 import React from 'react';
 
-import PageIntro from './PageIntro';
+import PageIntro from './../PageIntro';
 import { Row, Col } from 'react-bootstrap';
-import po from './../images/po-logo.png';
+import po from './../../images/po-logo.png';
 
 class Consulting extends React.Component {
 	componentDidMount() {

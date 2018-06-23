@@ -1,8 +1,8 @@
 import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
-import PageIntro from './PageIntro';
-import pencil from './../images/pencil.svg';
+import PageIntro from './../PageIntro';
+import pencil from './../../images/pencil.svg';
 
 class About extends React.Component {
 	componentDidMount() {

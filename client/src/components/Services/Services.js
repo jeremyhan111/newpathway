@@ -2,10 +2,10 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 
-import PageIntro from './PageIntro';
-import middle from './../images/student.svg';
-import high from './../images/nerd.svg';
-import grad from './../images/graduate.svg';
+import PageIntro from './../PageIntro';
+import middle from './../../images/student.svg';
+import high from './../../images/nerd.svg';
+import grad from './../../images/graduate.svg';
 
 class Services extends React.Component {
 	componentDidMount() {

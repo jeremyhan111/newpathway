@@ -6,6 +6,7 @@ import Loadable from 'react-loadable';
 
 const LoadableTitle = Loadable({
   	loader: () => import('./Title'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -13,6 +14,7 @@ const LoadableTitle = Loadable({
 
 const LoadableContactButton = Loadable({
   	loader: () => import('./../ContactButton'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -20,6 +22,7 @@ const LoadableContactButton = Loadable({
 
 const LoadablePrepsmith = Loadable({
   	loader: () => import('./Prepsmith'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -27,6 +30,7 @@ const LoadablePrepsmith = Loadable({
 
 const LoadableTeacherShowcase = Loadable({
   	loader: () => import('./TeacherShowcase'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -34,6 +38,7 @@ const LoadableTeacherShowcase = Loadable({
 
 const LoadableTestimonials = Loadable({
   	loader: () => import('./Testimonials'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -41,6 +46,7 @@ const LoadableTestimonials = Loadable({
 
 const LoadableServicesShowcase = Loadable({
   	loader: () => import('./ServicesShowcase'),
+    delay: 300,
   	loading() {
     	return null;
   	}
@@ -48,6 +54,7 @@ const LoadableServicesShowcase = Loadable({
 
 const LoadableStatistics = Loadable({
   	loader: () => import('./Statistics'),
+    delay: 300,
   	loading() {
     	return null;
   	}

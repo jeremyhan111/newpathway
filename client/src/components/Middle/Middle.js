@@ -2,8 +2,8 @@ import React from 'react';
 import { Row, Col } from 'react-bootstrap';
 
 
-import PageIntro from './PageIntro';
-import Test from './Test';
+import PageIntro from './../PageIntro';
+import Test from './../Test';
 
 class Middle extends React.Component {
 	componentDidMount() {
