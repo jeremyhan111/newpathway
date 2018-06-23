@@ -8,10 +8,11 @@ class Four extends Component {
 
 	render() {
 		return (
-			<div className="container">
+			<div className="container spacer">
 				<h1>Sorry, that page was not found!</h1>
+
 				<br/><br/>
-				<img id="nyancat" src={nyancat}></img>
+				
 			</div>
 		)
 	}

@@ -7,49 +7,49 @@ import Loadable from 'react-loadable';
 const LoadableTitle = Loadable({
   	loader: () => import('./Title'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableContactButton = Loadable({
   	loader: () => import('./ContactButton'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadablePrepsmith = Loadable({
   	loader: () => import('./Prepsmith'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableTeacherShowcase = Loadable({
   	loader: () => import('./TeacherShowcase'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableTestimonials = Loadable({
   	loader: () => import('./Testimonials'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableServicesShowcase = Loadable({
   	loader: () => import('./ServicesShowcase'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableStatistics = Loadable({
   	loader: () => import('./Statistics'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 

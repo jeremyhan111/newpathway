@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import asyncComponent from './../components/AsyncComponent';
 import Loadable from 'react-loadable';
-
+import fakeDelay from './../components/fakeDelay';
 
 // import Landing from './../components/Landing';
 // import Services from './../components/Services';
@@ -34,80 +34,83 @@ import toefl_course from './../images/toefl_course.jpg';
 import ela_course from './../images/ela_course.jpg';
 import sat2_course from './../images/sat2_course.jpg';
 
+const delay = 400;
+
+
 const LoadableLanding = Loadable({
-  	loader: () => import('./../components/Landing'),
+  	loader: () => fakeDelay(delay).then(() => import('./../components/Landing')),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableServices = Loadable({
   	loader: () => import('./../components/Services'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableTeam = Loadable({
   	loader: () => import('./../components/Team'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableContact = Loadable({
   	loader: () => import('./../components/Contact'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableElementary = Loadable({
   	loader: () => import('./../components/Elementary'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableMiddle = Loadable({
   	loader: () => import('./../components/Middle'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableHigh = Loadable({
   	loader: () => import('./../components/High'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableConsulting = Loadable({
   	loader: () => import('./../components/Consulting'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableAbout = Loadable({
   	loader: () => import('./../components/About'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableJobs = Loadable({
   	loader: () => import('./../components/Jobs'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
 const LoadableNotFound = Loadable({
   	loader: () => import('./../components/404'),
   	loading() {
-    	return <div>Loading...</div>
+    	return null;
   	}
 });
 
@@ -156,87 +159,87 @@ const LoadableNotFound = Loadable({
 //     import('./../components/404').then(module => module.default)
 // )
 
-const SAT = () => {
-	return (
-		<Class
-			testLogo={sat}
-			test="SAT"
-			classImage={sat_course}
-			usRegister = "https://collegereadiness.collegeboard.org/sat/register"
-			internationalRegister = "https://collegereadiness.collegeboard.org/sat/register/international"
-			testCenter = "https://collegereadiness.collegeboard.org/sat/register/find-test-centers"
-		/>
-	)
-}
+// const SAT = () => {
+// 	return (
+// 		<Class
+// 			testLogo={sat}
+// 			test="SAT"
+// 			classImage={sat_course}
+// 			usRegister = "https://collegereadiness.collegeboard.org/sat/register"
+// 			internationalRegister = "https://collegereadiness.collegeboard.org/sat/register/international"
+// 			testCenter = "https://collegereadiness.collegeboard.org/sat/register/find-test-centers"
+// 		/>
+// 	)
+// }
 
-const ACT = () => {
-	return (
-		<Class
-			testLogo={act}
-			test="ACT"
-			classImage={act_course}
-			usRegister="https://www.act.org/content/act/en/products-and-services/the-act/registration.html"
-			internationalRegister="https://www.act.org/content/act/en/products-and-services/the-act/registration.html"
-			testCenter="https://www.act.org/content/act/en/products-and-services/the-act/registration/test-center-locator.html"
-		/>
-	)
-}
+// const ACT = () => {
+// 	return (
+// 		<Class
+// 			testLogo={act}
+// 			test="ACT"
+// 			classImage={act_course}
+// 			usRegister="https://www.act.org/content/act/en/products-and-services/the-act/registration.html"
+// 			internationalRegister="https://www.act.org/content/act/en/products-and-services/the-act/registration.html"
+// 			testCenter="https://www.act.org/content/act/en/products-and-services/the-act/registration/test-center-locator.html"
+// 		/>
+// 	)
+// }
 
-const SSATISEE = () => {
-	return (
-		<Class
-			testLogo={ssat_isee}
-			test="SSAT & ISEE"
-			classImage={ssat_isee_course}
-		/>
-	)
-}
+// const SSATISEE = () => {
+// 	return (
+// 		<Class
+// 			testLogo={ssat_isee}
+// 			test="SSAT & ISEE"
+// 			classImage={ssat_isee_course}
+// 		/>
+// 	)
+// }
 
-const AP = () => {
-	return (
-		<Class
-			testLogo={ap}
-			test="AP Exam"
-			classImage={ap_course}
-		/>
-	)
-}
+// const AP = () => {
+// 	return (
+// 		<Class
+// 			testLogo={ap}
+// 			test="AP Exam"
+// 			classImage={ap_course}
+// 		/>
+// 	)
+// }
 
-const SATII = () => {
-	return (
-		<Class
-			testLogo={sat}
-			test="SAT II"
-			classImage={sat2_course}
-			usRegister="https://collegereadiness.collegeboard.org/sat-subject-tests/register"
-			internationalRegister="https://collegereadiness.collegeboard.org/sat-subject-tests/register/international-registration"
-			testCenter="https://collegereadiness.collegeboard.org/sat-subject-tests/register/find-test-centers"
-		/>
-	)
-}
+// const SATII = () => {
+// 	return (
+// 		<Class
+// 			testLogo={sat}
+// 			test="SAT II"
+// 			classImage={sat2_course}
+// 			usRegister="https://collegereadiness.collegeboard.org/sat-subject-tests/register"
+// 			internationalRegister="https://collegereadiness.collegeboard.org/sat-subject-tests/register/international-registration"
+// 			testCenter="https://collegereadiness.collegeboard.org/sat-subject-tests/register/find-test-centers"
+// 		/>
+// 	)
+// }
 
-const TOEFL = () => {
-	return (
-		<Class
-			testLogo={toefl}
-			test="TOEFL"
-			classImage={toefl_course}
-			usRegister="https://www.ets.org/toefl/ibt/register"
-			internationalRegister="https://www.ets.org/toefl/ibt/register"
-			testCenter="https://www.ets.org/toefl/ibt/register/centers_dates"
-		/>
-	)
-}
+// const TOEFL = () => {
+// 	return (
+// 		<Class
+// 			testLogo={toefl}
+// 			test="TOEFL"
+// 			classImage={toefl_course}
+// 			usRegister="https://www.ets.org/toefl/ibt/register"
+// 			internationalRegister="https://www.ets.org/toefl/ibt/register"
+// 			testCenter="https://www.ets.org/toefl/ibt/register/centers_dates"
+// 		/>
+// 	)
+// }
 
-const ELA = () => {
-	return (
-		<Class
-			testLogo={ela}
-			test="ELA"
-			classImage={ela_course}
-		/>
-	)
-}
+// const ELA = () => {
+// 	return (
+// 		<Class
+// 			testLogo={ela}
+// 			test="ELA"
+// 			classImage={ela_course}
+// 		/>
+// 	)
+// }
 
 
 
@@ -257,14 +260,7 @@ const AppRouter = () => (
 				<Route path="/about" component={LoadableAbout}/> 
 				<Route path="/jobs" component={LoadableJobs}/> 
 
-				<Route path="/ssat-isee" component={SSATISEE}/>
-				<Route path="/ela" component={ELA}/>
-				<Route path="/sat" component={SAT}/>
-				<Route path="/act" component={ACT}/>
-				<Route path="/satii" component={SATII}/>
-				<Route path="/ap" component={AP}/>
-				<Route path="/toefl" component={TOEFL}/>
-				<Route path="*" component={LoadableNotFound}/>
+
 			</Switch>
 			<Footer/>
 		</div>

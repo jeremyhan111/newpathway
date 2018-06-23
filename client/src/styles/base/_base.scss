@@ -1,5 +1,12 @@
+html {
+	min-height: 100%;
+}
+
 body {
 	font-family: 'Proxima Nova', Georgia, sans-serif;
+	display: flex;
+	flex-direction: column;
+    min-height: 100vh;
 }
 
 a:hover {
@@ -22,4 +29,8 @@ a:hover {
 .container--blue {
 	background: #53A1E3;
 	color: white;
+}
+
+.spacer {
+	flex: 1;
 }
