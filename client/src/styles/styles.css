@@ -1,11 +1,10 @@
 html {
+  position: relative;
   min-height: 100%; }
 
 body {
   font-family: 'Proxima Nova', Georgia, sans-serif;
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; }
+  margin: 0 0 210px; }
 
 a:hover {
   text-decoration: none; }
@@ -203,7 +202,12 @@ a:hover {
 
 .footer {
   padding-bottom: 5px;
-  background-color: lightgrey; }
+  background-color: lightgrey;
+  height: 210px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%; }
 
 .footer__list {
   list-style-type: none;
