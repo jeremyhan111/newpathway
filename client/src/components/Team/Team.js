@@ -133,17 +133,6 @@ class Team extends Component {
 			        	<Row>	
 			        		<Col xs={12} sm={6} lg={3}>
 			        			<Teacher
-			        				name="Jeremy Han"
-			        				university="Swarthmore College"
-			        				degree="BA in Physics and Computer Science"
-			        				experience="1+ years teaching experience in China"
-			        				funfact="Conducted research in Plasma Physics and coded this website"
-			        				src={jeremy}
-			        			/>
-			        		</Col>
-
-			        		<Col xs={12} sm={6} lg={3}>
-			        			<Teacher
 			        				name="Ellen Chai"
 			        				university="Washington University in St. Louis"
 			        				degree="BA in Philosophy, Neuroscience, and Psychology"
